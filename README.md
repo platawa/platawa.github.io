@@ -1,1 +1,1 @@
-# parilatawa.github.io
+# platawa.github.io
