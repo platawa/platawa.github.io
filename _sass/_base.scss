@@ -824,6 +824,11 @@ footer.sticky-bottom {
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
     padding: 0.8rem 1.2rem;
+    scrollbar-width: none; // Firefox
+    -ms-overflow-style: none; // IE/Edge
+    &::-webkit-scrollbar {
+      display: none; // Chrome/Safari
+    }
   }
 
   ol.bibliography {
@@ -897,7 +902,7 @@ footer.sticky-bottom {
             font-style: italic;
           }
 
-          .note {
+          .bib-note {
             color: var(--global-text-color-light);
           }
 

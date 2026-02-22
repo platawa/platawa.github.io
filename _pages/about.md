@@ -55,6 +55,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <h2 class="about-section-title">Honors & Awards</h2>
 
+<div class="section-scroll">
 <h3 class="about-awards-year">2024–2025</h3>
 <ul class="about-awards-list">
   <li>MIT Eric & Wendy Schmidt Center Research & Innovation Scholar (1 of 8 computational biology scholars)</li>
@@ -87,9 +88,11 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li>Bank of America Student Leader</li>
   <li>Texas Education Agency Student Hero</li>
 </ul>
+</div>
 
 <h2 class="about-section-title">Leadership & Community Service</h2>
 
+<div class="section-scroll">
 <div class="about-leadership-item">
   <div class="item-title">Co-Founder, EasyComm</div>
   <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
@@ -138,8 +141,9 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-title">MIT Undergraduate Association</div>
   <p class="item-desc">Education Committee and Community Service Committee.</p>
 </div>
+</div>
 
-<h2 class="about-section-title">Personal Passions & Hobbies</h2>
+<h2 class="about-section-title">Personal Interests & Hobbies</h2>
 
 <div class="about-hobbies">
   <p>I enjoy pursuing adventures, from visiting new places to hiking and biking locally in Cambridge and Austin. I played the viola for 8 years, painted for 5 years, previously tried rowing, and am currently really interested in photography and videography.</p>
