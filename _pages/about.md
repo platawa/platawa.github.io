@@ -8,8 +8,8 @@ profile:
   align: right
   image: pari_headshot.jpg
   image_circular: true # crops the image to make it circular
-  title: "M.Eng. & B.S. in CS + Molecular Biology"
-  subtitle: "MIT EECS"
+  title: "M.Eng. in CS + Biology @ MIT"
+  subtitle: "B.S. in CS + Biology @ MIT"
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons under profile picture
@@ -27,7 +27,9 @@ latest_posts:
 
 **I am a M.Eng. & B.S. student in Computer Science and Molecular Biology at MIT.** I am interested in developing algorithms, models, and frameworks to better understand the molecular mechanisms and biological processes that improve human health.
 
-Currently, I'm working on my Master's thesis with **Prof. Feng Zhang** at the **Broad Institute**, investigating DNA LLMs for genomic discovery. I have also previously researched with **Prof. Giovanni Traverso** at the **Koch Institute** on foundation models for molecular design. While at MIT, I've interned at **Eli Lilly & Company**, **MD Anderson Cancer Center**, and **Dianox** (AI-powered biotech startup in Denmark).
+Currently, I'm working on my Master's thesis with **[Prof. Feng Zhang](https://zlab.bio)** at the **[Broad Institute](https://www.broadinstitute.org/)**, investigating DNA LLMs for genomic discovery. I have also previously researched with **[Prof. Giovanni Traverso](https://www.l4te.org/dipl-team-member/giovanni-traverso/)** at the **[Koch Institute](https://ki.mit.edu/)** on foundation models for molecular design. While at MIT, I've interned at the AI Division @ **Eli Lilly & Company**, the Genetics Department @ **MD Anderson Cancer Center**, and **Dianox** (AI-powered biotech startup in Denmark).
+
+You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 ---
 
