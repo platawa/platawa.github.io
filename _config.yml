@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Paridhi
+first_name: Pari
 middle_name: 
 last_name: Latawa
 contact_note: >
@@ -265,7 +265,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Latawa]
-  first_name: [Paridhi, P.]
+  first_name: [Paridhi, Pari, P.]
 
   style: apa
   locale: en

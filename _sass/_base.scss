@@ -205,6 +205,62 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  .profile-details {
+    margin-top: 0.5rem;
+
+    .profile-name {
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .profile-title {
+      font-size: 0.8rem;
+      margin-bottom: 0.1rem;
+      color: var(--global-text-color);
+    }
+
+    .profile-subtitle {
+      font-size: 0.8rem;
+      margin-bottom: 0.25rem;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  .profile-social {
+    margin-top: 0.25rem;
+
+    .contact-icons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      font-size: 1.1rem;
+
+      a {
+        color: var(--global-text-color);
+
+        i::before {
+          color: var(--global-text-color);
+        }
+
+        // hide the text labels, show only icons
+        .social-label {
+          display: none;
+        }
+
+        &:hover {
+          text-decoration: none;
+          color: var(--global-theme-color);
+
+          i::before {
+            color: var(--global-theme-color);
+          }
+        }
+      }
+    }
+  }
 }
 
 .profile.float-right {
@@ -217,7 +273,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
@@ -225,6 +281,16 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+}
+
+// About page intro section: contains profile float + bio text, clears before rest of page
+.about-intro {
+  overflow: hidden; // creates BFC to contain the float
+  margin-bottom: 0;
+}
+
+.about-rest {
+  clear: both; // ensure publications etc. start below the profile image
 }
 
 .post-description {
@@ -441,6 +507,15 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social labels: hidden by default, shown in profile sidebar
+.social-label {
+  display: none;
+}
+
+.profile-social .social-label {
+  display: inline;
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
@@ -578,8 +653,28 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  font-size: 2rem;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
+  }
+}
+
+.post-header {
+  .desc {
+    font-size: 0.9rem;
+  }
+}
+
+.post {
+  font-size: 0.9rem;
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
   }
 }
 
@@ -720,11 +815,13 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    text-align: right;
+    padding-top: 0.75rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -764,6 +861,15 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+
+        a {
+          color: var(--global-theme-color);
+
+          &:hover {
+            color: var(--global-hover-color);
+            text-decoration: none;
+          }
+        }
       }
 
       .author {
