@@ -14,6 +14,7 @@ At the **Feng Zhang Lab** at the Broad Institute of MIT & Harvard, I conduct res
 ## Project 1: Bacterial Antiviral Defense System Proteins
 
 Investigated bacterial antiviral defense system proteins using:
+
 - Bacterial growth assays
 - PCR amplification
 - Molecular cloning techniques
@@ -23,6 +24,7 @@ This work helps elucidate how bacteria protect themselves from viral infections,
 ## Project 2: DRT Reverse Transcriptase System
 
 Conducted comprehensive computational and wet-lab mutagenesis studies of the DRT reverse transcriptase bacterial system:
+
 - Used bioinformatics tools including **Geneious** and **Benchling**
 - Identified essential sequence regions critical for system function
 - Performed targeted mutagenesis to validate computational predictions
@@ -30,6 +32,7 @@ Conducted comprehensive computational and wet-lab mutagenesis studies of the DRT
 ## Project 3: L7-Protein Domain Evolution (SuperUROP)
 
 Led an independent computational study characterizing the evolutionary diversity of the L7-protein domain:
+
 - Utilized **FoldSeek** for structural similarity searches
 - Applied **DALI** for protein structure comparison
 - Leveraged **AlphaFold** for structure prediction

@@ -3,15 +3,9 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        {{ site.first_name }} {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -33,7 +27,7 @@ layout: default
             %}
           {% endif %}
           <div class="profile-details">
-            <p class="profile-name">{{ site.first_name }} {{ site.last_name }}</p>
+            <!-- name is now in the navbar header -->
             {% if page.profile.title %}
               <p class="profile-title">{{ page.profile.title }}</p>
             {% endif %}
@@ -43,15 +37,17 @@ layout: default
             {% if page.profile.more_info %}
               <div class="more-info">{{ page.profile.more_info }}</div>
             {% endif %}
-            {% if page.social %}
-              <div class="profile-social">
-                <div class="contact-icons">{% include social.liquid %}</div>
-              </div>
-            {% endif %}
           </div>
         </div>
 
-        <div class="about-intro-text">{{ content | split: '<hr />' | first }}</div>
+        <div class="about-intro-text">
+          {{ content | split: '<hr />' | first }}
+          {% if page.social %}
+            <div class="about-social">
+              <div class="contact-icons">{% include social.liquid %}</div>
+            </div>
+          {% endif %}
+        </div>
       </div>
     {% endif %}
 

@@ -14,6 +14,7 @@ During my internship at **Eli Lilly and Company** as an AI and Technology Intern
 ## Project: Single-Cell Perturbation Prediction
 
 Deployed a comprehensive ML fine-tuning pipeline for in silico single-cell perturbation prediction:
+
 - Leveraged single-cell foundation models for cellular response prediction
 - Implemented fine-tuning strategies for domain-specific applications
 - Developed evaluation metrics for perturbation prediction accuracy
@@ -22,6 +23,7 @@ Deployed a comprehensive ML fine-tuning pipeline for in silico single-cell pertu
 ## Impact & Presentation
 
 The project received significant attention within the company:
+
 - **Poster Symposium:** Presented research findings to scientific community
 - **Technical Talk:** Delivered detailed technical presentation on methodology
 - **Stakeholder Presentation:** Presented to 70+ company stakeholders and senior VPs

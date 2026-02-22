@@ -14,6 +14,7 @@ At **MD Anderson Cancer Center** in the Bin Wang Lab, I investigated DNA repair 
 ## Research Focus
 
 Studied the role of Abraxas in telomere maintenance and alternative lengthening of telomeres:
+
 - Performed **Western blotting** for protein expression analysis
 - Conducted **Immunofluorescence (IF)** microscopy
 - Applied **Fluorescence In Situ Hybridization (FISH)** for telomere visualization
@@ -22,6 +23,7 @@ Studied the role of Abraxas in telomere maintenance and alternative lengthening 
 ## Collaboration & Innovation
 
 Spearheaded collaboration with:
+
 - **Genetics Department Microscopy Core Director**
 - **Imaris Imaging Team**
 
@@ -30,6 +32,7 @@ This collaboration enabled advanced 3D imaging and analysis of telomere structur
 ## Significance
 
 Understanding DNA repair mechanisms and telomere maintenance is crucial for:
+
 - Cancer biology research
 - Developing targeted cancer therapies
 - Understanding mechanisms of cellular immortalization
@@ -37,6 +40,7 @@ Understanding DNA repair mechanisms and telomere maintenance is crucial for:
 ## Presentations
 
 **Poster Symposia:**
+
 - MD Anderson Cancer Center CATALYST Poster Symposium (2024)
 - Division of Radiation Oncology Symposium (2024)
 

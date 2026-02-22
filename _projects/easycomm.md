@@ -14,6 +14,7 @@ category: entrepreneurship
 ## Mission
 
 Children with Down Syndrome often face challenges with speech and communication. EasyComm aims to:
+
 - Develop accessible speech technology tools
 - Improve communication outcomes for children with Down Syndrome
 - Create user-friendly applications for children and caregivers
@@ -22,18 +23,22 @@ Children with Down Syndrome often face challenges with speech and communication.
 ## Recognition & Support
 
 **Funding:**
+
 - MIT Sandbox Innovation Fund
 
 **Programs:**
+
 - Selected for **Harvard Law Entrepreneurship Project / Cooley LLP** program
 - Accepted into **Takeda Biopharma Internship** program
 
 **Intellectual Property:**
+
 - Patent pending for core technology
 
 ## Presentations & Outreach
 
 Presented at multiple MIT venues:
+
 - **MIT Founder's Journey Advising Seminar**
 - **Nuts & Bolts of New Ventures Seminar**
 - **Health Equity Venture Capital Talk**
@@ -44,6 +49,7 @@ These presentations helped refine the business model, gather feedback from exper
 ## Impact
 
 EasyComm represents the intersection of:
+
 - **Technology:** AI and speech recognition
 - **Healthcare:** Therapeutic applications
 - **Social Impact:** Improving quality of life for underserved populations

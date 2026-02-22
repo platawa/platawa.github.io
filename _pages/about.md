@@ -1,15 +1,13 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='https://www.mit.edu/'>Massachusetts Institute of Technology</a>
+subtitle:
 
 profile:
   align: right
   image: pari_headshot.jpg
   image_circular: true # crops the image to make it circular
-  title: "M.Eng. in CS + Biology @ MIT"
-  subtitle: "B.S. in CS + Biology @ MIT"
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons under profile picture
@@ -25,9 +23,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**I am a M.Eng. & B.S. student in Computer Science and Molecular Biology at MIT.** I am interested in developing algorithms, models, and frameworks to better understand the molecular mechanisms and biological processes that improve human health.
+I am a M.Eng. & B.S. student in [Computer Science and Molecular Biology](https://catalog.mit.edu/interdisciplinary/undergraduate-programs/degrees/computer-science-molecular-biology/) at [MIT](https://www.mit.edu/). I am interested in developing algorithms, models, and frameworks to better understand the molecular mechanisms and biological processes that improve human health.
 
-Currently, I'm working on my Master's thesis with **[Prof. Feng Zhang](https://zlab.bio)** at the **[Broad Institute](https://www.broadinstitute.org/)**, investigating DNA LLMs for genomic discovery. I have also previously researched with **[Prof. Giovanni Traverso](https://www.l4te.org/dipl-team-member/giovanni-traverso/)** at the **[Koch Institute](https://ki.mit.edu/)** on foundation models for molecular design. While at MIT, I've interned at the AI Division @ **Eli Lilly & Company**, the Genetics Department @ **MD Anderson Cancer Center**, and **Dianox** (AI-powered biotech startup in Denmark).
+Currently, I'm working on my Master's thesis with [Prof. Feng Zhang](https://zlab.bio) at the [Broad Institute](https://www.broadinstitute.org/), investigating DNA LLMs for genomic discovery. I have also previously researched with [Prof. Giovanni Traverso](https://www.l4te.org/dipl-team-member/giovanni-traverso/) at the [Koch Institute](https://ki.mit.edu/) on foundation models for molecular design.
+
+I've interned at [the AI Division @ Eli Lilly & Company](https://www.lilly.com/), [the Genetics Department @ MD Anderson Cancer Center](https://www.mdanderson.org/), and [Dianox](https://www.dianox.com/) (AI-powered biotech startup in Denmark).
 
 You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
@@ -35,7 +35,9 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <h2 class="about-section-title">Publications</h2>
 
+<div class="publications pub-scroll">
 {% bibliography %}
+</div>
 
 ---
 
@@ -53,19 +55,37 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <h2 class="about-section-title">Honors & Awards</h2>
 
+<h3 class="about-awards-year">2024–2025</h3>
 <ul class="about-awards-list">
   <li>MIT Eric & Wendy Schmidt Center Research & Innovation Scholar (1 of 8 computational biology scholars)</li>
   <li>HackMIT WisprAI Track, 3rd Place</li>
-  <li>NCWIT Award for Aspirations in Computing — 3x National Awardee, Impact Award</li>
   <li>AnitaB.org Grace Hopper Conference & SWE WE24 Grant Awardee & Ambassador</li>
+</ul>
+
+<h3 class="about-awards-year">2022</h3>
+<ul class="about-awards-list">
   <li>Regeneron International Science & Engineering Fair Finalist</li>
-  <li>Austin Regional Science Fair — Best of Fair Award, Superintendent's Award</li>
-  <li>World Science Scholar</li>
-  <li>Bank of America Student Leader</li>
-  <li>Texas Education Agency Student Hero</li>
+  <li>Austin Regional Science Fair — Best of Fair Award</li>
   <li>Regeneron STS Scholar</li>
   <li>Coca-Cola Scholar</li>
   <li>Apple Scholar</li>
+</ul>
+
+<h3 class="about-awards-year">2021</h3>
+<ul class="about-awards-list">
+  <li>Austin Regional Science Fair — Superintendent's Award</li>
+</ul>
+
+<h3 class="about-awards-year">2018–Present</h3>
+<ul class="about-awards-list">
+  <li>NCWIT Award for Aspirations in Computing — 3x National Awardee, Impact Award</li>
+</ul>
+
+<h3 class="about-awards-year">Other</h3>
+<ul class="about-awards-list">
+  <li>World Science Scholar</li>
+  <li>Bank of America Student Leader</li>
+  <li>Texas Education Agency Student Hero</li>
 </ul>
 
 <h2 class="about-section-title">Leadership & Community Service</h2>
@@ -122,5 +142,6 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <h2 class="about-section-title">Personal Passions & Hobbies</h2>
 
 <div class="about-hobbies">
-  <p>I love being outdoors — whether it's rowing on the Charles, hiking, or biking around Cambridge. I enjoy creative outlets like videography, painting, and baking. I play the viola and am always looking for opportunities to play with others. I'm passionate about science communication and blogging — sharing complex ideas in accessible ways. In my downtime, you'll find me solving puzzles or exploring new trails.</p>
+  <p>I enjoy pursuing adventures, from visiting new places to hiking and biking locally in Cambridge and Austin. I played the viola for 8 years, painted for 5 years, previously tried rowing, and am currently really interested in photography and videography.</p>
+  <p>I am passionate about science communication and blogging — here is my <a href="https://paridhi-latawa.medium.com/">Medium Blog</a>. In my free time, you'll find me solving puzzles or traveling!</p>
 </div>

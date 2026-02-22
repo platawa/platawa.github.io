@@ -260,7 +260,6 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-right {
   margin-left: 1rem;
-  margin-top: -3rem;
 }
 
 .profile.float-left {
@@ -283,6 +282,10 @@ ul.task-list input[type="checkbox"] {
 .about-intro {
   overflow: hidden; // creates BFC to contain the float
   margin-bottom: 0;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .about-rest {
@@ -663,14 +666,14 @@ footer.sticky-bottom {
 }
 
 .post {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -792,7 +795,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -814,33 +817,49 @@ footer.sticky-bottom {
     display: none; // hide year headers for cleaner look
   }
 
+  // Scrollable publications container
+  &.pub-scroll {
+    max-height: 450px;
+    overflow-y: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    padding: 0.8rem 1.2rem;
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    margin-bottom: 0;
 
     li {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       .bib-entry {
         .title {
           font-weight: 600;
-          font-size: 1.05rem;
-          margin-bottom: 0.2rem;
+          font-size: 0.88rem;
+          margin-bottom: 0.15rem;
+          line-height: 1.35;
 
           a {
-            color: var(--global-text-color);
+            color: var(--global-theme-color);
 
             &:hover {
-              color: var(--global-theme-color);
-              text-decoration: none;
+              text-decoration: underline;
             }
           }
         }
 
         .author {
-          margin-bottom: 0.2rem;
-          font-size: 0.9rem;
+          margin-bottom: 0.15rem;
+          font-size: 0.82rem;
+          line-height: 1.4;
 
           strong {
             font-weight: 700;
@@ -870,8 +889,9 @@ footer.sticky-bottom {
         }
 
         .periodical-links {
-          font-size: 0.85rem;
+          font-size: 0.78rem;
           color: var(--global-text-color-light);
+          margin-top: 0.1rem;
 
           em {
             font-style: italic;
@@ -883,6 +903,7 @@ footer.sticky-bottom {
 
           a.link {
             color: var(--global-theme-color);
+            font-weight: 500;
 
             &:hover {
               text-decoration: underline;

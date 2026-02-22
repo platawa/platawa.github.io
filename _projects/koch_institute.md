@@ -14,6 +14,7 @@ At the **Koch Institute for Integrative Cancer Research** with the Langer/Traver
 ## Project 1: Foundation Model Integration for Biology
 
 Built a novel framework to integrate biology-specific foundation model knowledge into general LLMs:
+
 - Worked with **ESM** (protein language model) and **UniMol** (molecular representation model)
 - Developed methods using latent representations to bridge biological and linguistic domains
 - Set up HPC infrastructure and datasets for large-scale experiments
@@ -24,22 +25,24 @@ This work explores how we can leverage the power of large language models while 
 ## Project 2: Constrained Molecular Design
 
 Developed a de novo molecular design algorithm based on physiologically relevant constraints:
+
 - Tested effects of jointly constraining generation with multiple properties
 - Focused on generating molecules that satisfy real-world therapeutic requirements
 - Explored constraint latent space mapping and task arithmetic approaches
 
 **Publication:** Presented as poster at 2025 Molecular Machine Learning Conference  
-*"Guiding Diffusion-Based Generation with Experimental and Physicochemical Data"*
+_"Guiding Diffusion-Based Generation with Experimental and Physicochemical Data"_
 
 ## Project 3: QA-Token - Quality-Aware Tokenization
 
 Supported development of an RL-based quality-aware tokenization approach:
+
 - Contributed to evaluation in the NLP text domain
 - Explored adaptive reinforcement learning for noisy sequential data
 - Investigated how tokenization quality affects downstream model performance
 
 **Publication:** Submitted to ICLR 2025  
-*"Learning What Makes a Good Token: Quality-Aware Tokenization via Adaptive Reinforcement Learning"*
+_"Learning What Makes a Good Token: Quality-Aware Tokenization via Adaptive Reinforcement Learning"_
 
 ---
 

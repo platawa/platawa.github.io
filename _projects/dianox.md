@@ -14,6 +14,7 @@ Through the **MIT MISTI Program**, I worked with **Dianox**, an AI/Biotech start
 ## Research Project
 
 Identified aptamer-based drug targets using:
+
 - **Machine learning** approaches for aptamer-target prediction
 - **Fluorescence anisotropy** measurements
 - **Fluorescence polarization** assays
@@ -24,6 +25,7 @@ Aptamers are short single-stranded DNA or RNA molecules that can bind to specifi
 ## Innovation Ecosystem Analysis
 
 Led comprehensive analysis of Denmark's biotechnology and life sciences innovation ecosystem:
+
 - Interviewed **11+ experts** from government, industry, and academia
 - Engaged with leaders at **Novo Nordisk**
 - Met with **US Embassy** representatives
@@ -32,6 +34,7 @@ Led comprehensive analysis of Denmark's biotechnology and life sciences innovati
 ## Deliverable
 
 Authored detailed report on Denmark's innovation and entrepreneurship landscape, providing insights into:
+
 - Biotech startup ecosystem
 - Government support structures
 - Industry-academia collaboration models
