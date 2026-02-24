@@ -7,7 +7,7 @@
   h2.about-section-title {
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     font-weight: 700;
     color: var(--global-theme-color);
     border-bottom: 2px solid var(--global-theme-color);
@@ -19,29 +19,59 @@
 
   // ── Awards year subheadings ──
   h3.about-awards-year {
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-top: 0.8rem;
-    margin-bottom: 0.3rem;
-    color: var(--global-text-color);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+    color: var(--global-theme-color);
+    border-left: 3px solid var(--global-theme-color);
+    padding-left: 0.5rem;
   }
 
-  // ── Teaching & Leadership items ──
+  // ── Teaching, Leadership & Award items (card format) ──
   .about-teaching-item,
-  .about-leadership-item {
-    margin-bottom: 0.6rem;
+  .about-leadership-item,
+  .about-award-item {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
 
     .item-title {
       font-weight: 600;
-      font-size: 0.85rem;
+      font-size: 1rem;
+      line-height: 1.4;
       color: var(--global-text-color);
+      margin-bottom: 0.4rem;
     }
 
     .item-desc {
-      margin-top: 0.1rem;
+      margin-top: 0;
       margin-bottom: 0;
+      color: var(--global-text-color);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .item-note {
+      font-size: 0.85rem;
       color: var(--global-text-color-light);
-      font-size: 0.8rem;
+      margin-top: 0.2rem;
+    }
+
+    .item-links {
+      margin-top: 0.5rem;
+      font-size: 0.88rem;
+      line-height: 1.5;
+
+      a {
+        color: var(--global-theme-color);
+        font-weight: 500;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
@@ -74,9 +104,9 @@
 .section-scroll {
   max-height: 450px;
   overflow-y: auto;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  padding: 0;
   scrollbar-width: none; // Firefox
   -ms-overflow-style: none; // IE/Edge
   &::-webkit-scrollbar {
@@ -109,7 +139,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    font-size: 0.82rem;
+    font-size: 0.9rem;
 
     a {
       color: var(--global-text-color);

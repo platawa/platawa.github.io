@@ -285,6 +285,8 @@ ul.task-list input[type="checkbox"] {
 
   p {
     margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 }
 
@@ -821,9 +823,9 @@ footer.sticky-bottom {
   &.pub-scroll {
     max-height: 450px;
     overflow-y: auto;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 8px;
-    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 0;
+    padding: 0;
     scrollbar-width: none; // Firefox
     -ms-overflow-style: none; // IE/Edge
     &::-webkit-scrollbar {
@@ -846,25 +848,22 @@ footer.sticky-bottom {
       }
 
       .bib-entry {
+        border: 1px solid var(--global-divider-color);
+        border-radius: 10px;
+        padding: 1.2rem 1.5rem;
+
         .title {
           font-weight: 600;
-          font-size: 0.88rem;
-          margin-bottom: 0.15rem;
-          line-height: 1.35;
-
-          a {
-            color: var(--global-theme-color);
-
-            &:hover {
-              text-decoration: underline;
-            }
-          }
+          font-size: 1rem;
+          margin-bottom: 0.6rem;
+          line-height: 1.4;
+          color: var(--global-text-color);
         }
 
         .author {
-          margin-bottom: 0.15rem;
-          font-size: 0.82rem;
-          line-height: 1.4;
+          margin-bottom: 0.6rem;
+          font-size: 0.92rem;
+          line-height: 1.5;
 
           strong {
             font-weight: 700;
@@ -893,17 +892,21 @@ footer.sticky-bottom {
           }
         }
 
-        .periodical-links {
-          font-size: 0.78rem;
-          color: var(--global-text-color-light);
-          margin-top: 0.1rem;
+        .venue-links {
+          font-size: 0.88rem;
+          line-height: 1.5;
 
-          em {
-            font-style: italic;
+          .venue {
+            color: var(--global-text-color);
+            font-weight: 500;
           }
 
-          .bib-note {
-            color: var(--global-text-color-light);
+          .note {
+            color: #d9534f;
+            font-weight: 600;
+            border-left: none;
+            padding: 0;
+            border-radius: 0;
           }
 
           a.link {

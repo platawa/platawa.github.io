@@ -3,19 +3,7 @@
 <div id="{{ entry.key }}" class="bib-entry">
   <!-- Title -->
   <div class="title">
-    {%- if entry.html -%}
-      {%- if entry.html contains '://' -%}
-        <a href="{{ entry.html }}">{{ entry.title }}</a>
-      {%- else -%}
-        <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}">{{ entry.title }}</a>
-      {%- endif -%}
-    {%- elsif entry.arxiv -%}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a>
-    {%- elsif entry.doi -%}
-      <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>
-    {%- else -%}
-      {{ entry.title }}
-    {%- endif -%}
+    {{ entry.title }}
   </div>
 
   <!-- Author -->
@@ -105,16 +93,17 @@
     {% endif %}
   </div>
 
-  <!-- Venue -->
-  <div class="periodical-links">
+  <!-- Venue + Links (combined on one line) -->
+  <div class="venue-links">
+    {%- assign has_venue = false -%}
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% capture entrytype %}{{ entry.journal }}{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}{{ entry.booktitle }}{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+      {% capture entrytype %}{{ entry.school }}{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -123,88 +112,73 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {%- if entrytype_text != '' -%}
-      {{ entrytype -}}
+      <span class="venue">{{ entrytype_text -}}
       {%- if entryyear != '' %},{% endif -%}
-      {{- entryyear }}
+      {{- entryyear }}</span>
+      {%- assign has_venue = true -%}
     {%- elsif entryyear != '' -%}
-      {{ entryyear }}
+      <span class="venue">{{ entryyear }}</span>
+      {%- assign has_venue = true -%}
     {%- endif -%}
     {%- if entry.note %}
-      <span class="bib-note">({{ entry.note }})</span>
+      <span class="note">({{ entry.note }})</span>
+    {%- endif -%}
+    {%- if entry.arxiv -%}
+      {% if has_venue %} | {% endif -%}
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="link">arXiv</a>
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.doi -%}
+      {% if has_venue %} | {% endif -%}
+      <a href="https://doi.org/{{ entry.doi }}" class="link">DOI</a>
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.pdf -%}
+      {% if has_venue %} | {% endif -%}
+      {%- if entry.pdf contains '://' -%}
+        <a href="{{ entry.pdf }}" class="link">PDF</a>
+      {%- else -%}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="link">PDF</a>
+      {%- endif %}
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.code -%}
+      {% if has_venue %} | {% endif -%}
+      <a href="{{ entry.code }}" class="link">GitHub</a>
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.website -%}
+      {% if has_venue %} | {% endif -%}
+      <a href="{{ entry.website }}" class="link">Website</a>
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.poster -%}
+      {% if has_venue %} | {% endif -%}
+      {%- if entry.poster contains '://' -%}
+        <a href="{{ entry.poster }}" class="link">Poster</a>
+      {%- else -%}
+        <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="link">Poster</a>
+      {%- endif %}
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.slides -%}
+      {% if has_venue %} | {% endif -%}
+      {%- if entry.slides contains '://' -%}
+        <a href="{{ entry.slides }}" class="link">Slides</a>
+      {%- else -%}
+        <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="link">Slides</a>
+      {%- endif %}
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.video -%}
+      {% if has_venue %} | {% endif -%}
+      <a href="{{ entry.video }}" class="link">Video</a>
+      {%- assign has_venue = true -%}
+    {%- endif -%}
+    {%- if entry.blog -%}
+      {% if has_venue %} | {% endif -%}
+      <a href="{{ entry.blog }}" class="link">Blog</a>
+      {%- assign has_venue = true -%}
     {%- endif -%}
   </div>
-
-  <!-- Links -->
-  {% assign has_links = false %}
-  {% if entry.arxiv %}{% assign has_links = true %}{% endif %}
-  {% if entry.doi %}{% assign has_links = true %}{% endif %}
-  {% if entry.pdf %}{% assign has_links = true %}{% endif %}
-  {% if entry.code %}{% assign has_links = true %}{% endif %}
-  {% if entry.website %}{% assign has_links = true %}{% endif %}
-  {% if entry.poster %}{% assign has_links = true %}{% endif %}
-  {% if entry.slides %}{% assign has_links = true %}{% endif %}
-  {% if entry.video %}{% assign has_links = true %}{% endif %}
-  {% if entry.blog %}{% assign has_links = true %}{% endif %}
-  {% if has_links %}
-    <div class="pub-links">
-      {%- assign first_link = true -%}
-      {%- if entry.arxiv -%}
-        {% unless first_link %} | {% endunless -%}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="link">arXiv</a>
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.doi -%}
-        {% unless first_link %} | {% endunless -%}
-        <a href="https://doi.org/{{ entry.doi }}" class="link">DOI</a>
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.pdf -%}
-        {% unless first_link %} | {% endunless -%}
-        {%- if entry.pdf contains '://' -%}
-          <a href="{{ entry.pdf }}" class="link">PDF</a>
-        {%- else -%}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="link">PDF</a>
-        {%- endif %}
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.code -%}
-        {% unless first_link %} | {% endunless -%}
-        <a href="{{ entry.code }}" class="link">Code</a>
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.website -%}
-        {% unless first_link %} | {% endunless -%}
-        <a href="{{ entry.website }}" class="link">Website</a>
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.poster -%}
-        {% unless first_link %} | {% endunless -%}
-        {%- if entry.poster contains '://' -%}
-          <a href="{{ entry.poster }}" class="link">Poster</a>
-        {%- else -%}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="link">Poster</a>
-        {%- endif %}
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.slides -%}
-        {% unless first_link %} | {% endunless -%}
-        {%- if entry.slides contains '://' -%}
-          <a href="{{ entry.slides }}" class="link">Slides</a>
-        {%- else -%}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="link">Slides</a>
-        {%- endif %}
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.video -%}
-        {% unless first_link %} | {% endunless -%}
-        <a href="{{ entry.video }}" class="link">Video</a>
-        {%- assign first_link = false -%}
-      {%- endif -%}
-      {%- if entry.blog -%}
-        {% unless first_link %} | {% endunless -%}
-        <a href="{{ entry.blog }}" class="link">Blog</a>
-        {%- assign first_link = false -%}
-      {%- endif -%}
-    </div>
-  {% endif %}
 </div>
