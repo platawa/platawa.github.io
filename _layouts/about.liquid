@@ -51,15 +51,15 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="about-rest">{{ content | split: '<hr />' | slice: 1, 100 | join: '<hr />' }}</div>
-
-    <!-- News -->
+    <!-- Updates -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 class="about-section-title">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Updates</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
+
+    <div class="about-rest">{{ content | split: '<hr />' | slice: 1, 100 | join: '<hr />' }}</div>
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}

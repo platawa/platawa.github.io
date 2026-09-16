@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+# subtitle: <em>"An object in motion stays in motion."</em>
 subtitle:
 
 profile:
@@ -13,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons under profile picture
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -23,11 +24,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a M.Eng. & B.S. student in [Computer Science and Molecular Biology](https://catalog.mit.edu/interdisciplinary/undergraduate-programs/degrees/computer-science-molecular-biology/) at [MIT](https://www.mit.edu/). I am interested in developing algorithms, models, and frameworks to better understand the molecular mechanisms and biological processes that improve human health.
+I recently graduated from [MIT](https://www.mit.edu/) with a B.S. and M.Eng. in [CS & Molecular Biology](https://catalog.mit.edu/interdisciplinary/undergraduate-programs/degrees/computer-science-molecular-biology/), and a minor in Economics. I am interested in developing algorithms, models, and frameworks to better understand and engineer biological processes to improve human health.
 
-Currently, I'm working on my Master's thesis with [Prof. Feng Zhang](https://zlab.bio) at the [Broad Institute](https://www.broadinstitute.org/), investigating DNA LLMs for genomic discovery. I have also previously researched with [Prof. Giovanni Traverso](https://www.l4te.org/dipl-team-member/giovanni-traverso/) at the [Koch Institute](https://ki.mit.edu/) on foundation models for molecular design.
+I recently founded [Illume](https://www.illumelabs.ai), a health tech startup in the YC S26 batch. I also completed my M.Eng. thesis with [Prof. Feng Zhang](https://zlab.bio) at the [Broad Institute](https://www.broadinstitute.org/), investigating DNA LLMs for genomic discovery. I have also previously researched with [Prof. Giovanni Traverso](https://www.l4te.org/dipl-team-member/giovanni-traverso/) and [Prof. Robert Langer](https://langerlab.mit.edu/) at the [Koch Institute](https://ki.mit.edu/) on foundation models for molecular design.
 
-I've interned at [the AI Division @ Eli Lilly & Company](https://www.lilly.com/), [the Genetics Department @ MD Anderson Cancer Center](https://www.mdanderson.org/), and [Dianox](https://www.dianox.com/) (AI-powered biotech startup in Denmark).
+I have interned at [the AI Division @ Eli Lilly & Company](https://www.lilly.com/), the Genetics Department @ [MD Anderson Cancer Center](https://www.mdanderson.org/), and [Dianox](https://www.dianox.com/) (AI-powered biotech startup in Denmark).
 
 You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
@@ -40,20 +41,6 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 ---
-
-<h2 class="about-section-title">Teaching & Mentorship</h2>
-
-<div class="about-teaching-item">
-  <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
-  <p class="item-desc">Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-teaching-item">
-  <div class="item-title">Associate Advisor (MIT)</div>
-  <p class="item-desc">Advise students on academic planning, course selection, and research involvement. Collaborate with Professor Collin Stultz to improve advisee support.</p>
-  <div class="item-links"></div>
-</div>
 
 <h2 class="about-section-title">Honors & Awards</h2>
 
@@ -135,6 +122,20 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-links"></div>
 </div>
 
+</div>
+
+<h2 class="about-section-title">Teaching & Mentorship</h2>
+
+<div class="about-teaching-item">
+  <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
+  <p class="item-desc">Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-teaching-item">
+  <div class="item-title">Associate Advisor (MIT)</div>
+  <p class="item-desc">Advised students on academic planning, course selection, and research involvement. Collaborated with Professor Collin Stultz to improve advisee support.</p>
+  <div class="item-links"></div>
 </div>
 
 <h2 class="about-section-title">Leadership & Community Service</h2>
