@@ -112,9 +112,11 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {%- if entrytype_text != '' -%}
-      <span class="venue">{{ entrytype_text -}}
-      {%- if entryyear != '' %},{% endif -%}
-      {{- entryyear }}</span>
+      <span class="venue">
+        {{- entrytype_text -}}
+        {%- if entryyear != '' %},{% endif -%}
+        {{- entryyear -}}
+      </span>
       {%- assign has_venue = true -%}
     {%- elsif entryyear != '' -%}
       <span class="venue">{{ entryyear }}</span>
