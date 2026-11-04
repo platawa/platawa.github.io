@@ -2,9 +2,40 @@
  * Custom About-Page Styles
  ******************************************************************************/
 
+html {
+  scroll-behavior: smooth;
+}
+
+// ── Collapsible sections ──
+details.about-collapsible {
+  scroll-margin-top: 80px;
+
+  > summary {
+    cursor: pointer;
+    list-style-position: outside;
+
+    &::marker {
+      color: var(--global-theme-color);
+      font-size: 0.8em;
+    }
+
+    h2.about-section-title {
+      display: inline-block;
+      margin-top: 0;
+      vertical-align: middle;
+    }
+
+    &:hover h2.about-section-title {
+      opacity: 0.8;
+    }
+  }
+}
+
 .post {
   // ── Section headings ──
   h2.about-section-title {
+    // keep anchored headings visible below the fixed navbar
+    scroll-margin-top: 80px;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-size: 1.05rem;
