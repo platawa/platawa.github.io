@@ -43,8 +43,8 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
-<details class="about-collapsible" id="projects" open>
-<summary><h2 class="about-section-title">Projects</h2></summary>
+<details class="about-collapsible" id="entrepreneurship" open>
+<summary><h2 class="about-section-title">Entrepreneurship</h2></summary>
 
 <div class="about-leadership-item">
   <div class="item-title"><a href="https://www.illumelabs.ai">Illume</a></div>
@@ -66,10 +66,109 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
+<details class="about-collapsible" id="projects" open>
+<summary><h2 class="about-section-title">Projects</h2></summary>
+
+<div class="about-leadership-item">
+  <div class="item-title">Conditional Generation from Few-shot Examples for Protein Design</div>
+  <p class="item-note">Oct 2025 – Dec 2025</p>
+  <p class="item-desc">MIT 6.s981: AI for Protein Biology. Few-shot generative framework that conditions on example proteins.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">A Pseudo-Time Analysis of Cellular Trajectories in Alzheimer's Disease using RNA Seq</div>
+  <p class="item-note">Nov 2024 – Dec 2024</p>
+  <p class="item-desc">MIT 6.8701: Machine Learning for Computational Biology Final Project: Used immune cell RNA sequencing data.</p>
+  <div class="item-links"></div>
+</div>
+
+</details>
+
+<details class="about-collapsible" id="courses" open>
+<summary><h2 class="about-section-title">Courses</h2></summary>
+
+<div class="section-scroll">
+
+<h3 class="about-awards-year">Graduate</h3>
+
+<div class="about-courses">
+  <span class="course-chip"><span class="course-num">6.8701</span> Machine Learning for Computational Biology</span>
+  <span class="course-chip"><span class="course-num">6.8711</span> Generative AI for Biology</span>
+  <span class="course-chip"><span class="course-num">6.S981</span> AI for Protein Biology</span>
+  <span class="course-chip">AI &amp; Decision Making for Medicine</span>
+</div>
+
+<h3 class="about-awards-year">Undergraduate — CS &amp; Math</h3>
+
+<div class="about-courses">
+  <span class="course-chip"><span class="course-num">6.8611</span> Quantitative Methods for Natural Language Processing</span>
+  <span class="course-chip">Machine Learning</span>
+  <span class="course-chip">Probability &amp; Statistics</span>
+  <span class="course-chip">Algorithms</span>
+  <span class="course-chip">Linear Algebra</span>
+  <span class="course-chip">Programming</span>
+  <span class="course-chip">Discrete Math</span>
+  <span class="course-chip">Calculus I &amp; II</span>
+</div>
+
+<h3 class="about-awards-year">Undergraduate — Biology &amp; Chemistry</h3>
+
+<div class="about-courses">
+  <span class="course-chip">Biochemistry</span>
+  <span class="course-chip">Cell Biology</span>
+  <span class="course-chip">Organic Chemistry</span>
+  <span class="course-chip">Thermodynamics</span>
+  <span class="course-chip">Genetics</span>
+</div>
+
+<h3 class="about-awards-year">Course Projects</h3>
+
+<div class="about-course-item">
+  <div class="item-title">Conditional Generation from Few-Shot Examples for Protein Design</div>
+  <p class="item-desc">Zhilei Bei, Weilang Luo, Paridhi Latawa.</p>
+  <p class="item-note">6.S981: AI for Protein Biology · 2025</p>
+</div>
+
+<div class="about-course-item">
+  <div class="item-title">Combining Sentiment, Topic Modeling, &amp; a ChatBot for Social Data Analysis</div>
+  <p class="item-desc">Paridhi Latawa, Anika Puri, Sejal Rathi.</p>
+  <p class="item-note">6.8611: Quantitative Methods for Natural Language Processing · 2024</p>
+</div>
+
+<div class="about-course-item">
+  <div class="item-title">A Pseudotime Analysis of Cellular Trajectories in Alzheimer's Disease using scRNA Sequencing</div>
+  <p class="item-desc">Paridhi Latawa, Jenny Prince, Selina Qian.</p>
+  <p class="item-note">6.8701: Machine Learning for Computational Biology · 2024</p>
+</div>
+
+<div class="about-course-item">
+  <div class="item-title">Encoder-Decoder Model for Multimodal SMILES Latent Space Representation Property Prediction</div>
+  <p class="item-desc">Vincent Lin, Paridhi Latawa, Vanessa Xiao.</p>
+  <p class="item-note">6.8711: Generative AI for Biology · 2024</p>
+</div>
+
+<div class="about-course-item">
+  <div class="item-title">An Investigation of the Biotechnology and Life Sciences Innovation Ecosystems in Denmark</div>
+  <p class="item-desc">Paridhi Latawa.</p>
+  <p class="item-note">MIT Innovation Diplomats Program · 2023</p>
+</div>
+
+</div>
+
+</details>
+
 <details class="about-collapsible" id="awards" open>
 <summary><h2 class="about-section-title">Honors & Awards</h2></summary>
 
 <div class="section-scroll">
+
+<h3 class="about-awards-year">2026</h3>
+
+<div class="about-award-item">
+  <div class="item-title">NSF Graduate Research Fellowship Program (GRFP)</div>
+  <div class="item-links"></div>
+</div>
 
 <h3 class="about-awards-year">2024–2025</h3>
 

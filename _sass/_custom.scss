@@ -19,10 +19,18 @@ html {
 // ── Collapsible sections ──
 details.about-collapsible {
   scroll-margin-top: 80px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem 1.5rem;
+  margin: 0 0 1.75rem;
 
   > summary {
     cursor: pointer;
     list-style-position: outside;
+
+    &:focus:not(:focus-visible) {
+      outline: none;
+    }
 
     &::marker {
       color: var(--global-theme-color);
@@ -72,7 +80,8 @@ details.about-collapsible {
   // ── Teaching, Leadership & Award items (card format) ──
   .about-teaching-item,
   .about-leadership-item,
-  .about-award-item {
+  .about-award-item,
+  .about-course-item {
     border: 1px solid var(--global-divider-color);
     border-radius: 10px;
     padding: 1.2rem 1.5rem;
@@ -126,6 +135,29 @@ details.about-collapsible {
       margin-bottom: 0.2rem;
       font-size: 0.85rem;
       color: var(--global-text-color);
+    }
+  }
+
+  // ── Course chips ──
+  .about-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 1rem;
+
+    .course-chip {
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      padding: 0.3rem 0.75rem;
+      font-size: 0.88rem;
+      line-height: 1.4;
+      color: var(--global-text-color);
+
+      .course-num {
+        color: var(--global-theme-color);
+        font-weight: 600;
+        margin-right: 0.3rem;
+      }
     }
   }
 
