@@ -384,16 +384,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-from-mit-with-my-b-s-in-computer-science-and-molecular-biology-tada",
+          title: 'Graduated from MIT with my B.S. in Computer Science and Molecular Biology! :tada:...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-graduated-from-mit-with-my-m-eng-in-computer-science-and-molecular-biology-tada-completed-my-master-s-thesis-on-dna-llms-for-genomic-discovery-with-dr-feng-zhang-at-the-broad-institute",
+          title: 'Graduated from MIT with my M.Eng. in Computer Science and Molecular Biology! :tada:...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-building-illume-a-health-tech-startup-in-the-y-combinator-s26-batch",
+          title: 'Building Illume, a health tech startup in the Y Combinator S26 batch!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
