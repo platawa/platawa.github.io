@@ -34,7 +34,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 ---
 
-<h2 class="about-section-title">Publications</h2>
+<h2 class="about-section-title">Publications & Research</h2>
 
 <div class="publications pub-scroll">
 {% bibliography %}
