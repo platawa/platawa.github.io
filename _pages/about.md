@@ -34,15 +34,40 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 ---
 
-<h2 class="about-section-title">Publications & Research</h2>
+<details class="about-collapsible" id="publications" open>
+<summary><h2 class="about-section-title">Publications & Research</h2></summary>
 
 <div class="publications pub-scroll">
 {% bibliography %}
 </div>
 
----
+</details>
 
-<h2 class="about-section-title">Honors & Awards</h2>
+<details class="about-collapsible" id="projects" open>
+<summary><h2 class="about-section-title">Projects</h2></summary>
+
+<div class="about-leadership-item">
+  <div class="item-title"><a href="https://www.illumelabs.ai">Illume</a></div>
+  <p class="item-desc">Health tech startup in the Y Combinator S26 batch.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">EasyComm</div>
+  <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">SparkED</div>
+  <p class="item-desc">Nonprofit that equipped 2000+ youth across 11 countries with STEM resources.</p>
+  <div class="item-links"></div>
+</div>
+
+</details>
+
+<details class="about-collapsible" id="awards" open>
+<summary><h2 class="about-section-title">Honors & Awards</h2></summary>
 
 <div class="section-scroll">
 
@@ -124,7 +149,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </div>
 
-<h2 class="about-section-title">Teaching & Mentorship</h2>
+</details>
+
+<details class="about-collapsible" id="teaching" open>
+<summary><h2 class="about-section-title">Teaching & Mentorship</h2></summary>
 
 <div class="about-teaching-item">
   <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
@@ -138,7 +166,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-links"></div>
 </div>
 
-<h2 class="about-section-title">Leadership & Community Service</h2>
+</details>
+
+<details class="about-collapsible" id="leadership" open>
+<summary><h2 class="about-section-title">Leadership & Community Service</h2></summary>
 
 <div class="section-scroll">
 <div class="about-leadership-item">
@@ -201,9 +232,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 </div>
 
-<h2 class="about-section-title">Personal Interests & Hobbies</h2>
+</details>
+
+<details class="about-collapsible" id="personal" open>
+<summary><h2 class="about-section-title">Personal Interests & Hobbies</h2></summary>
 
 <div class="about-hobbies">
   <p>I enjoy pursuing adventures, from visiting new places to hiking and biking locally in Cambridge and Austin. I played the viola for 8 years, painted for 5 years, previously tried rowing, and am currently really interested in photography and videography.</p>
   <p>I am passionate about science communication and blogging — here is my <a href="https://paridhi-latawa.medium.com/">Medium Blog</a>. In my free time, you'll find me solving puzzles or traveling!</p>
 </div>
+
+</details>
