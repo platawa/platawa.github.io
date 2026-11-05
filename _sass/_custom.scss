@@ -26,6 +26,117 @@ html {
   font-size: 0.98rem;
 }
 
+// ── Two-column layout: sticky profile sidebar + scrolling content ──
+.about-layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-sidebar {
+  position: sticky;
+  top: 90px;
+
+  img {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .sidebar-identity {
+    margin-top: 1rem;
+  }
+
+  .sidebar-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+    color: var(--global-text-color);
+  }
+
+  .profile-title,
+  .profile-subtitle {
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin-bottom: 0.2rem;
+    color: var(--global-text-color-light);
+  }
+
+  .sidebar-social {
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    font-size: 0.95rem;
+
+    a {
+      color: var(--global-theme-color);
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      i {
+        width: 1.1em;
+        text-align: center;
+      }
+    }
+
+    .social-label {
+      display: inline;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .about-sidebar {
+    position: static;
+    text-align: center;
+
+    img {
+      max-width: 170px;
+    }
+
+    .sidebar-social {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.9rem;
+    }
+  }
+}
+
+// ── Entries with an institution logo ──
+.about-leadership-item.has-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  .item-logo {
+    flex: 0 0 auto;
+    width: 46px;
+    height: auto;
+    margin-top: 0.2rem;
+  }
+
+  .item-body {
+    min-width: 0;
+  }
+}
+
 // ── Course lists ──
 .about-course-list {
   list-style: disc;
@@ -59,6 +170,9 @@ details.about-collapsible {
   > summary {
     cursor: pointer;
     list-style-position: inside;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.55rem;
+    margin-bottom: 1.1rem;
 
     &:focus:not(:focus-visible) {
       outline: none;
@@ -87,14 +201,14 @@ details.about-collapsible {
   h2.about-section-title {
     // keep anchored headings visible below the fixed navbar
     scroll-margin-top: 80px;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    font-size: 1.05rem;
+    text-transform: none;
+    letter-spacing: -0.01em;
+    font-size: 1.45rem;
     font-weight: 700;
-    color: var(--global-theme-color);
-    border-bottom: 2px solid var(--global-theme-color);
+    color: var(--global-text-color);
+    border-bottom: none;
     display: inline-block;
-    padding-bottom: 0.15em;
+    padding-bottom: 0;
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
   }
