@@ -84,7 +84,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-leadership-item">
-  <div class="item-title">Decoding MIT's Digital Diary: Combining Sentiment, Topic Modeling, and an MIT Confessions-Powered ChatBot</div>
+  <div class="item-title">Decoding MIT's Digital Diary: Combining Sentiment, Topic Modeling, and an MIT Confessions-Powered ChatBot for Social Data Analysis</div>
   <p class="item-note">Nov 2024 – Dec 2024 · MIT 6.8611: Quantitative Methods for Natural Language Processing · with Anika Puri and Sejal Rathi</p>
   <p class="item-desc">Analyzed over 61,000 posts from MIT Confessions (2013–2024) with NLP techniques to uncover evolving trends in student sentiment, wellness, and social dynamics, and created a RAG + LLM-based ChatBot that allowed for context-aware engagement with the data to inform institutional support and policy.</p>
   <div class="item-links"><a href="https://drive.google.com/file/d/1NtyZ53-A2qq2I5LxNq1D8CKSerjtKL2z/view">[Paper]</a> <a href="https://drive.google.com/file/d/1jD_h16JYJmXsIfOZk_nu9q2BtidqfMKQ/view">[Poster]</a></div>
@@ -107,7 +107,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">Analysis of the Vaping Pandemic</div>
   <p class="item-note">Jul 2019 – May 2020</p>
-  <p class="item-desc">Stemming from round tables on teen health attended by Austin leaders from several school districts, as well as speaking at and attending AISD SHAC meetings, I analyzed survey data on the teen vaping epidemic.</p>
+  <p class="item-desc">Stemming from round tables on teen health attended by Austin leaders from several school districts as well as speaking and attending AISD SHAC meetings, I analyzed survey data and experimented with nicotine and plant cells. This data will allow for an informed approach to teen vaping prevention campaigns and serve as a focus for anti-addiction support. This project won the Superintendent Award at the AERSF.</p>
   <div class="item-links"></div>
 </div>
 
@@ -366,6 +366,30 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">MIT Undergraduate Association</div>
   <p class="item-desc">Education Committee and Community Service Committee.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">MIT Campus Ambassador, NCWIT</div>
+  <p class="item-note">Aug 2022 – Present</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Events Lead, Science Olympiad</div>
+  <p class="item-note">Aug 2016 – May 2022</p>
+  <p class="item-desc">Competed in various events focusing around life sciences, including going to National competitions twice as well as competing with the LASA A team at out-of-state tournaments at UPenn, MIT, Rice, and UT. Ranked 7th in Ecology & 6th in Roller Coaster (Engineering) at Nationals.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Citywide Leader, Health Through Science (HTS)</div>
+  <p class="item-note">Jul 2018 – 2020</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">District Advisory Council Member; Student Health Advisory Board, Austin Independent School District</div>
   <div class="item-links"></div>
 </div>
 </div>
