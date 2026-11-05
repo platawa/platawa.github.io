@@ -92,80 +92,6 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
-<details class="about-collapsible" id="research" open>
-<summary><h2 class="about-section-title">Research Experience</h2></summary>
-
-<div class="section-scroll">
-
-<div class="about-leadership-item">
-  <div class="item-title">Feng Zhang Lab — Broad Institute of MIT and Harvard</div>
-  <p class="item-note">Graduate & Undergraduate Researcher · Aug 2022 – May 2026</p>
-  <p class="item-desc">Studied bacterial antiviral defense systems across the wet lab and the terminal: characterized defense proteins through bacterial growth assays, PCR, and cloning, and ran paired computational and wet-lab mutagenesis on a DRT reverse transcriptase system to pin down the sequence regions its function depends on. Separately led an independent computational study mapping the evolutionary diversity of the L7-protein domain with FoldSeek, DALI, AlphaFold, iTOL, and embedding visualization. Supported as an Eric & Wendy Schmidt Center Research & Innovation Scholar.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Langer / Traverso Lab — MIT Koch Institute for Integrative Cancer Research</div>
-  <p class="item-note">Undergraduate Researcher · Aug 2023 – May 2026</p>
-  <p class="item-desc">Worked on getting biological structure into general-purpose language models. Helped build a framework that injects knowledge from biology-specific foundation models (ESM, UniMol) into general LLMs through shared latent representations; co-developed a de novo molecular design algorithm that generates under physiologically relevant constraints and studied what happens when several properties are constrained at once; and contributed to QA-Token, a reinforcement-learning approach to quality-aware tokenization, including its evaluation in the NLP text domain.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Eli Lilly and Company — AI & Technology Division</div>
-  <p class="item-note">AI Research Intern · May 2025 – Aug 2025</p>
-  <p class="item-desc">Built and deployed an end-to-end ML fine-tuning pipeline for in silico single-cell perturbation prediction, then presented the work as a poster, a technical talk, and a final presentation to an audience of 70+ stakeholders and senior VPs.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Bin Wang Lab — MD Anderson Cancer Center</div>
-  <p class="item-note">Research Intern, CPRIT-CURE Summer Program · May 2024 – Aug 2024</p>
-  <p class="item-desc">Investigated DNA repair by the Abraxas–BRCA1 complex using western blotting, immunofluorescence, FISH, and microscopy, and set up a collaboration with the Genetics Department's Microscopy Core Director and the Imaris imaging team to analyze the results.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Dianox — Copenhagen, Denmark</div>
-  <p class="item-note">Scientific Research Intern, MIT MISTI · Jun 2023 – Sep 2023</p>
-  <p class="item-desc">Identified aptamer-based drug targets at an AI-driven diagnostics startup, combining machine learning with fluorescence wet-lab work. Alongside the lab work, interviewed 11+ leaders at Novo Nordisk, the US Embassy, and the University of Copenhagen for an analysis of Denmark's life sciences innovation ecosystem.</p>
-  <div class="item-links"></div>
-</div>
-
-<h3 class="about-awards-year">Earlier Research</h3>
-
-<div class="about-leadership-item">
-  <div class="item-title">oval.bio — Austin, TX</div>
-  <p class="item-note">Intern · Jul 2021 – May 2022</p>
-  <p class="item-desc">Led clinical trials for the Nanoamp medical diagnostic device and the Heliopatch therapeutic, prototyped Arduino-based biosensor hardware, and ran supporting bench work.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">UC Irvine</div>
-  <p class="item-note">Computational Biology Research · Feb 2021 – May 2022</p>
-  <p class="item-desc">Molecular modeling and computational biology research.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Kenyon College</div>
-  <p class="item-note">Coding Theory & Cryptography Research Intern · Jan 2021 – Sep 2021</p>
-  <p class="item-desc">Applied convolutional codes to DNA storage and error correction with Dr. Nuh Aydin, work that became an arXiv preprint.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">International Socioeconomics Laboratory</div>
-  <p class="item-note">Research Fellow · Nov 2020 – Mar 2021</p>
-  <p class="item-desc">Health and development economics research, including a data-visualization comparison of COVID-19 vaccine distribution in India and Mongolia.</p>
-  <div class="item-links"></div>
-</div>
-
-</div>
-
-</details>
-
 <details class="about-collapsible" id="projects" open>
 <summary><h2 class="about-section-title">Projects</h2></summary>
 
@@ -220,47 +146,45 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <h3 class="about-awards-year">Graduate</h3>
 
-<div class="about-courses">
-  <span class="course-chip"><span class="course-num">6.8701</span> Machine Learning for Computational Biology</span>
-  <span class="course-chip"><span class="course-num">6.8711</span> Generative AI for Biology</span>
-  <span class="course-chip"><span class="course-num">6.S981</span> AI for Protein Biology</span>
-  <span class="course-chip">AI &amp; Decision Making for Medicine</span>
-  <span class="course-chip">Topics in Computational Molecular Biology</span>
-</div>
-
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8701">6.8701</a> <span class="course-name">Machine Learning for Computational Biology</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8711">6.8711</a> <span class="course-name">Generative AI for Biology</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.S981">6.S981</a> <span class="course-name">AI for Protein Biology</span></li>
+  <li><span class="course-name">AI &amp; Decision Making for Medicine</span></li>
+  <li><span class="course-name">Topics in Computational Molecular Biology</span></li>
+</ul>
 <h3 class="about-awards-year">Undergraduate — CS &amp; Math</h3>
 
-<div class="about-courses">
-  <span class="course-chip"><span class="course-num">6.8611</span> Quantitative Methods for Natural Language Processing</span>
-  <span class="course-chip">Machine Learning</span>
-  <span class="course-chip">Probability &amp; Statistics</span>
-  <span class="course-chip">Algorithms</span>
-  <span class="course-chip">Linear Algebra</span>
-  <span class="course-chip">Programming</span>
-  <span class="course-chip">Discrete Math</span>
-  <span class="course-chip">Calculus I &amp; II</span>
-</div>
-
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8611">6.8611</a> <span class="course-name">Quantitative Methods for Natural Language Processing</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.3900">6.3900</a> <span class="course-name">Introduction to Machine Learning</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.05">18.05</a> <span class="course-name">Introduction to Probability &amp; Statistics</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1210">6.1210</a> <span class="course-name">Introduction to Algorithms</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.06">18.06</a> <span class="course-name">Linear Algebra</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1010">6.1010</a> <span class="course-name">Fundamentals of Programming</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1200">6.1200</a> <span class="course-name">Mathematics for Computer Science (Discrete Math)</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.01">18.01</a> <span class="course-name">Calculus I</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.02">18.02</a> <span class="course-name">Calculus II</span></li>
+</ul>
 <h3 class="about-awards-year">Undergraduate — Biology &amp; Chemistry</h3>
 
-<div class="about-courses">
-  <span class="course-chip">Biochemistry</span>
-  <span class="course-chip">Cell Biology</span>
-  <span class="course-chip">Organic Chemistry</span>
-  <span class="course-chip">Thermodynamics</span>
-  <span class="course-chip">Genetics</span>
-</div>
-
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.05">7.05</a> <span class="course-name">General Biochemistry</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.06">7.06</a> <span class="course-name">Cell Biology</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=5.12">5.12</a> <span class="course-name">Organic Chemistry</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=20.110">20.110</a> <span class="course-name">Thermodynamics of Biomolecular Systems</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.03">7.03</a> <span class="course-name">Genetics</span></li>
+</ul>
 <h3 class="about-awards-year">Undergraduate — Economics</h3>
 
-<div class="about-courses">
-  <span class="course-chip">The Challenge of World Poverty</span>
-  <span class="course-chip">Microeconomic Theory and Public Policy</span>
-  <span class="course-chip">Psychology and Economics</span>
-  <span class="course-chip">Microeconomics</span>
-  <span class="course-chip">Macroeconomics</span>
-  <span class="course-chip">Innovation Diplomats Independent Study in Management</span>
-</div>
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.73">14.73</a> <span class="course-name">The Challenge of World Poverty</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.03">14.03</a> <span class="course-name">Microeconomic Theory and Public Policy</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.13">14.13</a> <span class="course-name">Psychology and Economics</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.01">14.01</a> <span class="course-name">Principles of Microeconomics</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.02">14.02</a> <span class="course-name">Principles of Macroeconomics</span></li>
+  <li><span class="course-name">Innovation Diplomats Independent Study in Management</span></li>
+</ul>
 
 </div>
 
@@ -306,6 +230,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">NSF Graduate Research Fellowship Program (GRFP)</div>
+  <p class="item-note">May 2026</p>
   <div class="item-links"></div>
 </div>
 
@@ -313,17 +238,20 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">MIT Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</div>
+  <p class="item-note">Oct 2024 – May 2025</p>
   <p class="item-desc">MIT EECS SuperUROP Scholar — selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">HackMIT WisprAI Track, 3rd Place</div>
+  <p class="item-note">Sep 2025</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">AnitaB.org Grace Hopper Conference & SWE WE24 Conference Grant Awardee & Ambassador</div>
+  <p class="item-note">Jan 2024</p>
   <div class="item-links"></div>
 </div>
 
@@ -331,6 +259,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">NCWIT Award for Aspirations in Computing — 3x National Awardee (top 9.5% in US), Impact Award</div>
+  <p class="item-note">Jan 2023</p>
   <p class="item-desc">MIT Campus Representative: led 4+ colleges to organize NCWIT AiC Boston-area receptions with 100+ attendees from 9 colleges & 11 high schools. Recognized with the Impact Award for leadership in expanding access to computing.</p>
   <div class="item-links"></div>
 </div>
@@ -339,49 +268,58 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">Apple Scholar</div>
+  <p class="item-note">Mar 2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Regeneron Science Talent Search (STS) Scholar</div>
+  <p class="item-note">Jan 2022</p>
   <p class="item-desc">Top 300 in the nation's oldest and most prestigious science and math competition for high school seniors.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Regeneron International Science & Engineering Fair (ISEF) Finalist</div>
+  <p class="item-note">May 2022</p>
   <p class="item-desc">Finalist in the Computational Biology & Bioinformatics category.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Texas Science & Engineering Fair (TXSEF) — Regeneron Biomedical Science Award</div>
+  <p class="item-note">Mar 2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Austin Energy Regional Science Fair (AERSF) — 1st in Cellular & Molecular Biology, Best of Fair</div>
+  <p class="item-note">Feb 2022</p>
   <p class="item-desc">Ranked 1st in the Cellular & Molecular Biology category (advancing to TXSEF), selected as a Best of Fair project (advancing to ISEF 2022), and received the Austin Energy STEM scholarship.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">National Honor Society Scholarship + Finalist</div>
+  <p class="item-note">Jan 2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Schlumberger Founders Scholarship</div>
+  <p class="item-note">Jan 2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Bank of America Student Leader</div>
+  <p class="item-note">Jan 2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Coca-Cola Scholar</div>
+  <p class="item-note">Jan 2022</p>
   <div class="item-links"></div>
 </div>
 
@@ -389,23 +327,27 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">World Science Scholar</div>
+  <p class="item-note">Jun 2021</p>
   <p class="item-desc">World Science Festival.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Texas Education Agency Student Hero</div>
+  <p class="item-note">Jan 2021</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">AERSF & TXSEF — 2nd in Cellular & Molecular Biology</div>
+  <p class="item-note">Feb – Mar 2021</p>
   <p class="item-desc">Ranked 2nd in the Cellular & Molecular Biology category at both fairs; received a $2k research grant and an invitation to the Texas Governor's Science & Engineering Champions Academy to research solid-state nanopore sequencing at the SMU BAST Lab.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Sigma Xi Scientific Research Honor Society</div>
+  <p class="item-note">2021</p>
   <p class="item-desc">Abstract accepted for the International Student Research Showcase Competition.</p>
   <div class="item-links"></div>
 </div>
@@ -414,6 +356,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">AERSF Superintendent Award — Best Project in District</div>
+  <p class="item-note">Feb 2020</p>
   <p class="item-desc">For "Analysis of the Vaping Pandemic," focusing on schools in Austin, Texas.</p>
   <div class="item-links"></div>
 </div>
@@ -445,65 +388,76 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="section-scroll">
 <div class="about-leadership-item">
   <div class="item-title">Co-Founder, EasyComm</div>
+  <p class="item-note">Aug 2022 – Present</p>
   <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">MIT School of Engineering Student Advisory Group & EECS Community Engagement Committee</div>
+  <p class="item-note">Sep 2024 – Present</p>
   <p class="item-desc">Connect with Dean and faculty on education, engagement, research, and student life. Created proposals for alumni funding requests for national conferences.</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://engineering.mit.edu/">[Website]</a></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Lead Communications Ambassador, MIT PKG Center for Public Service</div>
+  <p class="item-note">Sep 2023 – Present</p>
   <p class="item-desc">Facilitate connection between PKG and students, lead interns, and organize outreach and media presence.</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://pkgcenter.mit.edu/">[Website]</a></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Board Member, MIT South Asian Association of Students</div>
+  <p class="item-note">Sep 2023 – Present</p>
   <p class="item-desc">Organized the largest cultural events at MIT, including Garba, Holi, and South Asian Formal.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">MIT Innovation Diplomats (iDiplomats) Program</div>
+  <p class="item-note">May 2023 – Sep 2023</p>
   <p class="item-desc">Researched Denmark's biotech innovation ecosystem. Interviewed 11 leaders from government, industry, and academia.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Developmental and Behavioral Pediatrics, Boston Medical Center</div>
+  <p class="item-note">Dec 2022 – Feb 2023</p>
   <p class="item-desc">Autism Resources Program intern supporting 8+ low-socioeconomic families and patient cases with Autism Spectrum Disorder.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Weekend Pre-Med Academy, Harvard Student Agencies</div>
+  <p class="item-note">Jul 2019 – Jun 2020</p>
   <p class="item-desc">Brought the Pre-Med Academy I had attended to my own high school in Austin, recruiting 100+ Texas students and inviting practicing physicians to speak.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Founder and Executive Director, SparkED</div>
+  <p class="item-note">Apr 2019 – May 2024</p>
   <p class="item-desc">Equipped 2000+ youth across 11 countries with STEM resources. Led a 20+ volunteer team.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Social Chair, MIT Laureates and Leaders Program</div>
+  <p class="item-note">Sep 2024 – Present</p>
   <p class="item-desc">Office of Minority Education leadership and community programming.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Recruitment Director & Panhellenic Delegate, MIT Panhellenic Council</div>
+  <p class="item-note">May 2023 – Present</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">MIT Undergraduate Association</div>
+  <p class="item-note">Aug 2022 – May 2023</p>
   <p class="item-desc">Education Committee and Community Service Committee.</p>
   <div class="item-links"></div>
 </div>
@@ -511,7 +465,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">MIT Campus Ambassador, NCWIT</div>
   <p class="item-note">Aug 2022 – Present</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://www.aspirations.org/">[Website]</a></div>
 </div>
 
 <div class="about-leadership-item">
