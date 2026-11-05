@@ -4,6 +4,23 @@
 
 html {
   scroll-behavior: smooth;
+
+  // Scale the root size up on larger screens, the way Minimal Mistakes does.
+  // Everything on the page is sized in rem, so this lifts the whole page
+  // proportionally rather than just one block of text.
+  font-size: 16px;
+
+  @media (min-width: 48em) {
+    font-size: 17px;
+  }
+
+  @media (min-width: 64em) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 80em) {
+    font-size: 19px;
+  }
 }
 
 // ── Page view counter ──
