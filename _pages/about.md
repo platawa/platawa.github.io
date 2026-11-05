@@ -71,15 +71,43 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-leadership-item">
   <div class="item-title">Conditional Generation from Few-shot Examples for Protein Design</div>
-  <p class="item-note">Oct 2025 – Dec 2025</p>
-  <p class="item-desc">MIT 6.s981: AI for Protein Biology. Few-shot generative framework that conditions on example proteins.</p>
+  <p class="item-note">Oct 2025 – Dec 2025 · MIT 6.S981: AI for Protein Biology · with Zhilei Bei and Weilang Luo</p>
+  <p class="item-desc">Few-shot generative framework that conditions a generative multiple sequence alignment (MSA) protein language model on a small set of example sequences to synthesize novel proteins exhibiting desired features.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
-  <div class="item-title">A Pseudo-Time Analysis of Cellular Trajectories in Alzheimer's Disease using RNA Seq</div>
-  <p class="item-note">Nov 2024 – Dec 2024</p>
-  <p class="item-desc">MIT 6.8701: Machine Learning for Computational Biology Final Project: Used immune cell RNA sequencing data.</p>
+  <div class="item-title">A Pseudo-Time Analysis of Cellular Trajectories in Alzheimer's Disease using scRNA Sequencing</div>
+  <p class="item-note">Nov 2024 – Dec 2024 · MIT 6.8701: Machine Learning for Computational Biology · with Jenny Prince and Selina Qian</p>
+  <p class="item-desc">Used immune cell-specific single-nucleus RNA-seq data to model temporal gene expression dynamics in Alzheimer's Disease, generating cell- and sample-level pseudotime trajectories correlated with clinical progression and identifying key marker genes and pathways linked to immune activation and AD severity.</p>
+  <div class="item-links"><a href="https://drive.google.com/file/d/1X3pht29L8zgKKfiunw0vJPeVYzHPOj_y/view">[Paper]</a> <a href="https://drive.google.com/file/d/1mGeI_zj_tKu50cqAnZWTPlWDQww-YVuv/view">[Poster]</a></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Decoding MIT's Digital Diary: Combining Sentiment, Topic Modeling, and an MIT Confessions-Powered ChatBot</div>
+  <p class="item-note">Nov 2024 – Dec 2024 · MIT 6.8611: Quantitative Methods for Natural Language Processing · with Anika Puri and Sejal Rathi</p>
+  <p class="item-desc">Analyzed over 61,000 posts from MIT Confessions (2013–2024) with NLP techniques to uncover evolving trends in student sentiment, wellness, and social dynamics, and created a RAG + LLM-based ChatBot that allowed for context-aware engagement with the data to inform institutional support and policy.</p>
+  <div class="item-links"><a href="https://drive.google.com/file/d/1NtyZ53-A2qq2I5LxNq1D8CKSerjtKL2z/view">[Paper]</a> <a href="https://drive.google.com/file/d/1jD_h16JYJmXsIfOZk_nu9q2BtidqfMKQ/view">[Poster]</a></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Encoder-Decoder Model for Multimodal SMILES Latent Space Representation Property Prediction</div>
+  <p class="item-note">Apr 2024 – May 2024 · MIT 6.8711: Generative AI for Biology (Computational Systems Biology: Deep Learning in the Life Sciences) · with Vincent Lin and Vanessa Xiao</p>
+  <p class="item-desc">Proposed a novel multimodal architecture using an autoencoder and fine-tuned ChemBERTa model to generate feature embeddings for SMILES and gene expression datasets to feed into a regressor for IC50 drug viability prediction.</p>
+  <div class="item-links"><a href="https://drive.google.com/file/d/19HOK4B6_nfNripPmaZbztrAA7dhcKnQ8/view">[Paper]</a> <a href="https://drive.google.com/file/d/1Bmd_5JG6p5SYAfoY0fz4pPomk4a88Nbd/view">[Slides]</a></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">An Investigation of the Biotechnology and Life Sciences Innovation Ecosystem in Denmark</div>
+  <p class="item-note">May 2023 – Sep 2023 · MIT Innovation Diplomats (iDiplomats) Program</p>
+  <p class="item-desc">Independent study researching Denmark's biotech innovation ecosystem, interviewing leaders from government, industry, and academia.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Analysis of the Vaping Pandemic</div>
+  <p class="item-note">Jul 2019 – May 2020</p>
+  <p class="item-desc">Stemming from round tables on teen health attended by Austin leaders from several school districts, as well as speaking at and attending AISD SHAC meetings, I analyzed survey data on the teen vaping epidemic.</p>
   <div class="item-links"></div>
 </div>
 
@@ -97,6 +125,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <span class="course-chip"><span class="course-num">6.8711</span> Generative AI for Biology</span>
   <span class="course-chip"><span class="course-num">6.S981</span> AI for Protein Biology</span>
   <span class="course-chip">AI &amp; Decision Making for Medicine</span>
+  <span class="course-chip">Topics in Computational Molecular Biology</span>
 </div>
 
 <h3 class="about-awards-year">Undergraduate — CS &amp; Math</h3>
@@ -122,38 +151,48 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <span class="course-chip">Genetics</span>
 </div>
 
-<h3 class="about-awards-year">Course Projects</h3>
+<h3 class="about-awards-year">Undergraduate — Economics</h3>
 
-<div class="about-course-item">
-  <div class="item-title">Conditional Generation from Few-Shot Examples for Protein Design</div>
-  <p class="item-desc">Zhilei Bei, Weilang Luo, Paridhi Latawa.</p>
-  <p class="item-note">6.S981: AI for Protein Biology · 2025</p>
+<div class="about-courses">
+  <span class="course-chip">The Challenge of World Poverty</span>
+  <span class="course-chip">Microeconomic Theory and Public Policy</span>
+  <span class="course-chip">Psychology and Economics</span>
+  <span class="course-chip">Microeconomics</span>
+  <span class="course-chip">Macroeconomics</span>
+  <span class="course-chip">Innovation Diplomats Independent Study in Management</span>
 </div>
 
-<div class="about-course-item">
-  <div class="item-title">Combining Sentiment, Topic Modeling, &amp; a ChatBot for Social Data Analysis</div>
-  <p class="item-desc">Paridhi Latawa, Anika Puri, Sejal Rathi.</p>
-  <p class="item-note">6.8611: Quantitative Methods for Natural Language Processing · 2024</p>
 </div>
 
-<div class="about-course-item">
-  <div class="item-title">A Pseudotime Analysis of Cellular Trajectories in Alzheimer's Disease using scRNA Sequencing</div>
-  <p class="item-desc">Paridhi Latawa, Jenny Prince, Selina Qian.</p>
-  <p class="item-note">6.8701: Machine Learning for Computational Biology · 2024</p>
+</details>
+
+<details class="about-collapsible" id="education" open>
+<summary><h2 class="about-section-title">Education</h2></summary>
+
+<div class="about-leadership-item">
+  <div class="item-title">Massachusetts Institute of Technology — M.Eng., Computer Science and Molecular Biology</div>
+  <p class="item-note">Jun 2025 – May 2026</p>
+  <div class="item-links"></div>
 </div>
 
-<div class="about-course-item">
-  <div class="item-title">Encoder-Decoder Model for Multimodal SMILES Latent Space Representation Property Prediction</div>
-  <p class="item-desc">Vincent Lin, Paridhi Latawa, Vanessa Xiao.</p>
-  <p class="item-note">6.8711: Generative AI for Biology · 2024</p>
+<div class="about-leadership-item">
+  <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
+  <p class="item-note">2022 – 2026</p>
+  <p class="item-desc">Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students. Teaching Assistant for Introduction to Probability and Statistics.</p>
+  <div class="item-links"></div>
 </div>
 
-<div class="about-course-item">
-  <div class="item-title">An Investigation of the Biotechnology and Life Sciences Innovation Ecosystems in Denmark</div>
-  <p class="item-desc">Paridhi Latawa.</p>
-  <p class="item-note">MIT Innovation Diplomats Program · 2023</p>
+<div class="about-leadership-item">
+  <div class="item-title">Y Combinator</div>
+  <p class="item-note">Jun 2026 – Aug 2026</p>
+  <div class="item-links"></div>
 </div>
 
+<div class="about-leadership-item">
+  <div class="item-title">Liberal Arts & Science Academy — High School Diploma</div>
+  <p class="item-note">2018 – 2022</p>
+  <p class="item-desc">Activities and societies: LASA Science Fair Club Captain, Mu Alpha Theta Math Honor Society VP, Science Olympiad, Symphony Orchestra.</p>
+  <div class="item-links"></div>
 </div>
 
 </details>
