@@ -6,6 +6,16 @@ html {
   scroll-behavior: smooth;
 }
 
+// ── Page view counter ──
+.view-counter {
+  margin: 3rem 0 1rem;
+  text-align: center;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
 // ── About-page typography: larger, darker-reading text ──
 .about-intro-text {
   font-size: 1.05rem;
