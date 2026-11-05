@@ -1,0 +1,29 @@
+<div class="view-counter" id="view-counter" hidden><span id="view-counter-value"></span> <span id="view-counter-label">views</span></div>
+
+<script>
+  (function () {
+    var el = document.getElementById('view-counter');
+    var value = document.getElementById('view-counter-value');
+    var label = document.getElementById('view-counter-label');
+    if (!el || !value) return;
+
+    // Don't count local development visits.
+    var isLocal = ['localhost', '127.0.0.1', '0.0.0.0'].indexOf(location.hostname) !== -1;
+    var endpoint = 'https://abacus.jasoncameron.dev/' + (isLocal ? 'get' : 'hit') + '/platawa-github-io/site';
+
+    fetch(endpoint)
+      .then(function (response) {
+        if (!response.ok) throw new Error('counter unavailable');
+        return response.json();
+      })
+      .then(function (data) {
+        if (typeof data.value !== 'number') return;
+        value.textContent = data.value.toLocaleString('en-US');
+        if (label) label.textContent = data.value === 1 ? 'view' : 'views';
+        el.hidden = false;
+      })
+      .catch(function () {
+        // Leave the counter hidden if the service is unreachable.
+      });
+  })();
+</script>
