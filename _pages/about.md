@@ -7,6 +7,8 @@ subtitle:
 
 profile:
   align: right
+  title: Co-Founder at Illume Labs (YC S26)
+  subtitle: M.Eng. & B.S., CS + Molecular Biology, MIT
   image: pari_headshot.jpg
   image_circular: true # crops the image to make it circular
 
