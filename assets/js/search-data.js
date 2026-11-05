@@ -384,10 +384,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-graduated-from-mit-with-my-b-s-in-computer-science-and-molecular-biology-tada",
+            },},{id: "news-awarded-the-nsf-graduate-research-fellowship-grfp-tada",
+          title: 'Awarded the NSF Graduate Research Fellowship (GRFP)! :tada:',
+          description: "",
+          section: "News",},{id: "news-graduated-from-mit-with-my-b-s-in-computer-science-and-molecular-biology-tada",
           title: 'Graduated from MIT with my B.S. in Computer Science and Molecular Biology! :tada:...',
           description: "",
-          section: "News",},{id: "news-graduated-from-mit-with-my-m-eng-in-computer-science-and-molecular-biology-tada-completed-my-master-s-thesis-on-dna-llms-for-genomic-discovery-with-dr-feng-zhang-at-the-broad-institute",
+          section: "News",},{id: "news-completed-my-master-s-thesis-mechanistic-interpretability-of-genome-scale-dna-large-language-models-with-dr-feng-zhang-at-the-broad-institute",
+          title: 'Completed my Master’s thesis, Mechanistic Interpretability of Genome-Scale DNA Large Language Models, with...',
+          description: "",
+          section: "News",},{id: "news-graduated-from-mit-with-my-m-eng-in-computer-science-and-molecular-biology-tada",
           title: 'Graduated from MIT with my M.Eng. in Computer Science and Molecular Biology! :tada:...',
           description: "",
           section: "News",},{id: "news-building-illume-labs-a-health-tech-startup-in-the-y-combinator-s26-batch",
