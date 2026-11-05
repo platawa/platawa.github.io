@@ -141,10 +141,45 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
-<details class="about-collapsible" id="courses" open>
-<summary><h2 class="about-section-title">Courses</h2></summary>
+<details class="about-collapsible" id="education" open>
+<summary><h2 class="about-section-title">Education</h2></summary>
 
-<div class="section-scroll">
+<div class="about-leadership-item has-logo">
+  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Massachusetts Institute of Technology — M.Eng., Computer Science and Molecular Biology</div>
+  <p class="item-note">Jun 2025 – May 2026</p>
+  <div class="item-links"></div>
+  </div>
+</div>
+
+<div class="about-leadership-item has-logo">
+  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
+  <p class="item-note">2022 – 2026</p>
+  <p class="item-desc">Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students. Teaching Assistant for Introduction to Probability and Statistics.</p>
+  <div class="item-links"></div>
+  </div>
+</div>
+
+<div class="about-leadership-item has-logo">
+  <img class="item-logo" src="{{ '/assets/img/logos/ycombinator.svg' | relative_url }}" alt="Y Combinator logo" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Y Combinator</div>
+  <p class="item-note">Jun 2026 – Aug 2026</p>
+  <div class="item-links"></div>
+  </div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Liberal Arts & Science Academy — High School Diploma</div>
+  <p class="item-note">2018 – 2022</p>
+  <p class="item-desc">Activities and societies: LASA Science Fair Club Captain, Mu Alpha Theta Math Honor Society VP, Science Olympiad, Symphony Orchestra.</p>
+  <div class="item-links"></div>
+</div>
+
+<h3 class="about-awards-year">Coursework</h3>
 
 <h3 class="about-awards-year">Graduate</h3>
 
@@ -187,48 +222,6 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.02">14.02</a> <span class="course-name">Principles of Macroeconomics</span></li>
   <li><span class="course-name">Innovation Diplomats Independent Study in Management</span></li>
 </ul>
-
-</div>
-
-</details>
-
-<details class="about-collapsible" id="education" open>
-<summary><h2 class="about-section-title">Education</h2></summary>
-
-<div class="about-leadership-item has-logo">
-  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">Massachusetts Institute of Technology — M.Eng., Computer Science and Molecular Biology</div>
-  <p class="item-note">Jun 2025 – May 2026</p>
-  <div class="item-links"></div>
-  </div>
-</div>
-
-<div class="about-leadership-item has-logo">
-  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
-  <p class="item-note">2022 – 2026</p>
-  <p class="item-desc">Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students. Teaching Assistant for Introduction to Probability and Statistics.</p>
-  <div class="item-links"></div>
-  </div>
-</div>
-
-<div class="about-leadership-item has-logo">
-  <img class="item-logo" src="{{ '/assets/img/logos/ycombinator.svg' | relative_url }}" alt="Y Combinator logo" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">Y Combinator</div>
-  <p class="item-note">Jun 2026 – Aug 2026</p>
-  <div class="item-links"></div>
-  </div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Liberal Arts & Science Academy — High School Diploma</div>
-  <p class="item-note">2018 – 2022</p>
-  <p class="item-desc">Activities and societies: LASA Science Fair Club Captain, Mu Alpha Theta Math Honor Society VP, Science Olympiad, Symphony Orchestra.</p>
-  <div class="item-links"></div>
-</div>
 
 </details>
 
