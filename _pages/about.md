@@ -66,6 +66,122 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
+<details class="about-collapsible" id="experience" open>
+<summary><h2 class="about-section-title">Experience</h2></summary>
+
+<div class="section-scroll">
+
+<div class="about-leadership-item">
+  <div class="item-title">Co-Founder, Illume Labs (YC S26)</div>
+  <p class="item-note">Jun 2026 – Present</p>
+  <p class="item-desc">Backed by Y Combinator.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Co-Founder, EasyComm</div>
+  <p class="item-note">Jun 2022 – Present · MIT Sandbox Innovation Fund Program</p>
+  <p class="item-desc">Speech technology app for children with Down Syndrome; patent pending. Selected for the Harvard Law Entrepreneurship Project/Cooley LLP program & Takeda Biopharma Internship.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Graduate & Undergraduate Researcher, Feng Zhang Lab — Broad Institute of MIT and Harvard</div>
+  <p class="item-note">Aug 2022 – May 2026 · Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</p>
+  <p class="item-desc">Investigated bacterial antiviral defense system proteins using bacterial growth, PCR, & cloning. Conducted computational & wet-lab mutagenesis of a DRT reverse transcriptase bacterial system. Led an independent computational study characterizing the evolutionary diversity of the L7-protein domain using FoldSeek, DALI, AlphaFold, iTOL, & embedding visualization.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Undergraduate Researcher, Langer/Traverso Lab — MIT Koch Institute for Integrative Cancer Research</div>
+  <p class="item-note">Aug 2023 – May 2026</p>
+  <p class="item-desc">AI/LLM for drug & molecular applications: helped build a framework integrating biology-specific foundation model (ESM, UniMol) knowledge into general LLMs using latent representations; helped develop a de novo molecular design algorithm based on physiologically relevant constraints; supported development of QA-Token, an RL-based quality-aware tokenization approach.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">AI Research Intern, Eli Lilly and Company</div>
+  <p class="item-note">May 2025 – Aug 2025</p>
+  <p class="item-desc">ML engineering and language modeling for biology: deployed an end-to-end ML fine-tuning pipeline for in silico single-cell perturbation prediction; presented a poster, technical talk, & presentation to 70+ company stakeholders & senior VPs.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Undergraduate Student Researcher, Bin Wang Lab — MD Anderson Cancer Center</div>
+  <p class="item-note">May 2024 – Aug 2024 · CPRIT-CURE Summer Undergraduate Program</p>
+  <p class="item-desc">Researched DNA repair for the Abraxas–BRCA-1 complex via western blotting, IF, FISH, & microscopy. Spearheaded collaboration with the Genetics Department Microscopy Core Director & the Imaris Imaging team.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Founder & Executive Director, SparkED</div>
+  <p class="item-note">Apr 2019 – May 2024</p>
+  <p class="item-desc">STEM nonprofit that equipped 2000+ youth across 11 countries. Led a 20+ volunteer team.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Scientific Research Intern, Dianox — Copenhagen, Denmark</div>
+  <p class="item-note">Jun 2023 – Sep 2023 · MIT MISTI Program</p>
+  <p class="item-desc">Identified aptamer-based drug targets using ML & fluorescence wet-lab techniques. Led analysis of the Danish innovation ecosystem with 11+ experts at Novo Nordisk, the US Embassy, & the University of Copenhagen.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Autism Resources Program Intern, Boston Medical Center</div>
+  <p class="item-note">Dec 2022 – Feb 2023</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Health Intern, MIT Priscilla King Gray Public Service Center</div>
+  <p class="item-note">Dec 2022 – Feb 2023</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Intern, oval.bio</div>
+  <p class="item-note">Jul 2021 – May 2022 · Austin, TX</p>
+  <p class="item-desc">Led clinical trials for the Nanoamp Medical Diagnostic device and Heliopatch therapeutic. Developed biosensor technology with Arduino & conducted lab experiments such as gel electrophoresis.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Computational Biology Research, UC Irvine</div>
+  <p class="item-note">Feb 2021 – May 2022</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Coding Theory & Cryptography Research Intern, Kenyon College</div>
+  <p class="item-note">Jan 2021 – Sep 2021</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Research Fellow, International Socioeconomics Laboratory</div>
+  <p class="item-note">Nov 2020 – Mar 2021</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Intern, Harvard Student Agencies</div>
+  <p class="item-note">Jul 2019 – Jun 2020</p>
+  <p class="item-desc">Partnered with HSA to bring the Weekend Pre-Med Academy to LASA in Austin, TX, with an attendance of 100+ high school students from Texas and invited medical professionals as speakers.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Oil-X SEED Program, Schlumberger</div>
+  <p class="item-note">Jun 2019 · Sugar Land, TX</p>
+  <p class="item-desc">Competed in the Oil-X program on oil exploration & production; learned fundamentals of geology, supply chain, and electrical/manufacturing/software engineering; designed and coded an oil rig that detects salt domes, oil, water, and other unknown substances.</p>
+  <div class="item-links"></div>
+</div>
+
+</div>
+
+</details>
+
 <details class="about-collapsible" id="projects" open>
 <summary><h2 class="about-section-title">Projects</h2></summary>
 
