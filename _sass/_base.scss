@@ -902,7 +902,7 @@ footer.sticky-bottom {
           }
 
           .note {
-            color: #d9534f;
+            color: var(--global-highlight-color);
             font-weight: 600;
             border-left: none;
             padding: 0;
