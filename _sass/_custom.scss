@@ -26,6 +26,24 @@ html {
   font-size: 0.98rem;
 }
 
+// ── Entries with an institution logo ──
+.about-leadership-item.has-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  .item-logo {
+    flex: 0 0 auto;
+    width: 46px;
+    height: auto;
+    margin-top: 0.2rem;
+  }
+
+  .item-body {
+    min-width: 0;
+  }
+}
+
 // ── Course lists ──
 .about-course-list {
   list-style: disc;
