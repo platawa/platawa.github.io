@@ -41,6 +41,32 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 {% bibliography %}
 </div>
 
+<h3 class="about-awards-year">Research Symposiums & Talks</h3>
+
+<div class="about-leadership-item">
+  <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
+  <p class="item-note">2025 · Eli Lilly Advanced Intelligence — Engineering & Biology Research · Presentation & Talk</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Exploring the Functional Role of the L7-like Ribosomal Protein</div>
+  <p class="item-note">2025 · MIT EECS SuperUROP Poster Symposium · with Guilhem Faure and Feng Zhang</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Elucidating the Role of Abraxas on Telomere Maintenance & Alternative Lengthening of Telomeres</div>
+  <p class="item-note">2024 · MD Anderson Cancer Center CATALYST Poster Symposium & Division of Radiation Oncology Symposium · with Longqiang Wang and Bin Wang</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Investigating the Capabilities of Large Language Models for Protein Engineering</div>
+  <p class="item-note">2024 · MIT Biology Undergraduate Research Symposium · with Alvin Chan, Giovanni Traverso, and Robert Langer</p>
+  <div class="item-links"></div>
+</div>
+
 </details>
 
 <details class="about-collapsible" id="entrepreneurship" open>
@@ -424,8 +450,8 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-leadership-item">
-  <div class="item-title">MIT School of Engineering Student Advisory Group</div>
-  <p class="item-desc">Connect with Dean and faculty on education, engagement, research, and student life.</p>
+  <div class="item-title">MIT School of Engineering Student Advisory Group & EECS Community Engagement Committee</div>
+  <p class="item-desc">Connect with Dean and faculty on education, engagement, research, and student life. Created proposals for alumni funding requests for national conferences.</p>
   <div class="item-links"></div>
 </div>
 
@@ -515,6 +541,39 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-hobbies">
   <p>I enjoy pursuing adventures, from visiting new places to hiking and biking locally in Cambridge and Austin. I played the viola for 8 years, painted for 5 years, previously tried rowing, and am currently really interested in photography and videography.</p>
   <p>I am passionate about science communication and blogging — here is my <a href="https://paridhi-latawa.medium.com/">Medium Blog</a>. In my free time, you'll find me solving puzzles or traveling!</p>
+  <p>Languages: advanced in English, Hindi, & Punjabi; beginner in Spanish.</p>
+</div>
+
+<h3 class="about-awards-year">Computational Skills</h3>
+
+<div class="about-courses">
+  <span class="course-chip">Machine Learning</span>
+  <span class="course-chip">LLMs</span>
+  <span class="course-chip">Python</span>
+  <span class="course-chip">PyTorch</span>
+  <span class="course-chip">Pandas</span>
+  <span class="course-chip">Biopython</span>
+  <span class="course-chip">R Studio</span>
+  <span class="course-chip">Linux</span>
+  <span class="course-chip">HPC</span>
+  <span class="course-chip">ImageJ/Fiji</span>
+  <span class="course-chip">Imaging</span>
+</div>
+
+<h3 class="about-awards-year">Wet Lab Skills</h3>
+
+<div class="about-courses">
+  <span class="course-chip">PCR</span>
+  <span class="course-chip">Gel Electrophoresis</span>
+  <span class="course-chip">Western Blot</span>
+  <span class="course-chip">IF</span>
+  <span class="course-chip">FISH</span>
+  <span class="course-chip">Protein Purification</span>
+  <span class="course-chip">Transformation</span>
+  <span class="course-chip">Gibson Assembly</span>
+  <span class="course-chip">Fluorescence Anisotropy/Polarization</span>
+  <span class="course-chip">Fluorescence Microscopy</span>
+  <span class="course-chip">Biotech Lab Technician Certificate (ACC)</span>
 </div>
 
 </details>
