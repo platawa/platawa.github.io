@@ -10,12 +10,12 @@
 // Accent palette sampled from a structural-biology figure: slate blue and
 // dusty rose from the DNA bases, sage from the protein ribbons, and a dark
 // blue-charcoal from the figure's own labels.
-$figure-slate: #4e6794 !default; // DNA bases (primary accent)
+$figure-slate: #2f5aa8 !default; // DNA bases, saturated for link legibility
 $figure-slate-dark: #3b5277 !default;
 $figure-sage: #5f857b !default; // protein ribbons (secondary accent)
 $figure-sage-light: #8fb5a9 !default; // sage, lightened for dark backgrounds
 $figure-rose: #8e5f64 !default; // DNA bases, darkened for legibility
-$figure-ink: #34454c !default; // figure label text
+$figure-ink: #1f2a30 !default; // figure label text, darkened for body copy
 $figure-warm-grey: #7d8a88 !default; // DNA backbone
 
 $red-color: #ff3636 !default;
