@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from MIT with my M.Eng. in Computer Science and Molecular Biology! :tada:<br>
-Completed my Master's thesis on DNA LLMs for genomic discovery with Dr. Feng Zhang at the Broad Institute.
+Graduated from MIT with my M.Eng. in Computer Science and Molecular Biology! :tada:

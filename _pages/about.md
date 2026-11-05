@@ -135,7 +135,11 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">Analysis of the Vaping Pandemic</div>
   <p class="item-note">Jul 2019 – May 2020</p>
-  <p class="item-desc">Stemming from round tables on teen health attended by Austin leaders from several school districts as well as speaking and attending AISD SHAC meetings, I analyzed survey data and experimented with nicotine and plant cells. This data will allow for an informed approach to teen vaping prevention campaigns and serve as a focus for anti-addiction support. This project won the Superintendent Award at the AERSF.</p>
+  <ul class="item-bullets">
+    <li>Stemming from round tables on teen health attended by Austin leaders from several school districts as well as speaking and attending AISD SHAC meetings, I analyzed survey data and experimented with nicotine and plant cells.</li>
+    <li>This data will allow for an informed approach to teen vaping prevention campaigns and serve as a focus for anti-addiction support.</li>
+    <li>This project won the Superintendent Award at the AERSF.</li>
+  </ul>
   <div class="item-links"></div>
 </div>
 
@@ -158,7 +162,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-body">
   <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
   <p class="item-note">2022 – 2026</p>
-  <p class="item-desc">Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students. Teaching Assistant for Introduction to Probability and Statistics.</p>
+  <ul class="item-bullets">
+    <li>Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students.</li>
+    <li>Teaching Assistant for Introduction to Probability and Statistics.</li>
+  </ul>
   <div class="item-links"></div>
   </div>
 </div>
@@ -264,7 +271,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-award-item">
   <div class="item-title">NCWIT Award for Aspirations in Computing — 3x National Awardee (top 9.5% in US), Impact Award</div>
   <p class="item-note">Jan 2023</p>
-  <p class="item-desc">MIT Campus Representative: led 4+ colleges to organize NCWIT AiC Boston-area receptions with 100+ attendees from 9 colleges & 11 high schools. Recognized with the Impact Award for leadership in expanding access to computing.</p>
+  <ul class="item-bullets">
+    <li>MIT Campus Representative: led 4+ colleges to organize NCWIT AiC Boston-area receptions with 100+ attendees from 9 colleges & 11 high schools.</li>
+    <li>Recognized with the Impact Award for leadership in expanding access to computing.</li>
+  </ul>
   <div class="item-links"></div>
 </div>
 
@@ -380,7 +390,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-teaching-item">
   <div class="item-title">Associate Advisor (MIT)</div>
-  <p class="item-desc">Advised students on academic planning, course selection, and research involvement. Collaborated with Professor Collin Stultz to improve advisee support.</p>
+  <ul class="item-bullets">
+    <li>Advised students on academic planning, course selection, and research involvement.</li>
+    <li>Collaborated with Professor Collin Stultz to improve advisee support.</li>
+  </ul>
   <div class="item-links"></div>
 </div>
 
@@ -400,7 +413,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">MIT School of Engineering Student Advisory Group & EECS Community Engagement Committee</div>
   <p class="item-note">Sep 2024 – Present</p>
-  <p class="item-desc">Connect with Dean and faculty on education, engagement, research, and student life. Created proposals for alumni funding requests for national conferences.</p>
+  <ul class="item-bullets">
+    <li>Connect with Dean and faculty on education, engagement, research, and student life.</li>
+    <li>Created proposals for alumni funding requests for national conferences.</li>
+  </ul>
   <div class="item-links"><a href="https://engineering.mit.edu/">[Website]</a></div>
 </div>
 
@@ -421,7 +437,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">MIT Innovation Diplomats (iDiplomats) Program</div>
   <p class="item-note">May 2023 – Sep 2023</p>
-  <p class="item-desc">Researched Denmark's biotech innovation ecosystem. Interviewed 11 leaders from government, industry, and academia.</p>
+  <ul class="item-bullets">
+    <li>Researched Denmark's biotech innovation ecosystem.</li>
+    <li>Interviewed 11 leaders from government, industry, and academia.</li>
+  </ul>
   <div class="item-links"></div>
 </div>
 
@@ -475,7 +494,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">Events Lead, Science Olympiad</div>
   <p class="item-note">Aug 2016 – May 2022</p>
-  <p class="item-desc">Competed in various events focusing around life sciences, including going to National competitions twice as well as competing with the LASA A team at out-of-state tournaments at UPenn, MIT, Rice, and UT. Ranked 7th in Ecology & 6th in Roller Coaster (Engineering) at Nationals.</p>
+  <ul class="item-bullets">
+    <li>Competed in various events focusing around life sciences, including going to National competitions twice as well as competing with the LASA A team at out-of-state tournaments at UPenn, MIT, Rice, and UT.</li>
+    <li>Ranked 7th in Ecology & 6th in Roller Coaster (Engineering) at Nationals.</li>
+  </ul>
   <div class="item-links"></div>
 </div>
 
