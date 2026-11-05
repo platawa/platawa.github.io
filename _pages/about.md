@@ -108,7 +108,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-title">A Pseudo-Time Analysis of Cellular Trajectories in Alzheimer's Disease using scRNA Sequencing</div>
   <p class="item-note">Nov 2024 – Dec 2024 · MIT 6.8701: Machine Learning for Computational Biology · with Jenny Prince and Selina Qian</p>
   <p class="item-desc">Used immune cell-specific single-nucleus RNA-seq data to model temporal gene expression dynamics in Alzheimer's Disease, generating cell- and sample-level pseudotime trajectories correlated with clinical progression and identifying key marker genes and pathways linked to immune activation and AD severity.</p>
-  <div class="item-links"><a href="https://drive.google.com/file/d/1X3pht29L8zgKKfiunw0vJPeVYzHPOj_y/view">[Paper]</a> <a href="https://drive.google.com/file/d/1mGeI_zj_tKu50cqAnZWTPlWDQww-YVuv/view">[Poster]</a></div>
+  <div class="item-links"><a href="https://drive.google.com/file/d/1X3pht29L8zgKKfiunw0vJPeVYzHPOj_y/view">[Paper]</a> <a href="https://drive.google.com/file/d/1mGeI_zj_tKu50cqAnZWTPlWDQww-YVuv/view">[Slides]</a></div>
 </div>
 
 <div class="about-leadership-item">
