@@ -212,8 +212,8 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <h3 class="about-awards-year">2024–2025</h3>
 
 <div class="about-award-item">
-  <div class="item-title">MIT Eric & Wendy Schmidt Center Research & Innovation Scholar</div>
-  <p class="item-desc">1 of 8 computational biology scholars</p>
+  <div class="item-title">MIT Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</div>
+  <p class="item-desc">MIT EECS SuperUROP Scholar — selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</p>
   <div class="item-links"></div>
 </div>
 
@@ -223,55 +223,55 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-award-item">
-  <div class="item-title">AnitaB.org Grace Hopper Conference & SWE WE24 Grant Awardee & Ambassador</div>
-  <div class="item-links"></div>
-</div>
-
-<h3 class="about-awards-year">2022</h3>
-
-<div class="about-award-item">
-  <div class="item-title">Regeneron International Science & Engineering Fair Finalist</div>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-award-item">
-  <div class="item-title">Austin Regional Science Fair — Best of Fair Award</div>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-award-item">
-  <div class="item-title">Regeneron STS Scholar</div>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-award-item">
-  <div class="item-title">Coca-Cola Scholar</div>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-award-item">
-  <div class="item-title">Apple Scholar</div>
-  <div class="item-links"></div>
-</div>
-
-<h3 class="about-awards-year">2021</h3>
-
-<div class="about-award-item">
-  <div class="item-title">Austin Regional Science Fair — Superintendent's Award</div>
+  <div class="item-title">AnitaB.org Grace Hopper Conference & SWE WE24 Conference Grant Awardee & Ambassador</div>
   <div class="item-links"></div>
 </div>
 
 <h3 class="about-awards-year">2018–Present</h3>
 
 <div class="about-award-item">
-  <div class="item-title">NCWIT Award for Aspirations in Computing — 3x National Awardee, Impact Award</div>
+  <div class="item-title">NCWIT Award for Aspirations in Computing — 3x National Awardee (top 9.5% in US), Impact Award</div>
+  <p class="item-desc">MIT Campus Representative: led 4+ colleges to organize NCWIT AiC Boston-area receptions with 100+ attendees from 9 colleges & 11 high schools. Recognized with the Impact Award for leadership in expanding access to computing.</p>
   <div class="item-links"></div>
 </div>
 
-<h3 class="about-awards-year">Other</h3>
+<h3 class="about-awards-year">2022</h3>
 
 <div class="about-award-item">
-  <div class="item-title">World Science Scholar</div>
+  <div class="item-title">Apple Scholar</div>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">Regeneron Science Talent Search (STS) Scholar</div>
+  <p class="item-desc">Top 300 in the nation's oldest and most prestigious science and math competition for high school seniors.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">Regeneron International Science & Engineering Fair (ISEF) Finalist</div>
+  <p class="item-desc">Finalist in the Computational Biology & Bioinformatics category.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">Texas Science & Engineering Fair (TXSEF) — Regeneron Biomedical Science Award</div>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">Austin Energy Regional Science Fair (AERSF) — 1st in Cellular & Molecular Biology, Best of Fair</div>
+  <p class="item-desc">Ranked 1st in the Cellular & Molecular Biology category (advancing to TXSEF), selected as a Best of Fair project (advancing to ISEF 2022), and received the Austin Energy STEM scholarship.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">National Honor Society Scholarship + Finalist</div>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">Schlumberger Founders Scholarship</div>
   <div class="item-links"></div>
 </div>
 
@@ -281,7 +281,40 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-award-item">
+  <div class="item-title">Coca-Cola Scholar</div>
+  <div class="item-links"></div>
+</div>
+
+<h3 class="about-awards-year">2021</h3>
+
+<div class="about-award-item">
+  <div class="item-title">World Science Scholar</div>
+  <p class="item-desc">World Science Festival.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
   <div class="item-title">Texas Education Agency Student Hero</div>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">AERSF & TXSEF — 2nd in Cellular & Molecular Biology</div>
+  <p class="item-desc">Ranked 2nd in the Cellular & Molecular Biology category at both fairs; received a $2k research grant and an invitation to the Texas Governor's Science & Engineering Champions Academy to research solid-state nanopore sequencing at the SMU BAST Lab.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-award-item">
+  <div class="item-title">Sigma Xi Scientific Research Honor Society</div>
+  <p class="item-desc">Abstract accepted for the International Student Research Showcase Competition.</p>
+  <div class="item-links"></div>
+</div>
+
+<h3 class="about-awards-year">2020</h3>
+
+<div class="about-award-item">
+  <div class="item-title">AERSF Superintendent Award — Best Project in District</div>
+  <p class="item-desc">For "Analysis of the Vaping Pandemic," focusing on schools in Austin, Texas.</p>
   <div class="item-links"></div>
 </div>
 
