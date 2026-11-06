@@ -438,3 +438,34 @@ details.about-collapsible {
     }
   }
 }
+
+// ── Publications list: one bordered container, entries separated by rules ──
+.publications {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+
+  > ol > li,
+  > ul > li {
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.3rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .bib-entry {
+    flex-direction: column;
+
+    .bib-thumb {
+      width: 100%;
+      max-width: 220px;
+    }
+  }
+}
