@@ -819,18 +819,11 @@ footer.sticky-bottom {
     display: none; // hide year headers for cleaner look
   }
 
-  // Scrollable publications container
+  // The publication list shows in full; the section itself is collapsible,
+  // so there is no need to hide entries behind an invisible scrollbar.
   &.pub-scroll {
-    max-height: 450px;
-    overflow-y: auto;
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    scrollbar-width: none; // Firefox
-    -ms-overflow-style: none; // IE/Edge
-    &::-webkit-scrollbar {
-      display: none; // Chrome/Safari
-    }
+    max-height: none;
+    overflow-y: visible;
   }
 
   ol.bibliography {
@@ -874,9 +867,9 @@ footer.sticky-bottom {
 
         .title {
           font-weight: 600;
-          font-size: 1.02rem;
-          margin-bottom: 0.15rem;
-          line-height: 1.35;
+          font-size: 1.17rem;
+          margin-bottom: 0.3rem;
+          line-height: 1.38;
           color: var(--global-text-color);
 
           a {
@@ -889,9 +882,9 @@ footer.sticky-bottom {
         }
 
         .bib-links {
-          font-size: 0.9rem;
-          line-height: 1.5;
-          margin-top: 0.1rem;
+          font-size: 1rem;
+          line-height: 1.55;
+          margin-top: 0.3rem;
 
           a.link {
             color: var(--global-theme-color);
@@ -905,9 +898,9 @@ footer.sticky-bottom {
         }
 
         .author {
-          margin-bottom: 0.1rem;
-          font-size: 0.95rem;
-          line-height: 1.5;
+          margin-bottom: 0.22rem;
+          font-size: 1rem;
+          line-height: 1.55;
 
           strong {
             font-weight: 700;
@@ -937,8 +930,8 @@ footer.sticky-bottom {
         }
 
         .venue-links {
-          font-size: 0.93rem;
-          line-height: 1.5;
+          font-size: 1rem;
+          line-height: 1.55;
 
           .venue {
             color: var(--global-text-color);
