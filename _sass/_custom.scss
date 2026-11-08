@@ -447,14 +447,13 @@ details.about-collapsible {
 
   > ol > li,
   > ul > li {
-    padding-bottom: 1.3rem;
-    margin-bottom: 1.3rem;
-    border-bottom: 1px solid var(--global-divider-color);
+    // generous whitespace between entries instead of rules
+    padding-bottom: 0;
+    margin-bottom: 2.4rem;
+    border-bottom: none;
 
     &:last-child {
-      padding-bottom: 0;
       margin-bottom: 0;
-      border-bottom: none;
     }
   }
 }

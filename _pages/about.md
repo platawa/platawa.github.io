@@ -7,8 +7,7 @@ subtitle:
 
 profile:
   align: right
-  title: Co-Founder at Illume Labs (YC S26)
-  subtitle: M.Eng. & B.S., CS + Molecular Biology, MIT
+  title: M.Eng. & B.S., CS + Molecular Biology, MIT
   image: pari_headshot.jpg
   image_circular: true # crops the image to make it circular
 
@@ -43,7 +42,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 {% bibliography %}
 </div>
 
-<h3 class="about-awards-year">Research Symposiums & Talks</h3>
+</details>
+
+<details class="about-collapsible" id="talks" open>
+<summary><h2 class="about-section-title">Research Symposiums &amp; Talks</h2></summary>
 
 <div class="about-leadership-item">
   <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
