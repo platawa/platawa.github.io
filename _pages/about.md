@@ -35,21 +35,18 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 ---
 
-<details class="about-collapsible" id="publications" open>
-<summary><h2 class="about-section-title">Publications & Research</h2></summary>
+<details class="about-collapsible" id="research" open>
+<summary><h2 class="about-section-title">Research</h2></summary>
 
 <div class="section-body">
+<h3 class="about-awards-year">Publications</h3>
+
 <div class="publications pub-scroll">
 {% bibliography %}
 </div>
-</div>
 
-</details>
+<h3 class="about-awards-year">Symposiums &amp; Presentations</h3>
 
-<details class="about-collapsible" id="talks" open>
-<summary><h2 class="about-section-title">Research Symposiums &amp; Talks</h2></summary>
-
-<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
   <p class="item-note">2025 · Eli Lilly Advanced Intelligence — Engineering & Biology Research · Presentation & Talk</p>
@@ -73,39 +70,9 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-note">2024 · MIT Biology Undergraduate Research Symposium · with Alvin Chan, Giovanni Traverso, and Robert Langer</p>
   <div class="item-links"></div>
 </div>
-</div>
 
-</details>
+<h3 class="about-awards-year">Projects</h3>
 
-<details class="about-collapsible" id="entrepreneurship" open>
-<summary><h2 class="about-section-title">Entrepreneurship</h2></summary>
-
-<div class="section-body">
-<div class="about-leadership-item">
-  <div class="item-title"><a href="https://www.illumelabs.ai">Illume</a></div>
-  <p class="item-desc">Health tech startup in the Y Combinator S26 batch.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">EasyComm</div>
-  <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">SparkED</div>
-  <p class="item-desc">Nonprofit that equipped 2000+ youth across 11 countries with STEM resources.</p>
-  <div class="item-links"></div>
-</div>
-</div>
-
-</details>
-
-<details class="about-collapsible" id="projects" open>
-<summary><h2 class="about-section-title">Projects</h2></summary>
-
-<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title">Conditional Generation from Few-shot Examples for Protein Design</div>
   <p class="item-note">Oct 2025 – Dec 2025 · MIT 6.S981: AI for Protein Biology · with Zhilei Bei and Weilang Luo</p>
@@ -155,102 +122,8 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
-<details class="about-collapsible" id="education" open>
-<summary><h2 class="about-section-title">Education</h2></summary>
-
-<div class="section-body">
-<div class="about-leadership-item has-logo">
-  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">Massachusetts Institute of Technology — M.Eng., Computer Science and Molecular Biology</div>
-  <p class="item-note">Jun 2025 – May 2026</p>
-  <div class="item-links"></div>
-  </div>
-</div>
-
-<div class="about-leadership-item has-logo">
-  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
-  <p class="item-note">2022 – 2026</p>
-  <ul class="item-bullets">
-    <li>Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students.</li>
-    <li>Teaching Assistant for Introduction to Probability and Statistics.</li>
-  </ul>
-  <div class="item-links"></div>
-  </div>
-</div>
-
-<div class="about-leadership-item has-logo">
-  <img class="item-logo" src="{{ '/assets/img/logos/ycombinator.svg' | relative_url }}" alt="Y Combinator logo" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">Y Combinator</div>
-  <p class="item-note">Jun 2026 – Aug 2026</p>
-  <div class="item-links"></div>
-  </div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Liberal Arts & Science Academy — High School Diploma</div>
-  <p class="item-note">2018 – 2022</p>
-  <p class="item-desc">Activities and societies: LASA Science Fair Club Captain, Mu Alpha Theta Math Honor Society VP, Science Olympiad, Symphony Orchestra.</p>
-  <div class="item-links"></div>
-</div>
-
-<h3 class="about-awards-year">Coursework</h3>
-
-<p class="course-legend"><em>* indicates graduate coursework.</em></p>
-
-<h4 class="about-course-group">Computer Science</h4>
-
-<ul class="about-course-list">
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8701">6.8701</a><span class="course-grad">*</span> <span class="course-name">Machine Learning for Computational Biology</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8711">6.8711</a><span class="course-grad">*</span> <span class="course-name">Generative AI for Biology</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.S981">6.S981</a><span class="course-grad">*</span> <span class="course-name">AI for Protein Biology</span></li>
-  <li><span class="course-name">AI &amp; Decision Making for Medicine</span><span class="course-grad">*</span></li>
-  <li><span class="course-name">Topics in Computational Molecular Biology</span><span class="course-grad">*</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8611">6.8611</a> <span class="course-name">Quantitative Methods for Natural Language Processing</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.3900">6.3900</a> <span class="course-name">Introduction to Machine Learning</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1210">6.1210</a> <span class="course-name">Introduction to Algorithms</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1010">6.1010</a> <span class="course-name">Fundamentals of Programming</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1200">6.1200</a> <span class="course-name">Mathematics for Computer Science (Discrete Math)</span></li>
-</ul>
-
-<h4 class="about-course-group">Mathematics</h4>
-
-<ul class="about-course-list">
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.05">18.05</a> <span class="course-name">Introduction to Probability &amp; Statistics</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.06">18.06</a> <span class="course-name">Linear Algebra</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.01">18.01</a> <span class="course-name">Calculus I</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.02">18.02</a> <span class="course-name">Calculus II</span></li>
-</ul>
-
-<h4 class="about-course-group">Biology &amp; Chemistry</h4>
-
-<ul class="about-course-list">
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.05">7.05</a> <span class="course-name">General Biochemistry</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.06">7.06</a> <span class="course-name">Cell Biology</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=5.12">5.12</a> <span class="course-name">Organic Chemistry</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=20.110">20.110</a> <span class="course-name">Thermodynamics of Biomolecular Systems</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.03">7.03</a> <span class="course-name">Genetics</span></li>
-</ul>
-
-<h4 class="about-course-group">Economics</h4>
-
-<ul class="about-course-list">
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.73">14.73</a> <span class="course-name">The Challenge of World Poverty</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.03">14.03</a> <span class="course-name">Microeconomic Theory and Public Policy</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.13">14.13</a> <span class="course-name">Psychology and Economics</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.01">14.01</a> <span class="course-name">Principles of Microeconomics</span></li>
-  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.02">14.02</a> <span class="course-name">Principles of Macroeconomics</span></li>
-  <li><span class="course-name">Innovation Diplomats Independent Study in Management</span></li>
-</ul>
-</div>
-
-</details>
-
 <details class="about-collapsible" id="awards" open>
-<summary><h2 class="about-section-title">Honors & Awards</h2></summary>
+<summary><h2 class="about-section-title">Honors &amp; Awards</h2></summary>
 
 <div class="section-body">
 <div class="section-scroll">
@@ -397,10 +270,98 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
-<details class="about-collapsible" id="teaching" open>
-<summary><h2 class="about-section-title">Teaching & Mentorship</h2></summary>
+<details class="about-collapsible" id="education" open>
+<summary><h2 class="about-section-title">Education</h2></summary>
 
 <div class="section-body">
+<div class="about-leadership-item has-logo">
+  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Massachusetts Institute of Technology — M.Eng., Computer Science and Molecular Biology</div>
+  <p class="item-note">Jun 2025 – May 2026</p>
+  <div class="item-links"></div>
+  </div>
+</div>
+
+<div class="about-leadership-item has-logo">
+  <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
+  <p class="item-note">2022 – 2026</p>
+  <ul class="item-bullets">
+    <li>Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students.</li>
+    <li>Teaching Assistant for Introduction to Probability and Statistics.</li>
+  </ul>
+  <div class="item-links"></div>
+  </div>
+</div>
+
+<div class="about-leadership-item has-logo">
+  <img class="item-logo" src="{{ '/assets/img/logos/ycombinator.svg' | relative_url }}" alt="Y Combinator logo" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Y Combinator</div>
+  <p class="item-note">Jun 2026 – Aug 2026</p>
+  <div class="item-links"></div>
+  </div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">Liberal Arts & Science Academy — High School Diploma</div>
+  <p class="item-note">2018 – 2022</p>
+  <p class="item-desc">Activities and societies: LASA Science Fair Club Captain, Mu Alpha Theta Math Honor Society VP, Science Olympiad, Symphony Orchestra.</p>
+  <div class="item-links"></div>
+</div>
+
+<h3 class="about-awards-year">Coursework</h3>
+
+<p class="course-legend"><em>* indicates graduate coursework.</em></p>
+
+<h4 class="about-course-group">Computer Science</h4>
+
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8701">6.8701</a><span class="course-grad">*</span> <span class="course-name">Machine Learning for Computational Biology</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8711">6.8711</a><span class="course-grad">*</span> <span class="course-name">Generative AI for Biology</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.S981">6.S981</a><span class="course-grad">*</span> <span class="course-name">AI for Protein Biology</span></li>
+  <li><span class="course-name">AI &amp; Decision Making for Medicine</span><span class="course-grad">*</span></li>
+  <li><span class="course-name">Topics in Computational Molecular Biology</span><span class="course-grad">*</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.8611">6.8611</a> <span class="course-name">Quantitative Methods for Natural Language Processing</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.3900">6.3900</a> <span class="course-name">Introduction to Machine Learning</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1210">6.1210</a> <span class="course-name">Introduction to Algorithms</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1010">6.1010</a> <span class="course-name">Fundamentals of Programming</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=6.1200">6.1200</a> <span class="course-name">Mathematics for Computer Science (Discrete Math)</span></li>
+</ul>
+
+<h4 class="about-course-group">Mathematics</h4>
+
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.05">18.05</a> <span class="course-name">Introduction to Probability &amp; Statistics</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.06">18.06</a> <span class="course-name">Linear Algebra</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.01">18.01</a> <span class="course-name">Calculus I</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.02">18.02</a> <span class="course-name">Calculus II</span></li>
+</ul>
+
+<h4 class="about-course-group">Biology &amp; Chemistry</h4>
+
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.05">7.05</a> <span class="course-name">General Biochemistry</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.06">7.06</a> <span class="course-name">Cell Biology</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=5.12">5.12</a> <span class="course-name">Organic Chemistry</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=20.110">20.110</a> <span class="course-name">Thermodynamics of Biomolecular Systems</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=7.03">7.03</a> <span class="course-name">Genetics</span></li>
+</ul>
+
+<h4 class="about-course-group">Economics</h4>
+
+<ul class="about-course-list">
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.73">14.73</a> <span class="course-name">The Challenge of World Poverty</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.03">14.03</a> <span class="course-name">Microeconomic Theory and Public Policy</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.13">14.13</a> <span class="course-name">Psychology and Economics</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.01">14.01</a> <span class="course-name">Principles of Microeconomics</span></li>
+  <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.02">14.02</a> <span class="course-name">Principles of Macroeconomics</span></li>
+  <li><span class="course-name">Innovation Diplomats Independent Study in Management</span></li>
+</ul>
+<h3 class="about-awards-year">Teaching &amp; Mentorship</h3>
+
 <div class="about-teaching-item">
   <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
   <p class="item-desc">Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</p>
@@ -419,10 +380,29 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 </details>
 
-<details class="about-collapsible" id="leadership" open>
-<summary><h2 class="about-section-title">Leadership & Community Service</h2></summary>
+<details class="about-collapsible" id="entrepreneurship" open>
+<summary><h2 class="about-section-title">Entrepreneurship &amp; Service</h2></summary>
 
 <div class="section-body">
+<div class="about-leadership-item">
+  <div class="item-title"><a href="https://www.illumelabs.ai">Illume</a></div>
+  <p class="item-desc">Health tech startup in the Y Combinator S26 batch.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">EasyComm</div>
+  <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
+  <div class="item-links"></div>
+</div>
+
+<div class="about-leadership-item">
+  <div class="item-title">SparkED</div>
+  <p class="item-desc">Nonprofit that equipped 2000+ youth across 11 countries with STEM resources.</p>
+  <div class="item-links"></div>
+</div>
+<h3 class="about-awards-year">Service &amp; Community</h3>
+
 <div class="section-scroll">
 <div class="about-leadership-item">
   <div class="item-title">Co-Founder, EasyComm</div>
@@ -532,7 +512,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </details>
 
 <details class="about-collapsible" id="personal" open>
-<summary><h2 class="about-section-title">Personal Interests & Hobbies</h2></summary>
+<summary><h2 class="about-section-title">Personal Interests &amp; Hobbies</h2></summary>
 
 <div class="section-body">
 <div class="about-hobbies">
