@@ -51,6 +51,8 @@ layout: default
           {{ content | split: '<hr />' | first }}
         </div>
 
+        <div class="about-rest">{{ content | split: '<hr />' | slice: 1, 100 | join: '<hr />' }}</div>
+
         <!-- Updates -->
         {% if page.announcements and page.announcements.enabled %}
           <h2 class="about-section-title">
@@ -58,8 +60,6 @@ layout: default
           </h2>
           {% include news.liquid limit=true %}
         {% endif %}
-
-        <div class="about-rest">{{ content | split: '<hr />' | slice: 1, 100 | join: '<hr />' }}</div>
 
         <!-- Latest posts -->
         {% if page.latest_posts and page.latest_posts.enabled %}
