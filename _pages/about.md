@@ -35,18 +35,21 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 ---
 
-<details class="about-collapsible" id="research" open>
-<summary><h2 class="about-section-title">Research</h2></summary>
+<details class="about-collapsible" id="publications" open>
+<summary><h2 class="about-section-title">Publications &amp; Research</h2></summary>
 
 <div class="section-body">
-<h3 class="about-awards-year">Publications</h3>
-
 <div class="publications pub-scroll">
 {% bibliography %}
 </div>
+</div>
 
-<h3 class="about-awards-year">Symposiums &amp; Presentations</h3>
+</details>
 
+<details class="about-collapsible" id="talks" open>
+<summary><h2 class="about-section-title">Symposiums &amp; Presentations</h2></summary>
+
+<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
   <p class="item-note">2025 · Eli Lilly Advanced Intelligence, Engineering & Biology Research · Presentation & Talk</p>
@@ -70,9 +73,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-note">2024 · MIT Biology Undergraduate Research Symposium · with Alvin Chan, Giovanni Traverso, and Robert Langer</p>
   <div class="item-links"></div>
 </div>
+</div>
 
-<h3 class="about-awards-year">Projects</h3>
+</details>
 
+<details class="about-collapsible" id="projects" open>
+<summary><h2 class="about-section-title">Projects</h2></summary>
+
+<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title">Conditional Generation from Few-shot Examples for Protein Design</div>
   <p class="item-note">Oct 2025 – Dec 2025 · MIT 6.S981: AI for Protein Biology · with Zhilei Bei and Weilang Luo</p>
