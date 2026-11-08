@@ -49,7 +49,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-leadership-item">
   <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
-  <p class="item-note">2025 · Eli Lilly Advanced Intelligence — Engineering & Biology Research · Presentation & Talk</p>
+  <p class="item-note">2025 · Eli Lilly Advanced Intelligence, Engineering & Biology Research · Presentation & Talk</p>
   <div class="item-links"></div>
 </div>
 
@@ -141,7 +141,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-award-item">
   <div class="item-title">MIT Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</div>
   <p class="item-note">Oct 2024</p>
-  <p class="item-desc">MIT EECS SuperUROP Scholar — selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</p>
+  <p class="item-desc">MIT EECS SuperUROP Scholar, selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</p>
   <div class="item-links"></div>
 </div>
 
@@ -159,7 +159,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <h3 class="about-awards-year">2018–Present</h3>
 
 <div class="about-award-item">
-  <div class="item-title">NCWIT Award for Aspirations in Computing — 3x National Awardee (top 9.5% in US), Impact Award</div>
+  <div class="item-title">NCWIT Award for Aspirations in Computing: 3x National Awardee (top 9.5% in US), Impact Award</div>
   <p class="item-note">Jan 2023</p>
   <ul class="item-bullets">
     <li>MIT Campus Representative: led 4+ colleges to organize NCWIT AiC Boston-area receptions with 100+ attendees from 9 colleges & 11 high schools.</li>
@@ -191,13 +191,13 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-award-item">
-  <div class="item-title">Texas Science & Engineering Fair (TXSEF) — Regeneron Biomedical Science Award</div>
+  <div class="item-title">Texas Science & Engineering Fair (TXSEF): Regeneron Biomedical Science Award</div>
   <p class="item-note">2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
-  <div class="item-title">Austin Energy Regional Science Fair (AERSF) — 1st in Cellular & Molecular Biology, Best of Fair</div>
+  <div class="item-title">Austin Energy Regional Science Fair (AERSF): 1st in Cellular & Molecular Biology, Best of Fair</div>
   <p class="item-note">2022</p>
   <p class="item-desc">Ranked 1st in the Cellular & Molecular Biology category (advancing to TXSEF), selected as a Best of Fair project (advancing to ISEF 2022), and received the Austin Energy STEM scholarship.</p>
   <div class="item-links"></div>
@@ -243,7 +243,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-award-item">
-  <div class="item-title">AERSF & TXSEF — 2nd in Cellular & Molecular Biology</div>
+  <div class="item-title">AERSF & TXSEF: 2nd in Cellular & Molecular Biology</div>
   <p class="item-note">2021</p>
   <p class="item-desc">Ranked 2nd in the Cellular & Molecular Biology category at both fairs; received a $2k research grant and an invitation to the Texas Governor's Science & Engineering Champions Academy to research solid-state nanopore sequencing at the SMU BAST Lab.</p>
   <div class="item-links"></div>
@@ -259,7 +259,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <h3 class="about-awards-year">2020</h3>
 
 <div class="about-award-item">
-  <div class="item-title">AERSF Superintendent Award — Best Project in District</div>
+  <div class="item-title">AERSF Superintendent Award: Best Project in District</div>
   <p class="item-note">2020</p>
   <p class="item-desc">For "Analysis of the Vaping Pandemic," focusing on schools in Austin, Texas.</p>
   <div class="item-links"></div>
@@ -277,7 +277,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item has-logo">
   <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
   <div class="item-body">
-  <div class="item-title">Massachusetts Institute of Technology — M.Eng., Computer Science and Molecular Biology</div>
+  <div class="item-title">Massachusetts Institute of Technology, M.Eng. in Computer Science and Molecular Biology</div>
   <p class="item-note">Jun 2025 – May 2026</p>
   <div class="item-links"></div>
   </div>
@@ -286,7 +286,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item has-logo">
   <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
   <div class="item-body">
-  <div class="item-title">Massachusetts Institute of Technology — B.S., Computer Science & Molecular Biology, Minor in Economics</div>
+  <div class="item-title">Massachusetts Institute of Technology, B.S. in Computer Science & Molecular Biology, Minor in Economics</div>
   <p class="item-note">2022 – 2026</p>
   <ul class="item-bullets">
     <li>Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students.</li>
@@ -306,7 +306,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="about-leadership-item">
-  <div class="item-title">Liberal Arts & Science Academy — High School Diploma</div>
+  <div class="item-title">Liberal Arts & Science Academy, High School Diploma</div>
   <p class="item-note">2018 – 2022</p>
   <p class="item-desc">Activities and societies: LASA Science Fair Club Captain, Mu Alpha Theta Math Honor Society VP, Science Olympiad, Symphony Orchestra.</p>
   <div class="item-links"></div>
@@ -517,41 +517,41 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="section-body">
 <div class="about-hobbies">
   <p>I enjoy pursuing adventures, from visiting new places to hiking and biking locally in Cambridge and Austin. I played the viola for 8 years, painted for 5 years, previously tried rowing, and am currently really interested in photography and videography.</p>
-  <p>I am passionate about science communication and blogging — here is my <a href="https://paridhi-latawa.medium.com/">Medium Blog</a>. In my free time, you'll find me solving puzzles or traveling!</p>
+  <p>I am passionate about science communication and blogging. Here is my <a href="https://paridhi-latawa.medium.com/">Medium Blog</a>. In my free time, you'll find me solving puzzles or traveling!</p>
   <p>Languages: advanced in English, Hindi, & Punjabi; beginner in Spanish.</p>
 </div>
 
 <h3 class="about-awards-year">Computational Skills</h3>
 
-<div class="about-courses">
-  <span class="course-chip">Machine Learning</span>
-  <span class="course-chip">LLMs</span>
-  <span class="course-chip">Python</span>
-  <span class="course-chip">PyTorch</span>
-  <span class="course-chip">Pandas</span>
-  <span class="course-chip">Biopython</span>
-  <span class="course-chip">R Studio</span>
-  <span class="course-chip">Linux</span>
-  <span class="course-chip">HPC</span>
-  <span class="course-chip">ImageJ/Fiji</span>
-  <span class="course-chip">Imaging</span>
-</div>
+<ul class="skills-list">
+  <li>Machine Learning</li>
+  <li>LLMs</li>
+  <li>Python</li>
+  <li>PyTorch</li>
+  <li>Pandas</li>
+  <li>Biopython</li>
+  <li>R Studio</li>
+  <li>Linux</li>
+  <li>HPC</li>
+  <li>ImageJ/Fiji</li>
+  <li>Imaging</li>
+</ul>
 
 <h3 class="about-awards-year">Wet Lab Skills</h3>
 
-<div class="about-courses">
-  <span class="course-chip">PCR</span>
-  <span class="course-chip">Gel Electrophoresis</span>
-  <span class="course-chip">Western Blot</span>
-  <span class="course-chip">IF</span>
-  <span class="course-chip">FISH</span>
-  <span class="course-chip">Protein Purification</span>
-  <span class="course-chip">Transformation</span>
-  <span class="course-chip">Gibson Assembly</span>
-  <span class="course-chip">Fluorescence Anisotropy/Polarization</span>
-  <span class="course-chip">Fluorescence Microscopy</span>
-  <span class="course-chip">Biotech Lab Technician Certificate (ACC)</span>
-</div>
+<ul class="skills-list">
+  <li>PCR</li>
+  <li>Gel Electrophoresis</li>
+  <li>Western Blot</li>
+  <li>IF</li>
+  <li>FISH</li>
+  <li>Protein Purification</li>
+  <li>Transformation</li>
+  <li>Gibson Assembly</li>
+  <li>Fluorescence Anisotropy/Polarization</li>
+  <li>Fluorescence Microscopy</li>
+  <li>Biotech Lab Technician Certificate (ACC)</li>
+</ul>
 </div>
 
 </details>
