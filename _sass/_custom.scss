@@ -214,6 +214,25 @@ html {
   }
 }
 
+// ── Coursework groups ──
+h4.about-course-group {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.4rem;
+  color: var(--global-text-color);
+}
+
+.course-legend {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.9rem;
+}
+
+.course-grad {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
+
 // ── Course lists ──
 .about-course-list {
   list-style: disc;
