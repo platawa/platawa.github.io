@@ -15,6 +15,12 @@
     {%- else -%}
       {%- assign primary_url = entry.pdf | prepend: '/assets/pdf/' | relative_url -%}
     {%- endif -%}
+  {%- elsif entry.poster -%}
+    {%- if entry.poster contains '://' -%}
+      {%- assign primary_url = entry.poster -%}
+    {%- else -%}
+      {%- assign primary_url = entry.poster | prepend: '/assets/pdf/' | relative_url -%}
+    {%- endif -%}
   {%- endif -%}
 
   {% if entry.preview %}
