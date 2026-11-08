@@ -251,14 +251,13 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">MIT Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</div>
-  <p class="item-note">Oct 2024 – May 2025</p>
+  <p class="item-note">Oct 2024</p>
   <p class="item-desc">MIT EECS SuperUROP Scholar — selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">HackMIT WisprAI Track, 3rd Place</div>
-  <p class="item-note">Sep 2025</p>
   <div class="item-links"></div>
 </div>
 
@@ -297,20 +296,20 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">Regeneron International Science & Engineering Fair (ISEF) Finalist</div>
-  <p class="item-note">May 2022</p>
+  <p class="item-note">2022</p>
   <p class="item-desc">Finalist in the Computational Biology & Bioinformatics category.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Texas Science & Engineering Fair (TXSEF) — Regeneron Biomedical Science Award</div>
-  <p class="item-note">Mar 2022</p>
+  <p class="item-note">2022</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-award-item">
   <div class="item-title">Austin Energy Regional Science Fair (AERSF) — 1st in Cellular & Molecular Biology, Best of Fair</div>
-  <p class="item-note">Feb 2022</p>
+  <p class="item-note">2022</p>
   <p class="item-desc">Ranked 1st in the Cellular & Molecular Biology category (advancing to TXSEF), selected as a Best of Fair project (advancing to ISEF 2022), and received the Austin Energy STEM scholarship.</p>
   <div class="item-links"></div>
 </div>
@@ -356,7 +355,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">AERSF & TXSEF — 2nd in Cellular & Molecular Biology</div>
-  <p class="item-note">Feb – Mar 2021</p>
+  <p class="item-note">2021</p>
   <p class="item-desc">Ranked 2nd in the Cellular & Molecular Biology category at both fairs; received a $2k research grant and an invitation to the Texas Governor's Science & Engineering Champions Academy to research solid-state nanopore sequencing at the SMU BAST Lab.</p>
   <div class="item-links"></div>
 </div>
@@ -372,7 +371,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-award-item">
   <div class="item-title">AERSF Superintendent Award — Best Project in District</div>
-  <p class="item-note">Feb 2020</p>
+  <p class="item-note">2020</p>
   <p class="item-desc">For "Analysis of the Vaping Pandemic," focusing on schools in Austin, Texas.</p>
   <div class="item-links"></div>
 </div>
@@ -407,14 +406,13 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="section-scroll">
 <div class="about-leadership-item">
   <div class="item-title">Co-Founder, EasyComm</div>
-  <p class="item-note">Aug 2022 – Present</p>
+  <p class="item-note">Jun 2022 – Present</p>
   <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">MIT School of Engineering Student Advisory Group & EECS Community Engagement Committee</div>
-  <p class="item-note">Sep 2024 – Present</p>
   <ul class="item-bullets">
     <li>Connect with Dean and faculty on education, engagement, research, and student life.</li>
     <li>Created proposals for alumni funding requests for national conferences.</li>
@@ -424,14 +422,12 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-leadership-item">
   <div class="item-title">Lead Communications Ambassador, MIT PKG Center for Public Service</div>
-  <p class="item-note">Sep 2023 – Present</p>
   <p class="item-desc">Facilitate connection between PKG and students, lead interns, and organize outreach and media presence.</p>
   <div class="item-links"><a href="https://pkgcenter.mit.edu/">[Website]</a></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Board Member, MIT South Asian Association of Students</div>
-  <p class="item-note">Sep 2023 – Present</p>
   <p class="item-desc">Organized the largest cultural events at MIT, including Garba, Holi, and South Asian Formal.</p>
   <div class="item-links"></div>
 </div>
@@ -469,20 +465,17 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="about-leadership-item">
   <div class="item-title">Social Chair, MIT Laureates and Leaders Program</div>
-  <p class="item-note">Sep 2024 – Present</p>
   <p class="item-desc">Office of Minority Education leadership and community programming.</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Recruitment Director & Panhellenic Delegate, MIT Panhellenic Council</div>
-  <p class="item-note">May 2023 – Present</p>
   <div class="item-links"></div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">MIT Undergraduate Association</div>
-  <p class="item-note">Aug 2022 – May 2023</p>
   <p class="item-desc">Education Committee and Community Service Committee.</p>
   <div class="item-links"></div>
 </div>
