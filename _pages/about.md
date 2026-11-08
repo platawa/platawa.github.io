@@ -368,8 +368,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.02">14.02</a> <span class="course-name">Principles of Macroeconomics</span></li>
   <li><span class="course-name">Innovation Diplomats Independent Study in Management</span></li>
 </ul>
-<h3 class="about-awards-year">Teaching &amp; Mentorship</h3>
+</div>
 
+</details>
+
+<details class="about-collapsible" id="teaching" open>
+<summary><h2 class="about-section-title">Teaching &amp; Mentorship</h2></summary>
+
+<div class="section-body">
 <div class="about-teaching-item">
   <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
   <p class="item-desc">Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</p>
@@ -389,7 +395,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </details>
 
 <details class="about-collapsible" id="entrepreneurship" open>
-<summary><h2 class="about-section-title">Entrepreneurship &amp; Service</h2></summary>
+<summary><h2 class="about-section-title">Entrepreneurship</h2></summary>
 
 <div class="section-body">
 <div class="about-leadership-item">
@@ -409,8 +415,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-desc">Nonprofit that equipped 2000+ youth across 11 countries with STEM resources.</p>
   <div class="item-links"></div>
 </div>
-<h3 class="about-awards-year">Service &amp; Community</h3>
+</div>
 
+</details>
+
+<details class="about-collapsible" id="leadership" open>
+<summary><h2 class="about-section-title">Service &amp; Community</h2></summary>
+
+<div class="section-body">
 <div class="section-scroll">
 <div class="about-leadership-item">
   <div class="item-title">Co-Founder, EasyComm</div>
