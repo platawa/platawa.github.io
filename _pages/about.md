@@ -38,8 +38,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <details class="about-collapsible" id="publications" open>
 <summary><h2 class="about-section-title">Publications & Research</h2></summary>
 
+<div class="section-body">
 <div class="publications pub-scroll">
 {% bibliography %}
+</div>
 </div>
 
 </details>
@@ -47,6 +49,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <details class="about-collapsible" id="talks" open>
 <summary><h2 class="about-section-title">Research Symposiums &amp; Talks</h2></summary>
 
+<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
   <p class="item-note">2025 · Eli Lilly Advanced Intelligence — Engineering & Biology Research · Presentation & Talk</p>
@@ -70,12 +73,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-note">2024 · MIT Biology Undergraduate Research Symposium · with Alvin Chan, Giovanni Traverso, and Robert Langer</p>
   <div class="item-links"></div>
 </div>
+</div>
 
 </details>
 
 <details class="about-collapsible" id="entrepreneurship" open>
 <summary><h2 class="about-section-title">Entrepreneurship</h2></summary>
 
+<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title"><a href="https://www.illumelabs.ai">Illume</a></div>
   <p class="item-desc">Health tech startup in the Y Combinator S26 batch.</p>
@@ -93,12 +98,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-desc">Nonprofit that equipped 2000+ youth across 11 countries with STEM resources.</p>
   <div class="item-links"></div>
 </div>
+</div>
 
 </details>
 
 <details class="about-collapsible" id="projects" open>
 <summary><h2 class="about-section-title">Projects</h2></summary>
 
+<div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title">Conditional Generation from Few-shot Examples for Protein Design</div>
   <p class="item-note">Oct 2025 – Dec 2025 · MIT 6.S981: AI for Protein Biology · with Zhilei Bei and Weilang Luo</p>
@@ -144,12 +151,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   </ul>
   <div class="item-links"></div>
 </div>
+</div>
 
 </details>
 
 <details class="about-collapsible" id="education" open>
 <summary><h2 class="about-section-title">Education</h2></summary>
 
+<div class="section-body">
 <div class="about-leadership-item has-logo">
   <img class="item-logo" src="{{ '/assets/img/logos/mit.svg' | relative_url }}" alt="MIT logo" loading="lazy">
   <div class="item-body">
@@ -236,11 +245,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li><a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=14.02">14.02</a> <span class="course-name">Principles of Macroeconomics</span></li>
   <li><span class="course-name">Innovation Diplomats Independent Study in Management</span></li>
 </ul>
+</div>
+
 </details>
 
 <details class="about-collapsible" id="awards" open>
 <summary><h2 class="about-section-title">Honors & Awards</h2></summary>
 
+<div class="section-body">
 <div class="section-scroll">
 
 <h3 class="about-awards-year">2026</h3>
@@ -381,12 +393,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 </div>
+</div>
 
 </details>
 
 <details class="about-collapsible" id="teaching" open>
 <summary><h2 class="about-section-title">Teaching & Mentorship</h2></summary>
 
+<div class="section-body">
 <div class="about-teaching-item">
   <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
   <p class="item-desc">Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</p>
@@ -401,12 +415,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   </ul>
   <div class="item-links"></div>
 </div>
+</div>
 
 </details>
 
 <details class="about-collapsible" id="leadership" open>
 <summary><h2 class="about-section-title">Leadership & Community Service</h2></summary>
 
+<div class="section-body">
 <div class="section-scroll">
 <div class="about-leadership-item">
   <div class="item-title">Co-Founder, EasyComm</div>
@@ -511,12 +527,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-links"></div>
 </div>
 </div>
+</div>
 
 </details>
 
 <details class="about-collapsible" id="personal" open>
 <summary><h2 class="about-section-title">Personal Interests & Hobbies</h2></summary>
 
+<div class="section-body">
 <div class="about-hobbies">
   <p>I enjoy pursuing adventures, from visiting new places to hiking and biking locally in Cambridge and Austin. I played the viola for 8 years, painted for 5 years, previously tried rowing, and am currently really interested in photography and videography.</p>
   <p>I am passionate about science communication and blogging — here is my <a href="https://paridhi-latawa.medium.com/">Medium Blog</a>. In my free time, you'll find me solving puzzles or traveling!</p>
@@ -553,6 +571,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <span class="course-chip">Fluorescence Anisotropy/Polarization</span>
   <span class="course-chip">Fluorescence Microscopy</span>
   <span class="course-chip">Biotech Lab Technician Certificate (ACC)</span>
+</div>
 </div>
 
 </details>
