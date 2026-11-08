@@ -156,6 +156,10 @@ html {
 }
 
 // ── Updates list: contained, bulleted, with a bracketed date prefix ──
+.news {
+  margin-bottom: 2.5rem;
+}
+
 .news-list-wrap {
   border: 1px solid var(--global-divider-color);
   border-radius: 12px;
@@ -258,17 +262,22 @@ h4.about-course-group {
 // ── Collapsible sections ──
 details.about-collapsible {
   scroll-margin-top: 80px;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
-  padding: 1.25rem 1.5rem 1.5rem;
-  margin: 0 0 1.75rem;
+  border: none;
+  padding: 0;
+  margin: 0 0 2.5rem;
+
+  // the heading sits outside; the body below it carries the box
+  > .section-body {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem 1.5rem;
+  }
 
   > summary {
     cursor: pointer;
     list-style-position: inside;
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-bottom: 0.55rem;
-    margin-bottom: 1.1rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.7rem;
 
     &:focus:not(:focus-visible) {
       outline: none;
@@ -497,9 +506,8 @@ details.about-collapsible {
 
 // ── Publications list: one bordered container, entries separated by rules ──
 .publications {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 12px;
-  padding: 1.4rem 1.6rem;
+  border: none;
+  padding: 0;
 
   > ol > li,
   > ul > li {
