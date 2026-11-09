@@ -201,10 +201,6 @@
         {%- endif %}
         {%- assign has_venue = true -%}
       {%- endif -%}
-      {%- if entry.proposal %}
-        <a href="{{ entry.proposal }}" class="link bracket-link">[Proposal]</a>
-        {%- assign has_venue = true -%}
-      {%- endif -%}
       {%- if entry.slides %}
         {%- if entry.slides contains '://' %}
           <a href="{{ entry.slides }}" class="link bracket-link">[Slides]</a>
