@@ -7,7 +7,7 @@ subtitle:
 
 profile:
   align: right
-  title: M.Eng. & B.S., CS + Molecular Biology, MIT
+  title: MEng & BS @ MIT in CS + Molecular Biology
   image: pari_headshot.jpg
   image_circular: true # crops the image to make it circular
 
@@ -51,7 +51,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="section-body">
 <div class="about-leadership-item">
-    <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
+  <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
   <p class="item-note">2025 · Eli Lilly Advanced Intelligence, Engineering & Biology Research · <strong>Paridhi Latawa</strong></p>
   <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-exciting-opportunity-activity-7366852591655260165-_WiI">[LinkedIn]</a></div>
 </div>
@@ -65,10 +65,13 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   </div>
 </div>
 
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/talks/abraxas-poster.png' | relative_url }}" alt="Poster on Abraxas and telomere maintenance" loading="lazy">
+  <div class="item-body">
   <div class="item-title">Elucidating the Role of Abraxas on Telomere Maintenance & Alternative Lengthening of Telomeres</div>
   <p class="item-note">2024 · MD Anderson Cancer Center CATALYST Poster Symposium & Division of Radiation Oncology Symposium · <strong>Paridhi Latawa</strong>, Longqiang Wang, Bin Wang</p>
   <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-wonderful-opportunity-activity-7236330775917318144-GsK1">[LinkedIn]</a></div>
+  </div>
 </div>
 
 <div class="about-leadership-item has-thumb">
