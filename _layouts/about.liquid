@@ -12,6 +12,7 @@ layout: default
     <div class="about-layout">
       {% if page.profile %}
         <aside class="about-sidebar">
+          <div class="sidebar-sticky">
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
@@ -43,11 +44,17 @@ layout: default
           {% if page.social %}
             <div class="sidebar-social">{% include social.liquid %}</div>
           {% endif %}
+          <nav class="sidebar-secnav" aria-label="Section navigation">
+            <a href="#about" class="secnav-link active" data-section="about">About</a>
+            {% comment %} links to the page's collapsible sections are filled in by the script below {% endcomment %}
+            <a href="{{ '/cv/' | relative_url }}" class="secnav-link secnav-cv">CV</a>
+          </nav>
+          </div>
         </aside>
       {% endif %}
 
       <div class="about-main">
-        <div class="about-intro-text">
+        <div class="about-intro-text" id="about">
           {{ content | split: '<hr />' | first }}
         </div>
 
@@ -55,7 +62,7 @@ layout: default
 
         <!-- Updates -->
         {% if page.announcements and page.announcements.enabled %}
-          <h2 class="about-section-title">
+          <h2 class="about-section-title" id="news">
             <a href="{{ '/news/' | relative_url }}" style="color: inherit">Updates</a>
           </h2>
           {% include news.liquid limit=true %}
@@ -97,5 +104,68 @@ layout: default
     }
     window.addEventListener('hashchange', openTargetSection);
     openTargetSection();
+  })();
+
+  (function () {
+    var nav = document.querySelector('.sidebar-secnav');
+    if (!nav) return;
+    var cvLink = nav.querySelector('.secnav-cv');
+
+    // one nav link per collapsible section, inserted in page order before the CV link
+    var sections = document.querySelectorAll('.about-main details.about-collapsible[id]');
+    sections.forEach(function (sec) {
+      var title = sec.querySelector('summary .about-section-title');
+      if (!title) return;
+      var a = document.createElement('a');
+      a.className = 'secnav-link';
+      a.href = '#' + sec.id;
+      a.dataset.section = sec.id;
+      a.textContent = title.textContent.trim();
+      nav.insertBefore(a, cvLink);
+    });
+
+    var newsHeading = document.getElementById('news');
+    if (newsHeading) {
+      var a = document.createElement('a');
+      a.className = 'secnav-link';
+      a.href = '#news';
+      a.dataset.section = 'news';
+      a.textContent = 'Updates';
+      nav.insertBefore(a, cvLink);
+    }
+
+    // highlight the section currently in view
+    var targets = [document.getElementById('about')].concat(Array.prototype.slice.call(sections));
+    if (newsHeading) targets.push(newsHeading);
+    targets = targets.filter(Boolean);
+
+    function setActive(id) {
+      nav.querySelectorAll('.secnav-link').forEach(function (l) {
+        l.classList.toggle('active', l.dataset.section === id);
+      });
+    }
+
+    if ('IntersectionObserver' in window) {
+      var current = 'about';
+      var visible = new Map();
+      var observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            visible.set(e.target.id, e.isIntersecting);
+          });
+          for (var i = 0; i < targets.length; i++) {
+            if (visible.get(targets[i].id)) {
+              current = targets[i].id;
+              break;
+            }
+          }
+          setActive(current);
+        },
+        { rootMargin: '-15% 0px -60% 0px' }
+      );
+      targets.forEach(function (t) {
+        observer.observe(t);
+      });
+    }
   })();
 </script>
