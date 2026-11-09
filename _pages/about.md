@@ -50,13 +50,10 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <summary><h2 class="about-section-title">Symposiums &amp; Presentations</h2></summary>
 
 <div class="section-body">
-<div class="about-leadership-item has-thumb">
-  <img class="item-thumb" src="{{ '/assets/img/talks/lilly-perturbation-talk.jpg' | relative_url }}" alt="Presenting the in silico perturbation prediction work at Eli Lilly" loading="lazy">
-  <div class="item-body">
-  <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
+<div class="about-leadership-item">
+    <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
   <p class="item-note">2025 · Eli Lilly Advanced Intelligence, Engineering & Biology Research · Paridhi Latawa</p>
-  <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-exciting-opportunity-activity-7366852591655260165-_WiI">[Reflection]</a></div>
-  </div>
+  <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-exciting-opportunity-activity-7366852591655260165-_WiI">[LinkedIn]</a></div>
 </div>
 
 <div class="about-leadership-item has-thumb">
@@ -71,7 +68,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">Elucidating the Role of Abraxas on Telomere Maintenance & Alternative Lengthening of Telomeres</div>
   <p class="item-note">2024 · MD Anderson Cancer Center CATALYST Poster Symposium & Division of Radiation Oncology Symposium · Paridhi Latawa, Longqiang Wang, Bin Wang</p>
-  <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-wonderful-opportunity-activity-7236330775917318144-GsK1">[Reflection]</a></div>
+  <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-wonderful-opportunity-activity-7236330775917318144-GsK1">[LinkedIn]</a></div>
 </div>
 
 <div class="about-leadership-item has-thumb">
