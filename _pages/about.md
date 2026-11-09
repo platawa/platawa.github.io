@@ -322,7 +322,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
         <li><a href="https://neet.mit.edu/threads/lm" target="_blank" rel="noopener noreferrer">NEET Living Machines Certificate Program</a></li>
         <li><a href="https://sandbox.mit.edu/" target="_blank" rel="noopener noreferrer">Sandbox Innovation Fund</a></li>
         <li><a href="https://ua.mit.edu/" target="_blank" rel="noopener noreferrer">Undergraduate Association</a></li>
-        <li><a href="https://ome.mit.edu/laureates-and-leaders" target="_blank" rel="noopener noreferrer">Laureates and Leaders</a></li>
+        <li><a href="https://oaces.mit.edu/laureates-leaders/" target="_blank" rel="noopener noreferrer">Laureates and Leaders</a></li>
         <li><a href="https://advising.mit.edu/advising-resources/for-associate-advisors" target="_blank" rel="noopener noreferrer">Associate Advisor</a></li>
         <li>MIT EECS Committee for Community Engagement</li>
         <li><a href="https://engineering.mit.edu/about/leadership/sage" target="_blank" rel="noopener noreferrer">MIT School of Engineering Undergraduate Student Advisory Group</a></li>
@@ -520,7 +520,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">Social Chair, MIT Laureates and Leaders Program</div>
   <p class="item-desc">Office of Minority Education leadership and community programming.</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://oaces.mit.edu/laureates-leaders/">[Program]</a></div>
 </div>
 
 <div class="about-leadership-item">
