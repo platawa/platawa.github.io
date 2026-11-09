@@ -439,8 +439,9 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-note">2026 – Present</p>
   <ul class="item-bullets">
     <li>Founded a health tech startup in the Y Combinator S26 batch.</li>
+    <li>Raised $500K in seed funding.</li>
   </ul>
-  <div class="item-links"><a href="https://www.illumelabs.ai">[Website]</a></div>
+  <div class="item-links"><a href="https://www.illumelabs.ai">[Website]</a> <a href="https://app.illumelabs.ai">[App]</a></div>
 </div>
 
 <div class="about-leadership-item">
@@ -575,6 +576,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p>Languages: advanced in English, Hindi, & Punjabi; beginner in Spanish.</p>
 </div>
 
+<div class="skills-columns">
 <h3 class="about-awards-year">Computational Skills</h3>
 
 <ul class="skills-list">
@@ -606,6 +608,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li>Fluorescence Microscopy</li>
   <li>Biotech Lab Technician Certificate (ACC)</li>
 </ul>
+</div>
 </div>
 
 </details>
