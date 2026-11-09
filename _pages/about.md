@@ -36,7 +36,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 ---
 
 <details class="about-collapsible" id="publications" open>
-<summary><h2 class="about-section-title">Publications &amp; Research</h2></summary>
+<summary><h2 class="about-section-title">Publications</h2></summary>
 
 <div class="section-body">
 <div class="publications pub-scroll">
