@@ -172,6 +172,12 @@ html {
   }
 }
 
+.item-subbullets {
+  list-style: circle;
+  padding-left: 1.15rem;
+  margin: 0.28rem 0 0;
+}
+
 // ── Updates list: contained, bulleted, with a bracketed date prefix ──
 .news {
   margin-bottom: 2.5rem;
