@@ -408,18 +408,23 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="section-body">
 <div class="about-teaching-item">
-  <div class="item-title">Teaching Assistant, Intro to Probability & Statistics (MIT)</div>
-  <p class="item-desc">Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</p>
-  <div class="item-links"></div>
+  <div class="item-title">Teaching Assistant, <a class="course-num-link" href="http://student.mit.edu/catalog/search.cgi?search=18.05">18.05</a> Introduction to Probability &amp; Statistics (MIT)</div>
+  <p class="item-note">Feb 2025 – May 2025</p>
+  <ul class="item-bullets">
+    <li>Led weekly in-class problem-solving sessions, office hours, and coding lessons for 140+ students.</li>
+    <li>Graded homework assignments and provided detailed feedback.</li>
+  </ul>
+  <div class="item-links"><a href="http://student.mit.edu/catalog/search.cgi?search=18.05">[Course]</a></div>
 </div>
 
 <div class="about-teaching-item">
   <div class="item-title">Associate Advisor (MIT)</div>
+  <p class="item-note">Aug 2025 – Present</p>
   <ul class="item-bullets">
     <li>Advised students on academic planning, course selection, and research involvement.</li>
-    <li>Collaborated with Professor Collin Stultz to improve advisee support.</li>
+    <li>Collaborated with Professor Collin Stultz to improve advisee support and registration processes.</li>
   </ul>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://firstyear.mit.edu/first-year-advising/your-advising-network-advising-roles">[Program]</a></div>
 </div>
 </div>
 
@@ -431,20 +436,32 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="section-body">
 <div class="about-leadership-item">
   <div class="item-title"><a href="https://www.illumelabs.ai">Illume</a></div>
-  <p class="item-desc">Health tech startup in the Y Combinator S26 batch.</p>
-  <div class="item-links"></div>
+  <p class="item-note">2026 – Present</p>
+  <ul class="item-bullets">
+    <li>Founded a health tech startup in the Y Combinator S26 batch.</li>
+  </ul>
+  <div class="item-links"><a href="https://www.illumelabs.ai">[Website]</a></div>
 </div>
 
 <div class="about-leadership-item">
-  <div class="item-title">EasyComm</div>
-  <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
-  <div class="item-links"></div>
+  <div class="item-title">Co-Founder, EasyComm</div>
+  <p class="item-note">Jun 2022 – Present</p>
+  <ul class="item-bullets">
+    <li>Developing a speech technology app for children with Down Syndrome (patent pending).</li>
+    <li>Funded by the <a href="https://sandbox.mit.edu/">MIT Sandbox Innovation Fund</a>.</li>
+    <li>Selected for the Harvard Law Entrepreneurship Project / Cooley LLP program and the Takeda Biopharma Internship.</li>
+  </ul>
+  <div class="item-links"><a href="https://sandbox.mit.edu/">[MIT Sandbox]</a></div>
 </div>
 
 <div class="about-leadership-item">
-  <div class="item-title">SparkED</div>
-  <p class="item-desc">Nonprofit that equipped 2000+ youth across 11 countries with STEM resources.</p>
-  <div class="item-links"></div>
+  <div class="item-title">Founder and Executive Director, SparkED</div>
+  <p class="item-note">Apr 2019 – May 2024</p>
+  <ul class="item-bullets">
+    <li>Equipped 2000+ youth across 11 countries with STEM resources.</li>
+    <li>Led a 20+ volunteer team and launched chapters beyond the founding city.</li>
+  </ul>
+  <div class="item-links"><a href="https://www.pointsoflight.org/daily-point-of-light/texas-teen-sparked-success-through-service-for-next-generation-of-empowered-youth/">[Press]</a></div>
 </div>
 </div>
 
@@ -455,13 +472,6 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <div class="section-body">
 <div class="section-scroll">
-<div class="about-leadership-item">
-  <div class="item-title">Co-Founder, EasyComm</div>
-  <p class="item-note">Jun 2022 – Present</p>
-  <p class="item-desc">Speech technology app for children with Down Syndrome, funded by MIT Sandbox Innovation Fund. Patent pending.</p>
-  <div class="item-links"></div>
-</div>
-
 <div class="about-leadership-item">
   <div class="item-title">MIT School of Engineering Student Advisory Group & EECS Community Engagement Committee</div>
   <ul class="item-bullets">
@@ -504,13 +514,6 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-title">Weekend Pre-Med Academy, Harvard Student Agencies</div>
   <p class="item-note">Jul 2019 – Jun 2020</p>
   <p class="item-desc">Brought the Pre-Med Academy I had attended to my own high school in Austin, recruiting 100+ Texas students and inviting practicing physicians to speak.</p>
-  <div class="item-links"></div>
-</div>
-
-<div class="about-leadership-item">
-  <div class="item-title">Founder and Executive Director, SparkED</div>
-  <p class="item-note">Apr 2019 – May 2024</p>
-  <p class="item-desc">Equipped 2000+ youth across 11 countries with STEM resources. Led a 20+ volunteer team.</p>
   <div class="item-links"></div>
 </div>
 
