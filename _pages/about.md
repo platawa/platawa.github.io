@@ -322,7 +322,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
         <li><a href="https://neet.mit.edu/threads/lm" target="_blank" rel="noopener noreferrer">NEET Living Machines Certificate Program</a></li>
         <li><a href="https://sandbox.mit.edu/" target="_blank" rel="noopener noreferrer">Sandbox Innovation Fund</a></li>
         <li><a href="https://ua.mit.edu/" target="_blank" rel="noopener noreferrer">Undergraduate Association</a></li>
-        <li><a href="https://ome.mit.edu/laureates-and-leaders" target="_blank" rel="noopener noreferrer">Laureates and Leaders</a></li>
+        <li><a href="https://oaces.mit.edu/laureates-leaders/" target="_blank" rel="noopener noreferrer">Laureates and Leaders</a></li>
         <li><a href="https://advising.mit.edu/advising-resources/for-associate-advisors" target="_blank" rel="noopener noreferrer">Associate Advisor</a></li>
         <li>MIT EECS Committee for Community Engagement</li>
         <li><a href="https://engineering.mit.edu/about/leadership/sage" target="_blank" rel="noopener noreferrer">MIT School of Engineering Undergraduate Student Advisory Group</a></li>
@@ -439,8 +439,9 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p class="item-note">2026 – Present</p>
   <ul class="item-bullets">
     <li>Founded a health tech startup in the Y Combinator S26 batch.</li>
+    <li>Raised $500K in seed funding.</li>
   </ul>
-  <div class="item-links"><a href="https://www.illumelabs.ai">[Website]</a></div>
+  <div class="item-links"><a href="https://www.illumelabs.ai">[Website]</a> <a href="https://app.illumelabs.ai">[App]</a></div>
 </div>
 
 <div class="about-leadership-item">
@@ -520,7 +521,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <div class="about-leadership-item">
   <div class="item-title">Social Chair, MIT Laureates and Leaders Program</div>
   <p class="item-desc">Office of Minority Education leadership and community programming.</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://oaces.mit.edu/laureates-leaders/">[Program]</a></div>
 </div>
 
 <div class="about-leadership-item">
@@ -575,6 +576,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <p>Languages: advanced in English, Hindi, & Punjabi; beginner in Spanish.</p>
 </div>
 
+<div class="skills-columns">
 <h3 class="about-awards-year">Computational Skills</h3>
 
 <ul class="skills-list">
@@ -606,6 +608,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li>Fluorescence Microscopy</li>
   <li>Biotech Lab Technician Certificate (ACC)</li>
 </ul>
+</div>
 </div>
 
 </details>

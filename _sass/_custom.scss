@@ -658,3 +658,25 @@ details.about-collapsible {
     }
   }
 }
+
+// ── Skills: Computational on the left, Wet Lab on the right ──
+.skills-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5rem;
+  align-items: start;
+
+  h3.about-awards-year {
+    margin-top: 0;
+  }
+
+  .skills-list {
+    columns: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-columns {
+    grid-template-columns: 1fr;
+  }
+}
