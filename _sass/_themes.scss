@@ -20,6 +20,8 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$figure-rose};
+  --global-accent-tint-color: #{$accent-tint};
+  --global-sidebar-bg-color: #{$sidebar-bg-light};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -80,7 +82,9 @@ html[data-theme="dark"] {
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$figure-sage-light};
   --global-hover-color: #{$figure-sage-light};
-  --global-highlight-color: #c79aa0;
+  --global-highlight-color: #9ac4ec;
+  --global-accent-tint-color: rgba(111, 177, 232, 0.18);
+  --global-sidebar-bg-color: #{$grey-900};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};

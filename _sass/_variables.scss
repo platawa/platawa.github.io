@@ -7,16 +7,17 @@
 
 // Colors
 //
-// Accent palette sampled from a structural-biology figure: slate blue and
-// dusty rose from the DNA bases, sage from the protein ribbons, and a dark
-// blue-charcoal from the figure's own labels.
-$figure-slate: #1313f6 !default; // vivid blue for links
-$figure-slate-dark: #3b5277 !default;
-$figure-sage: #5f857b !default; // protein ribbons (secondary accent)
-$figure-sage-light: #8fb5a9 !default; // sage, lightened for dark backgrounds
-$figure-rose: #8e5f64 !default; // DNA bases, darkened for legibility
-$figure-ink: #141414 !default; // near-black body copy
-$figure-warm-grey: #7d8a88 !default; // DNA backbone
+// Classic academic palette: near-black ink, a single restrained link blue,
+// and a cool grey for secondary text.
+$figure-slate: #146ebe !default; // link / accent blue
+$figure-slate-dark: #0d5494 !default; // accent blue, darkened for hover
+$figure-sage: #0d5494 !default; // hover color (same darkened blue)
+$figure-sage-light: #6fb1e8 !default; // accent blue, lightened for dark backgrounds
+$figure-rose: #0d5494 !default; // highlight color
+$figure-ink: #150c21 !default; // near-black body copy
+$figure-warm-grey: #8a919a !default; // secondary text
+$accent-tint: #eaf2fb !default; // pale blue wash for rules/accents
+$sidebar-bg-light: #f7fafd !default; // faint blue-grey sidebar rail
 
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
@@ -46,7 +47,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($figure-slate, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

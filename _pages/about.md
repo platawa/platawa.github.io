@@ -36,7 +36,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 ---
 
 <details class="about-collapsible" id="publications" open>
-<summary><h2 class="about-section-title">Publications &amp; Research</h2></summary>
+<summary><h2 class="about-section-title">Publications</h2></summary>
 
 <div class="section-body">
 <div class="publications pub-scroll">
@@ -580,6 +580,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 </div>
 
 <div class="skills-columns">
+<div class="skills-col">
 <h3 class="about-awards-year">Computational Skills</h3>
 
 <ul class="skills-list">
@@ -595,7 +596,9 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li>ImageJ/Fiji</li>
   <li>Imaging</li>
 </ul>
+</div>
 
+<div class="skills-col">
 <h3 class="about-awards-year">Wet Lab Skills</h3>
 
 <ul class="skills-list">
@@ -611,6 +614,7 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <li>Fluorescence Microscopy</li>
   <li>Biotech Lab Technician Certificate (ACC)</li>
 </ul>
+</div>
 </div>
 </div>
 

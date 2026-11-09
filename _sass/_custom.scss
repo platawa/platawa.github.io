@@ -44,14 +44,22 @@ html {
 // ── Two-column layout: sticky profile sidebar + scrolling content ──
 .about-layout {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 3rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 .about-sidebar {
-  position: sticky;
-  top: 90px;
+  // full-height tinted rail; the inner wrapper is what sticks
+  background-color: var(--global-sidebar-bg-color);
+  border-right: 1px solid var(--global-divider-color);
+  padding: 1.75rem 1.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+
+  .sidebar-sticky {
+    position: sticky;
+    top: 90px;
+  }
 
   img {
     width: 100%;
@@ -110,6 +118,34 @@ html {
       display: inline;
     }
   }
+
+  .sidebar-secnav {
+    margin-top: 1.5rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid var(--global-divider-color);
+    display: flex;
+    flex-direction: column;
+
+    .secnav-link {
+      display: block;
+      padding: 0.3rem 0 0.3rem 0.75rem;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: var(--global-text-color-light);
+      border-left: 2px solid transparent;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+
+      &.active {
+        color: var(--global-theme-color);
+        font-weight: 600;
+        border-left-color: var(--global-theme-color);
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -119,8 +155,20 @@ html {
   }
 
   .about-sidebar {
-    position: static;
     text-align: center;
+    border-right: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    padding: 1.5rem 1rem;
+
+    .sidebar-sticky {
+      position: static;
+    }
+
+    // on small screens the sections sit right below, so skip the nav
+    .sidebar-secnav {
+      display: none;
+    }
 
     img {
       max-width: 170px;
@@ -606,25 +654,24 @@ details.about-collapsible {
   }
 }
 
-// ── Skills: two-column bullet lists ──
+// ── Skills: rounded pill tags ──
 .skills-list {
-  list-style: disc;
-  columns: 2;
-  column-gap: 2.5rem;
-  padding-left: 1.2rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-left: 0;
   margin: 0 0 1.1rem;
 
   li {
-    margin-bottom: 0.28rem;
-    font-size: 0.96rem;
-    line-height: 1.5;
-    break-inside: avoid;
-  }
-}
-
-@media (max-width: 600px) {
-  .skills-list {
-    columns: 1;
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.4;
+    padding: 0.2rem 0.7rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
   }
 }
 
@@ -660,23 +707,28 @@ details.about-collapsible {
 }
 
 // ── Skills: Computational on the left, Wet Lab on the right ──
+// Each .skills-col stacks its heading above its own list; the two
+// columns sit side by side and collapse to one column on small screens.
 .skills-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2.5rem;
+  column-gap: 3rem;
   align-items: start;
+  margin-top: 1.4rem;
 
-  h3.about-awards-year {
+  .skills-col > h3.about-awards-year {
     margin-top: 0;
+    margin-bottom: 0.6rem;
   }
 
   .skills-list {
-    columns: 1;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 600px) {
   .skills-columns {
     grid-template-columns: 1fr;
+    row-gap: 1.4rem;
   }
 }
