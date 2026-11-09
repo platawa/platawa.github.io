@@ -128,11 +128,10 @@ html {
 
     .secnav-link {
       display: block;
-      padding: 0.3rem 0 0.3rem 0.75rem;
+      padding: 0.3rem 0;
       font-size: 0.9rem;
       line-height: 1.4;
       color: var(--global-text-color-light);
-      border-left: 2px solid transparent;
 
       &:hover {
         color: var(--global-theme-color);
@@ -142,7 +141,6 @@ html {
       &.active {
         color: var(--global-theme-color);
         font-weight: 600;
-        border-left-color: var(--global-theme-color);
       }
     }
   }
