@@ -50,28 +50,37 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <summary><h2 class="about-section-title">Symposiums &amp; Presentations</h2></summary>
 
 <div class="section-body">
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/talks/lilly-perturbation-talk.jpg' | relative_url }}" alt="Presenting the in silico perturbation prediction work at Eli Lilly" loading="lazy">
+  <div class="item-body">
   <div class="item-title">In Silico Perturbation Prediction Modeling using Single Cell Foundation Models</div>
-  <p class="item-note">2025 · Eli Lilly Advanced Intelligence, Engineering & Biology Research · Presentation & Talk</p>
-  <div class="item-links"></div>
+  <p class="item-note">2025 · Eli Lilly Advanced Intelligence, Engineering & Biology Research · Paridhi Latawa</p>
+  <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-exciting-opportunity-activity-7366852591655260165-_WiI">[Reflection]</a></div>
+  </div>
 </div>
 
-<div class="about-leadership-item">
-  <div class="item-title">Exploring the Functional Role of the L7-like Ribosomal Protein</div>
-  <p class="item-note">2025 · MIT EECS SuperUROP Poster Symposium · with Guilhem Faure and Feng Zhang</p>
-  <div class="item-links"></div>
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/talks/l7-poster.png' | relative_url }}" alt="Poster on the functional diversity of the L7-like ribosomal protein" loading="lazy">
+  <div class="item-body">
+  <div class="item-title">Exploring the Functional Diversity of the L7-like Ribosomal Protein</div>
+  <p class="item-note">2025 · MIT EECS SuperUROP Poster Symposium · Paridhi Latawa, Guilhem Faure, Feng Zhang</p>
+  <div class="item-links"><a href="{{ '/assets/pdf/l7-superurop-poster.pdf' | relative_url }}">[Poster]</a> <a href="https://docs.google.com/document/d/1e5llFR3EuPsvmXV9nFav0nsp6yoTWPo9NUa0Zv7M_PE/preview">[Report]</a> <a href="https://superurop.mit.edu/scholars/paridhi-pari-latawa/">[Scholar Page]</a></div>
+  </div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">Elucidating the Role of Abraxas on Telomere Maintenance & Alternative Lengthening of Telomeres</div>
-  <p class="item-note">2024 · MD Anderson Cancer Center CATALYST Poster Symposium & Division of Radiation Oncology Symposium · with Longqiang Wang and Bin Wang</p>
-  <div class="item-links"></div>
+  <p class="item-note">2024 · MD Anderson Cancer Center CATALYST Poster Symposium & Division of Radiation Oncology Symposium · Paridhi Latawa, Longqiang Wang, Bin Wang</p>
+  <div class="item-links"><a href="https://www.linkedin.com/posts/paridhilatawa_this-summer-i-had-the-wonderful-opportunity-activity-7236330775917318144-GsK1">[Reflection]</a></div>
 </div>
 
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/talks/protein-llm-title-slide.png' | relative_url }}" alt="Title slide for the protein engineering language model talk" loading="lazy">
+  <div class="item-body">
   <div class="item-title">Investigating the Capabilities of Large Language Models for Protein Engineering</div>
-  <p class="item-note">2024 · MIT Biology Undergraduate Research Symposium · with Alvin Chan, Giovanni Traverso, and Robert Langer</p>
-  <div class="item-links"></div>
+  <p class="item-note">2024 · MIT Biology Undergraduate Research Symposium · Paridhi Latawa, Alvin Chan, Giovanni Traverso, Robert Langer</p>
+  <div class="item-links"><a href="https://docs.google.com/presentation/d/11NQkCfbt8IblwI3cw-KK3SW3qXthYzzxdxhZ6YW59Dg/preview">[Slides]</a></div>
+  </div>
 </div>
 </div>
 
@@ -88,32 +97,41 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-links"></div>
 </div>
 
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/projects/alzheimers-slides.png' | relative_url }}" alt="Title slide for the Alzheimer's pseudotime analysis project" loading="lazy">
+  <div class="item-body">
   <div class="item-title">A Pseudo-Time Analysis of Cellular Trajectories in Alzheimer's Disease using scRNA Sequencing</div>
   <p class="item-note">Nov 2024 – Dec 2024 · MIT 6.8701: Machine Learning for Computational Biology · with Jenny Prince and Selina Qian</p>
   <p class="item-desc">Used immune cell-specific single-nucleus RNA-seq data to model temporal gene expression dynamics in Alzheimer's Disease, generating cell- and sample-level pseudotime trajectories correlated with clinical progression and identifying key marker genes and pathways linked to immune activation and AD severity.</p>
   <div class="item-links"><a href="https://drive.google.com/file/d/1X3pht29L8zgKKfiunw0vJPeVYzHPOj_y/view">[Paper]</a> <a href="https://drive.google.com/file/d/1mGeI_zj_tKu50cqAnZWTPlWDQww-YVuv/view">[Slides]</a></div>
+  </div>
 </div>
 
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/projects/nlp-poster.png' | relative_url }}" alt="Poster for the MIT Confessions sentiment and topic modelling project" loading="lazy">
+  <div class="item-body">
   <div class="item-title">Decoding MIT's Digital Diary: Combining Sentiment, Topic Modeling, and an MIT Confessions-Powered ChatBot for Social Data Analysis</div>
   <p class="item-note">Nov 2024 – Dec 2024 · MIT 6.8611: Quantitative Methods for Natural Language Processing · with Anika Puri and Sejal Rathi</p>
   <p class="item-desc">Analyzed over 61,000 posts from MIT Confessions (2013–2024) with NLP techniques to uncover evolving trends in student sentiment, wellness, and social dynamics, and created a RAG + LLM-based ChatBot that allowed for context-aware engagement with the data to inform institutional support and policy.</p>
   <div class="item-links"><a href="https://drive.google.com/file/d/1NtyZ53-A2qq2I5LxNq1D8CKSerjtKL2z/view">[Paper]</a> <a href="https://drive.google.com/file/d/1jD_h16JYJmXsIfOZk_nu9q2BtidqfMKQ/view">[Poster]</a></div>
+  </div>
 </div>
 
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/projects/smiles-slides.png' | relative_url }}" alt="Title slide for the multimodal SMILES property prediction project" loading="lazy">
+  <div class="item-body">
   <div class="item-title">Encoder-Decoder Model for Multimodal SMILES Latent Space Representation Property Prediction</div>
   <p class="item-note">Apr 2024 – May 2024 · MIT 6.8711: Generative AI for Biology (Computational Systems Biology: Deep Learning in the Life Sciences) · with Vincent Lin and Vanessa Xiao</p>
   <p class="item-desc">Proposed a novel multimodal architecture using an autoencoder and fine-tuned ChemBERTa model to generate feature embeddings for SMILES and gene expression datasets to feed into a regressor for IC50 drug viability prediction.</p>
   <div class="item-links"><a href="https://drive.google.com/file/d/19HOK4B6_nfNripPmaZbztrAA7dhcKnQ8/view">[Paper]</a> <a href="https://drive.google.com/file/d/1Bmd_5JG6p5SYAfoY0fz4pPomk4a88Nbd/view">[Slides]</a></div>
+  </div>
 </div>
 
 <div class="about-leadership-item">
   <div class="item-title">An Investigation of the Biotechnology and Life Sciences Innovation Ecosystem in Denmark</div>
   <p class="item-note">May 2023 – Sep 2023 · MIT Innovation Diplomats (iDiplomats) Program</p>
   <p class="item-desc">Independent study researching Denmark's biotech innovation ecosystem, interviewing leaders from government, industry, and academia.</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="https://docs.google.com/document/d/1V7H3nek8PYpwYNvfNeZWNmJVDtVeHKKsXqaqsVqq9eI/preview">[Paper]</a></div>
 </div>
 
 <div class="about-leadership-item">
@@ -138,140 +156,139 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 
 <h3 class="about-awards-year">2026</h3>
 
-<div class="about-award-item">
-  <div class="item-title">NSF Graduate Research Fellowship Program (GRFP)</div>
-  <p class="item-note">May 2026</p>
-  <div class="item-links"></div>
-</div>
+<ul class="about-awards-bullets">
+<li>
+  <span class="award-title">NSF Graduate Research Fellowship Program (GRFP)</span>
+  <span class="award-note">May 2026</span>
+</li>
+
+</ul>
 
 <h3 class="about-awards-year">2024–2025</h3>
 
-<div class="about-award-item">
-  <div class="item-title">MIT Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</div>
-  <p class="item-note">Oct 2024</p>
-  <p class="item-desc">MIT EECS SuperUROP Scholar, selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</p>
-  <div class="item-links"></div>
-</div>
+<ul class="about-awards-bullets">
+<li>
+  <span class="award-title">MIT Eric & Wendy Schmidt Center Funded Research & Innovation Scholar</span>
+  <span class="award-note">Oct 2024</span>
+  <span class="award-desc">MIT EECS SuperUROP Scholar, selected as 1 of 8 computational biology scholars (Feng Zhang Lab).</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">HackMIT WisprAI Track, 3rd Place</div>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">HackMIT WisprAI Track, 3rd Place</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">AnitaB.org Grace Hopper Conference & SWE WE24 Conference Grant Awardee & Ambassador</div>
-  <p class="item-note">Jan 2024</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">AnitaB.org Grace Hopper Conference & SWE WE24 Conference Grant Awardee & Ambassador</span>
+  <span class="award-note">Jan 2024</span>
+</li>
+
+</ul>
 
 <h3 class="about-awards-year">2018–Present</h3>
 
-<div class="about-award-item">
-  <div class="item-title">NCWIT Award for Aspirations in Computing: 3x National Awardee (top 9.5% in US), Impact Award</div>
-  <p class="item-note">Jan 2023</p>
-  <ul class="item-bullets">
+<ul class="about-awards-bullets">
+<li>
+  <span class="award-title">NCWIT Award for Aspirations in Computing: 3x National Awardee (top 9.5% in US), Impact Award</span>
+  <span class="award-note">Jan 2023</span>
+  <ul class="award-sub">
     <li>MIT Campus Representative: led 4+ colleges to organize NCWIT AiC Boston-area receptions with 100+ attendees from 9 colleges & 11 high schools.</li>
     <li>Recognized with the Impact Award for leadership in expanding access to computing.</li>
   </ul>
-  <div class="item-links"></div>
-</div>
+</li>
+
+</ul>
 
 <h3 class="about-awards-year">2022</h3>
 
-<div class="about-award-item">
-  <div class="item-title">Apple Scholar</div>
-  <p class="item-note">Mar 2022</p>
-  <div class="item-links"></div>
-</div>
+<ul class="about-awards-bullets">
+<li>
+  <span class="award-title">Apple Scholar</span>
+  <span class="award-note">Mar 2022</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Regeneron Science Talent Search (STS) Scholar</div>
-  <p class="item-note">Jan 2022</p>
-  <p class="item-desc">Top 300 in the nation's oldest and most prestigious science and math competition for high school seniors.</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Regeneron Science Talent Search (STS) Scholar</span>
+  <span class="award-note">Jan 2022</span>
+  <span class="award-desc">Top 300 in the nation's oldest and most prestigious science and math competition for high school seniors.</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Regeneron International Science & Engineering Fair (ISEF) Finalist</div>
-  <p class="item-note">2022</p>
-  <p class="item-desc">Finalist in the Computational Biology & Bioinformatics category.</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Regeneron International Science & Engineering Fair (ISEF) Finalist</span>
+  <span class="award-note">2022</span>
+  <span class="award-desc">Finalist in the Computational Biology & Bioinformatics category.</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Texas Science & Engineering Fair (TXSEF): Regeneron Biomedical Science Award</div>
-  <p class="item-note">2022</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Texas Science & Engineering Fair (TXSEF): Regeneron Biomedical Science Award</span>
+  <span class="award-note">2022</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Austin Energy Regional Science Fair (AERSF): 1st in Cellular & Molecular Biology, Best of Fair</div>
-  <p class="item-note">2022</p>
-  <p class="item-desc">Ranked 1st in the Cellular & Molecular Biology category (advancing to TXSEF), selected as a Best of Fair project (advancing to ISEF 2022), and received the Austin Energy STEM scholarship.</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Austin Energy Regional Science Fair (AERSF): 1st in Cellular & Molecular Biology, Best of Fair</span>
+  <span class="award-note">2022</span>
+  <span class="award-desc">Ranked 1st in the Cellular & Molecular Biology category (advancing to TXSEF), selected as a Best of Fair project (advancing to ISEF 2022), and received the Austin Energy STEM scholarship.</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">National Honor Society Scholarship + Finalist</div>
-  <p class="item-note">Jan 2022</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">National Honor Society Scholarship + Finalist</span>
+  <span class="award-note">Jan 2022</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Schlumberger Founders Scholarship</div>
-  <p class="item-note">Jan 2022</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Schlumberger Founders Scholarship</span>
+  <span class="award-note">Jan 2022</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Bank of America Student Leader</div>
-  <p class="item-note">Jan 2022</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Bank of America Student Leader</span>
+  <span class="award-note">Jan 2022</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Coca-Cola Scholar</div>
-  <p class="item-note">Jan 2022</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Coca-Cola Scholar</span>
+  <span class="award-note">Jan 2022</span>
+</li>
+
+</ul>
 
 <h3 class="about-awards-year">2021</h3>
 
-<div class="about-award-item">
-  <div class="item-title">World Science Scholar</div>
-  <p class="item-note">Jun 2021</p>
-  <p class="item-desc">World Science Festival.</p>
-  <div class="item-links"></div>
-</div>
+<ul class="about-awards-bullets">
+<li>
+  <span class="award-title">World Science Scholar</span>
+  <span class="award-note">Jun 2021</span>
+  <span class="award-desc">World Science Festival.</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Texas Education Agency Student Hero</div>
-  <p class="item-note">Jan 2021</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Texas Education Agency Student Hero</span>
+  <span class="award-note">Jan 2021</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">AERSF & TXSEF: 2nd in Cellular & Molecular Biology</div>
-  <p class="item-note">2021</p>
-  <p class="item-desc">Ranked 2nd in the Cellular & Molecular Biology category at both fairs; received a $2k research grant and an invitation to the Texas Governor's Science & Engineering Champions Academy to research solid-state nanopore sequencing at the SMU BAST Lab.</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">AERSF & TXSEF: 2nd in Cellular & Molecular Biology</span>
+  <span class="award-note">2021</span>
+  <span class="award-desc">Ranked 2nd in the Cellular & Molecular Biology category at both fairs; received a $2k research grant and an invitation to the Texas Governor's Science & Engineering Champions Academy to research solid-state nanopore sequencing at the SMU BAST Lab.</span>
+</li>
 
-<div class="about-award-item">
-  <div class="item-title">Sigma Xi Scientific Research Honor Society</div>
-  <p class="item-note">2021</p>
-  <p class="item-desc">Abstract accepted for the International Student Research Showcase Competition.</p>
-  <div class="item-links"></div>
-</div>
+<li>
+  <span class="award-title">Sigma Xi Scientific Research Honor Society</span>
+  <span class="award-note">2021</span>
+  <span class="award-desc">Abstract accepted for the International Student Research Showcase Competition.</span>
+</li>
+
+</ul>
 
 <h3 class="about-awards-year">2020</h3>
 
-<div class="about-award-item">
-  <div class="item-title">AERSF Superintendent Award: Best Project in District</div>
-  <p class="item-note">2020</p>
-  <p class="item-desc">For "Analysis of the Vaping Pandemic," focusing on schools in Austin, Texas.</p>
-  <div class="item-links"></div>
-</div>
+<ul class="about-awards-bullets">
+<li>
+  <span class="award-title">AERSF Superintendent Award: Best Project in District</span>
+  <span class="award-note">2020</span>
+  <span class="award-desc">For "Analysis of the Vaping Pandemic," focusing on schools in Austin, Texas.</span>
+</li>
+
+</ul>
 
 </div>
 </div>
@@ -297,7 +314,21 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   <div class="item-title">Massachusetts Institute of Technology, B.S. in Computer Science & Molecular Biology, Minor in Economics</div>
   <p class="item-note">2022 – 2026</p>
   <ul class="item-bullets">
-    <li>Activities and societies: MIT UROP, MISTI Denmark, Biotechnology Group, NEET Living Machines Certificate Program, Sandbox Innovation Fund, Undergraduate Association, Laureates and Leaders, Associate Advisor, MIT EECS Committee for Community Engagement, MIT School of Engineering Undergraduate Student Advisory Group, South Asian Association of Students.</li>
+    <li>Activities and societies:
+      <ul class="item-subbullets">
+        <li><a href="https://urop.mit.edu/" target="_blank" rel="noopener noreferrer">MIT UROP</a></li>
+        <li><a href="https://misti.mit.edu/denmark" target="_blank" rel="noopener noreferrer">MISTI Denmark</a></li>
+        <li><a href="https://biotech.mit.edu/" target="_blank" rel="noopener noreferrer">Biotechnology Group</a></li>
+        <li><a href="https://neet.mit.edu/threads/lm" target="_blank" rel="noopener noreferrer">NEET Living Machines Certificate Program</a></li>
+        <li><a href="https://sandbox.mit.edu/" target="_blank" rel="noopener noreferrer">Sandbox Innovation Fund</a></li>
+        <li><a href="https://ua.mit.edu/" target="_blank" rel="noopener noreferrer">Undergraduate Association</a></li>
+        <li><a href="https://ome.mit.edu/laureates-and-leaders" target="_blank" rel="noopener noreferrer">Laureates and Leaders</a></li>
+        <li><a href="https://advising.mit.edu/advising-resources/for-associate-advisors" target="_blank" rel="noopener noreferrer">Associate Advisor</a></li>
+        <li>MIT EECS Committee for Community Engagement</li>
+        <li><a href="https://engineering.mit.edu/about/leadership/sage" target="_blank" rel="noopener noreferrer">MIT School of Engineering Undergraduate Student Advisory Group</a></li>
+        <li>South Asian Association of Students</li>
+      </ul>
+    </li>
     <li>Teaching Assistant for Introduction to Probability and Statistics.</li>
   </ul>
   <div class="item-links"></div>

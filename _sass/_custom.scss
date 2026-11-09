@@ -172,6 +172,12 @@ html {
   }
 }
 
+.item-subbullets {
+  list-style: circle;
+  padding-left: 1.15rem;
+  margin: 0.28rem 0 0;
+}
+
 // ── Updates list: contained, bulleted, with a bracketed date prefix ──
 .news {
   margin-bottom: 2.5rem;
@@ -411,6 +417,58 @@ details.about-collapsible {
     }
   }
 
+  // ── Awards bullet list (year-grouped) ──
+  ul.about-awards-bullets {
+    list-style: disc;
+    padding-left: 1.3rem;
+    margin: 0 0 1rem;
+
+    > li {
+      margin-bottom: 0.55rem;
+      line-height: 1.5;
+
+      &::marker {
+        color: var(--global-text-color-light);
+      }
+    }
+
+    .award-title {
+      font-weight: 600;
+      font-size: 0.97rem;
+      color: var(--global-text-color);
+    }
+
+    .award-note {
+      font-size: 0.85rem;
+      color: var(--global-text-color-light);
+
+      &::before {
+        content: " · ";
+        color: var(--global-text-color-light);
+      }
+    }
+
+    .award-desc {
+      display: block;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      color: var(--global-text-color);
+      margin-top: 0.1rem;
+    }
+
+    ul.award-sub {
+      list-style: circle;
+      padding-left: 1.1rem;
+      margin: 0.25rem 0 0;
+
+      li {
+        font-size: 0.92rem;
+        line-height: 1.5;
+        margin-bottom: 0.15rem;
+      }
+    }
+  }
+
   // ── Awards list ──
   ul.about-awards-list {
     list-style: disc;
@@ -567,5 +625,36 @@ details.about-collapsible {
 @media (max-width: 600px) {
   .skills-list {
     columns: 1;
+  }
+}
+
+// ── Entries with a talk or poster thumbnail ──
+.about-leadership-item.has-thumb {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.3rem;
+
+  .item-thumb {
+    flex: 0 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 0.15rem;
+  }
+
+  .item-body {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-leadership-item.has-thumb {
+    flex-direction: column;
+
+    .item-thumb {
+      width: 100%;
+      max-width: 220px;
+    }
   }
 }
