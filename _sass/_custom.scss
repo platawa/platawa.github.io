@@ -52,13 +52,20 @@ html {
 .about-sidebar {
   // full-height tinted rail; the inner wrapper is what sticks
   background-color: var(--global-sidebar-bg-color);
-  border-right: 1px solid var(--global-divider-color);
   padding: 1.75rem 1.5rem;
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 0.5rem;
 
   .sidebar-sticky {
     position: sticky;
     top: 90px;
+    // never taller than the viewport: scroll inside the sidebar instead
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+    scrollbar-width: none; // Firefox
+
+    &::-webkit-scrollbar {
+      display: none; // Chrome/Safari
+    }
   }
 
   img {
@@ -154,13 +161,14 @@ html {
 
   .about-sidebar {
     text-align: center;
-    border-right: none;
     border-bottom: 1px solid var(--global-divider-color);
     border-radius: 0.5rem;
     padding: 1.5rem 1rem;
 
     .sidebar-sticky {
       position: static;
+      max-height: none;
+      overflow-y: visible;
     }
 
     // on small screens the sections sit right below, so skip the nav
