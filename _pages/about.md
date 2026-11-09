@@ -87,11 +87,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
 <summary><h2 class="about-section-title">Projects</h2></summary>
 
 <div class="section-body">
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/projects/protein-fewshot-cfg.png' | relative_url }}" alt="Training the MSA protein language model and steering generation with classifier-free guidance" loading="lazy">
+  <div class="item-body">
   <div class="item-title">Conditional Generation from Few-shot Examples for Protein Design</div>
-  <p class="item-note">Oct 2025 – Dec 2025 · MIT 6.S981: AI for Protein Biology · Zhilei Bei, Weilang Luo, <strong>Paridhi Latawa</strong></p>
+  <p class="item-note">Oct 2025 – Dec 2025 · MIT 6.S981: AI for Protein Biology · Zhilei Bei, Weiliang Luo, <strong>Paridhi Latawa</strong></p>
   <p class="item-desc">Few-shot generative framework that conditions a generative multiple sequence alignment (MSA) protein language model on a small set of example sequences to synthesize novel proteins exhibiting desired features.</p>
-  <div class="item-links"></div>
+  <div class="item-links"><a href="{{ '/assets/pdf/protein-fewshot-writeup.pdf' | relative_url }}">[Paper]</a> <a href="{{ '/assets/pdf/protein-fewshot-slides.pdf' | relative_url }}">[Slides]</a></div>
+  </div>
 </div>
 
 <div class="about-leadership-item has-thumb">
