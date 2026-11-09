@@ -7,7 +7,7 @@ subtitle:
 
 profile:
   align: right
-  title: MEng & BS @ MIT in CS + Molecular Biology
+  title: MEng & BS @ MIT in<br>Computer Science + Molecular Biology
   image: pari_headshot.jpg
   image_circular: true # crops the image to make it circular
 
