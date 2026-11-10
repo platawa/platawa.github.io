@@ -52,13 +52,20 @@ html {
 .about-sidebar {
   // full-height tinted rail; the inner wrapper is what sticks
   background-color: var(--global-sidebar-bg-color);
-  border-right: 1px solid var(--global-divider-color);
   padding: 1.75rem 1.5rem;
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 0.5rem;
 
   .sidebar-sticky {
     position: sticky;
     top: 90px;
+    // never taller than the viewport: scroll inside the sidebar instead
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+    scrollbar-width: none; // Firefox
+
+    &::-webkit-scrollbar {
+      display: none; // Chrome/Safari
+    }
   }
 
   img {
@@ -154,13 +161,14 @@ html {
 
   .about-sidebar {
     text-align: center;
-    border-right: none;
     border-bottom: 1px solid var(--global-divider-color);
     border-radius: 0.5rem;
     padding: 1.5rem 1rem;
 
     .sidebar-sticky {
       position: static;
+      max-height: none;
+      overflow-y: visible;
     }
 
     // on small screens the sections sit right below, so skip the nav
@@ -652,23 +660,16 @@ details.about-collapsible {
   }
 }
 
-// ── Skills: rounded pill tags ──
+// ── Skills: bulleted lists ──
 .skills-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding-left: 0;
+  list-style: disc;
+  padding-left: 1.2rem;
   margin: 0 0 1.1rem;
 
   li {
-    margin: 0;
-    font-size: 0.88rem;
-    line-height: 1.4;
-    padding: 0.2rem 0.7rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    background: var(--global-card-bg-color);
+    margin: 0 0 0.25rem;
+    font-size: 0.92rem;
+    line-height: 1.45;
     color: var(--global-text-color);
   }
 }
