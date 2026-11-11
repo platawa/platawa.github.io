@@ -13,6 +13,12 @@ $figure-slate: #146ebe !default; // link / accent blue
 $figure-slate-dark: #0d5494 !default; // accent blue, darkened for hover
 $figure-sage: #0d5494 !default; // hover color (same darkened blue)
 $figure-sage-light: #6fb1e8 !default; // accent blue, lightened for dark backgrounds
+
+// nav highlight for the section currently in view (warm, to read apart from the blue links)
+$section-active-light: #a85a1e !default;
+$section-active-bg-light: rgba(168, 90, 30, 0.1) !default;
+$section-active-dark: #f0b27a !default;
+$section-active-bg-dark: rgba(240, 178, 122, 0.16) !default;
 $figure-rose: #0d5494 !default; // highlight color
 $figure-ink: #150c21 !default; // near-black body copy
 $figure-warm-grey: #8a919a !default; // secondary text

@@ -37,7 +37,7 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a class="nav-link" href="{{ '/' | relative_url }}" data-section="about">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -47,19 +47,19 @@
 
           <!-- Section tabs -->
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#publications">Research</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#publications" data-section="publications">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#awards">Awards</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#awards" data-section="awards">Awards</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#education">Education</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#education" data-section="education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#entrepreneurship">Entrepreneurship</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#entrepreneurship" data-section="entrepreneurship">Entrepreneurship</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#personal">Personal</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#personal" data-section="personal">Personal</a>
           </li>
 
           <!-- Other pages -->
