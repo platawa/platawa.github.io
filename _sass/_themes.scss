@@ -22,6 +22,8 @@
   --global-highlight-color: #{$figure-rose};
   --global-accent-tint-color: #{$accent-tint};
   --global-sidebar-bg-color: #{$sidebar-bg-light};
+  --global-section-active-color: #{$section-active-light};
+  --global-section-active-bg-color: #{$section-active-bg-light};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -85,6 +87,8 @@ html[data-theme="dark"] {
   --global-highlight-color: #9ac4ec;
   --global-accent-tint-color: rgba(111, 177, 232, 0.18);
   --global-sidebar-bg-color: #{$grey-900};
+  --global-section-active-color: #{$section-active-dark};
+  --global-section-active-bg-color: #{$section-active-bg-dark};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};

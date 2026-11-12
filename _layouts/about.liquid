@@ -16,9 +16,9 @@ layout: default
           {% if page.profile.image %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% assign profile_image_class = 'img-fluid rounded-circle' %}
             {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% assign profile_image_class = 'img-fluid rounded' %}
             {% endif %}
             {% capture sizes %}(min-width: 768px) 240px, 60vw{% endcapture %}
             {%
@@ -44,15 +44,6 @@ layout: default
           {% if page.social %}
             <div class="sidebar-social">{% include social.liquid %}</div>
           {% endif %}
-          <nav class="sidebar-secnav" aria-label="Section navigation">
-            <a href="#about" class="secnav-link active" data-section="about">About</a>
-            <a href="#publications" class="secnav-link" data-section="publications">Research</a>
-            <a href="#awards" class="secnav-link" data-section="awards">Awards</a>
-            <a href="#education" class="secnav-link" data-section="education">Education</a>
-            <a href="#entrepreneurship" class="secnav-link" data-section="entrepreneurship">Entrepreneurship</a>
-            <a href="#personal" class="secnav-link" data-section="personal">Personal</a>
-            <a href="{{ '/cv/' | relative_url }}" class="secnav-link secnav-cv">CV</a>
-          </nav>
           </div>
         </aside>
       {% endif %}
@@ -111,19 +102,22 @@ layout: default
   })();
 
   (function () {
-    var nav = document.querySelector('.sidebar-secnav');
+    var nav = document.querySelector('#navbarNav .navbar-nav');
     if (!nav) return;
+
+    var links = Array.prototype.slice.call(nav.querySelectorAll('.nav-link[data-section]'));
+    if (!links.length) return;
 
     // highlight the nav entry whose section is currently in view
     var targets = [];
-    nav.querySelectorAll('.secnav-link[data-section]').forEach(function (l) {
+    links.forEach(function (l) {
       var el = document.getElementById(l.dataset.section);
       if (el) targets.push(el);
     });
 
     function setActive(id) {
-      nav.querySelectorAll('.secnav-link').forEach(function (l) {
-        l.classList.toggle('active', l.dataset.section === id);
+      links.forEach(function (l) {
+        l.classList.toggle('nav-section-active', l.dataset.section === id);
       });
     }
 
@@ -148,6 +142,7 @@ layout: default
       targets.forEach(function (t) {
         observer.observe(t);
       });
+      setActive(current);
     }
   })();
 </script>

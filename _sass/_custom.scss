@@ -125,32 +125,6 @@ html {
       display: inline;
     }
   }
-
-  .sidebar-secnav {
-    margin-top: 1.5rem;
-    padding-top: 1.1rem;
-    border-top: 1px solid var(--global-divider-color);
-    display: flex;
-    flex-direction: column;
-
-    .secnav-link {
-      display: block;
-      padding: 0.3rem 0;
-      font-size: 0.9rem;
-      line-height: 1.4;
-      color: var(--global-text-color-light);
-
-      &:hover {
-        color: var(--global-theme-color);
-        text-decoration: none;
-      }
-
-      &.active {
-        color: var(--global-theme-color);
-        font-weight: 600;
-      }
-    }
-  }
 }
 
 @media (max-width: 768px) {
@@ -169,11 +143,6 @@ html {
       position: static;
       max-height: none;
       overflow-y: visible;
-    }
-
-    // on small screens the sections sit right below, so skip the nav
-    .sidebar-secnav {
-      display: none;
     }
 
     img {
@@ -730,4 +699,13 @@ details.about-collapsible {
     grid-template-columns: 1fr;
     row-gap: 1.4rem;
   }
+}
+
+// ── Top bar: highlight the section currently in view ──
+.navbar.navbar-light .navbar-nav .nav-item .nav-link.nav-section-active,
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link.nav-section-active {
+  color: var(--global-section-active-color);
+  font-weight: 600;
+  background-color: var(--global-section-active-bg-color);
+  border-radius: 0.3rem;
 }
