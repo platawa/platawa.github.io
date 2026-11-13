@@ -130,11 +130,14 @@ You can email me at [platawa@mit.edu](mailto:platawa@mit.edu)!
   </div>
 </div>
 
-<div class="about-leadership-item">
+<div class="about-leadership-item has-thumb">
+  <img class="item-thumb" src="{{ '/assets/img/projects/denmark-idiplomats.jpg' | relative_url }}" alt="Recap slide from the iDiplomats program on the Copenhagen biotech innovation ecosystem" loading="lazy">
+  <div class="item-body">
   <div class="item-title">An Investigation of the Biotechnology and Life Sciences Innovation Ecosystem in Denmark</div>
   <p class="item-note">May 2023 – Sep 2023 · MIT Innovation Diplomats (iDiplomats) Program</p>
   <p class="item-desc">Independent study researching Denmark's biotech innovation ecosystem, interviewing leaders from government, industry, and academia.</p>
   <div class="item-links"><a href="https://docs.google.com/document/d/1V7H3nek8PYpwYNvfNeZWNmJVDtVeHKKsXqaqsVqq9eI/preview">[Paper]</a> <a href="https://docs.google.com/presentation/d/1WyK5nwiMdVmmPPr8Ap_AdZRlNrKvyAhhb0u2F_zXJus/preview">[Recap]</a></div>
+  </div>
 </div>
 
 <div class="about-leadership-item">
