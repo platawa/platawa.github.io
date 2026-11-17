@@ -13,37 +13,37 @@ layout: default
       {% if page.profile %}
         <aside class="about-sidebar">
           <div class="sidebar-sticky">
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid rounded' %}
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: 768px) 240px, 60vw{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
             {% endif %}
-            {% capture sizes %}(min-width: 768px) 240px, 60vw{% endcapture %}
-            {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-              cache_bust=true
-            %}
-          {% endif %}
-          <div class="sidebar-identity">
-            <p class="sidebar-name">
-              {%- if site.first_name %}{{ site.first_name }}{% endif -%}
-              {%- if site.last_name %} {{ site.last_name }}{% endif -%}
-            </p>
-            {% if page.profile.title %}
-              <p class="profile-title">{{ page.profile.title }}</p>
+            <div class="sidebar-identity">
+              <p class="sidebar-name">
+                {%- if site.first_name %}{{ site.first_name }}{% endif -%}
+                {%- if site.last_name %} {{ site.last_name }}{% endif -%}
+              </p>
+              {% if page.profile.title %}
+                <p class="profile-title">{{ page.profile.title }}</p>
+              {% endif %}
+              {% if page.profile.subtitle %}
+                <p class="profile-subtitle">{{ page.profile.subtitle }}</p>
+              {% endif %}
+              {% if page.profile.more_info %}
+                <div class="more-info">{{ page.profile.more_info }}</div>
+              {% endif %}
+            </div>
+            {% if page.social %}
+              <div class="sidebar-social">{% include social.liquid %}</div>
             {% endif %}
-            {% if page.profile.subtitle %}
-              <p class="profile-subtitle">{{ page.profile.subtitle }}</p>
-            {% endif %}
-            {% if page.profile.more_info %}
-              <div class="more-info">{{ page.profile.more_info }}</div>
-            {% endif %}
-          </div>
-          {% if page.social %}
-            <div class="sidebar-social">{% include social.liquid %}</div>
-          {% endif %}
           </div>
         </aside>
       {% endif %}
