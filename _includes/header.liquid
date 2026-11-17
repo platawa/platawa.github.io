@@ -45,21 +45,41 @@
             </a>
           </li>
 
-          <!-- Section tabs -->
+          <!-- Research lives on the home page; the rest are their own pages -->
           <li class="nav-item">
             <a class="nav-link" href="{{ '/' | relative_url }}#publications" data-section="publications">Research</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#awards" data-section="awards">Awards</a>
+          <li class="nav-item {% if page.permalink == '/awards/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/awards/' | relative_url }}">
+              Awards
+              {% if page.permalink == '/awards/' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#education" data-section="education">Education</a>
+          <li class="nav-item {% if page.permalink == '/education/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/education/' | relative_url }}">
+              Education
+              {% if page.permalink == '/education/' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#entrepreneurship" data-section="entrepreneurship">Entrepreneurship</a>
+          <li class="nav-item {% if page.permalink == '/entrepreneurship/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/entrepreneurship/' | relative_url }}">
+              Entrepreneurship
+              {% if page.permalink == '/entrepreneurship/' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#personal" data-section="personal">Personal</a>
+          <li class="nav-item {% if page.permalink == '/personal/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/personal/' | relative_url }}">
+              Personal
+              {% if page.permalink == '/personal/' %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
           </li>
 
           <!-- Other pages -->
