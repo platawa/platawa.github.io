@@ -12,7 +12,8 @@ nav: false
   <div class="item-body">
   <div class="item-title">Massachusetts Institute of Technology, M.Eng. in Computer Science and Molecular Biology</div>
   <p class="item-note">Jun 2025 – May 2026</p>
-  <div class="item-links"></div>
+  <p class="item-desc">Thesis: <em>Mechanistic Interpretability of Genome-Scale DNA Large Language Models</em>.</p>
+  <div class="item-links"><a href="https://dspace.mit.edu/entities/publication/48499c3d-bea1-467e-8e6f-69898b834187">[Thesis]</a></div>
   </div>
 </div>
 

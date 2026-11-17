@@ -190,7 +190,13 @@
         {%- assign has_venue = true -%}
       {%- endif -%}
       {%- if entry.website %}
-        <a href="{{ entry.website }}" class="link bracket-link">[Website]</a>
+        {%- comment -%} a thesis record is not a project website {%- endcomment -%}
+        {%- if entry.type == 'mastersthesis' or entry.type == 'phdthesis' -%}
+          {%- assign website_label = 'Thesis' -%}
+        {%- else -%}
+          {%- assign website_label = 'Website' -%}
+        {%- endif -%}
+        <a href="{{ entry.website }}" class="link bracket-link">[{{ website_label }}]</a>
         {%- assign has_venue = true -%}
       {%- endif -%}
       {%- if entry.poster %}
