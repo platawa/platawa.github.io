@@ -110,7 +110,6 @@ nav: false
 </ul>
 </div>
 
-
 <h2 class="about-section-title" id="teaching">Teaching &amp; Mentorship</h2>
 
 <div class="section-body is-standalone">
@@ -134,4 +133,3 @@ nav: false
   <div class="item-links"><a href="https://firstyear.mit.edu/first-year-advising/your-advising-network-advising-roles">[Program]</a></div>
 </div>
 </div>
-

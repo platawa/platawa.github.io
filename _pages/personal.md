@@ -99,7 +99,6 @@ nav: false
 </div>
 </div>
 
-
 <h2 class="about-section-title" id="personal">Personal Interests &amp; Hobbies</h2>
 
 <div class="section-body is-standalone">
@@ -147,4 +146,3 @@ nav: false
 </div>
 </div>
 </div>
-

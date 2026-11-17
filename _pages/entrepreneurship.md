@@ -38,4 +38,3 @@ nav: false
   <div class="item-links"><a href="https://www.pointsoflight.org/daily-point-of-light/texas-teen-sparked-success-through-service-for-next-generation-of-empowered-youth/">[Press]</a></div>
 </div>
 </div>
-
