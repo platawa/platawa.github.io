@@ -366,6 +366,15 @@ details.about-collapsible {
   }
 }
 
+// ── Same section box, on pages where the section is not collapsible ──
+.section-body.is-standalone {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+  scroll-margin-top: 80px;
+}
+
 .post {
   // ── Section headings ──
   h2.about-section-title {
